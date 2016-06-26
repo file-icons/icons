@@ -1,5 +1,9 @@
 all: unpack dist/file-icons.woff2
 
+svg := $(wildcard svg/*.svg)
+png := $(subst svg,png,$(svg))
+
+
 # Aliases
 unpack: dist/file-icons.ttf
 
@@ -27,8 +31,6 @@ dist/%.ttf: %.zip
 	
 
 
-svg := $(wildcard svg/*.svg)
-
 # Clean up SVG source
 lint: $(svg)
 	@dos2unix --keepdate --quiet $^
@@ -45,10 +47,51 @@ lint: $(svg)
 		s/[\t\n]+//gm;' $^
 
 
-# Delete extracted files
+
+# Routine to compress PNGs with TinyPNG, if an API key is available
+ifdef TINYPNG_KEY
+define minify
+echo "Compressing image with TinyPNG...";
+URL=$$(curl https://api.tinify.com/shrink \
+	--user api:$(TINYPNG_KEY) \
+	--data-binary @$1 \
+	--silent | grep -Eo '"url":"https[^"]+"' | cut -d: -f 2-3 | tr -d '"'); \
+echo "Downloading from $$URL"; \
+curl $$URL --user api:$(TINYPNG_KEY) --silent --output $1
+echo "Compression complete."
+endef
+endif
+
+
+# Generate PNG versions of each SVG and update character map
+icon-previews: png $(png)
+
+
+# Generate a PNG from an SVG file
+png/%.png: svg/%.svg
+	@mogrify -background none -thumbnail 256x256 -format png -path png $<
+	@echo "Generated: $(notdir $@)"
+	@$(call minify,$@)
+
+
+# Create the PNG directory if it doesn't exist yet
+png:
+	mkdir -p $@
+
+
+# Reset unstaged changes/additions in object directories
 clean:
+	@git checkout -- dist
+	@git checkout -- png
+	@git clean -fd dist
+	@git clean -fd png
+
+
+# Delete extracted and generated files
+distclean:
 	@rm -rf dist
+	@rm -rf png
 
 
-.PHONY: clean
+.PHONY: clean distclean
 .ONESHELL:
