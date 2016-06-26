@@ -2,6 +2,7 @@ all: unpack dist/file-icons.woff2
 
 svg := $(wildcard svg/*.svg)
 png := $(subst svg,png,$(svg))
+png-size := 160x160
 
 
 # Aliases
@@ -69,7 +70,12 @@ icon-previews: png $(png)
 
 # Generate a PNG from an SVG file
 png/%.png: svg/%.svg
-	@mogrify -background none -thumbnail 256x256 -format png -path png $<
+	@mogrify \
+		-filter Catrom \
+		-background none \
+		-thumbnail $(png-size) \
+		-format png \
+		-path png $<
 	@echo "Generated: $(notdir $@)"
 	@$(call minify,$@)
 
@@ -81,10 +87,10 @@ png:
 
 # Reset unstaged changes/additions in object directories
 clean:
-	@git checkout -- dist
-	@git checkout -- png
 	@git clean -fd dist
 	@git clean -fd png
+	@git checkout -- dist 2>/dev/null || true
+	@git checkout -- png  2>/dev/null || true
 
 
 # Delete extracted and generated files
