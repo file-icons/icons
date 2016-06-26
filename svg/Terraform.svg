@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="456px"
-	 height="512px" viewBox="-27 0 456 512" style="enable-background:new -27 0 456 512;" xml:space="preserve">
-<g id="Layer_1">
-</g>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="458px" height="512px" viewBox="0 0 458 512" style="enable-background:new 0 0 458 512;" xml:space="preserve">
 <g id="Layer_2">
-	<path d="M131.1420898,270.3497314L272.1806641,350.93573v159.2910767l-141.0385742-80.5866699V270.3497314z
-		 M131.1420898,253.0737305l141.0385742,80.5866699V170.9454956L131.1420898,90.3591309V253.0737305z M286.1806641,170.6978149
-		v164.2911987l142.4418335-81.8583984V89.4021606L286.1806641,170.6978149z M117.1420898,82.3598633L-27,0v164.7935791
-		l144.1420898,82.3598633V82.3598633z"/>
+	<path d="M158.6916809,271.2892761l141.528717,80.8660583V512l-141.528717-80.8667297V271.2892761z M158.6916809,253.9532318
+		l141.528717,80.866745V171.5395813l-141.528717-80.8664246V253.9532318z M314.2690735,171.2910461v164.8621521
+		l142.9368591-82.1428833V89.7128601L314.2690735,171.2910461z M144.6430206,82.6460876L0,0v165.3662872l144.6430206,82.6460876
+		V82.6460876z"/>
 </g>
 </svg>
