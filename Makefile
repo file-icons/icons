@@ -1,8 +1,25 @@
+all: unpack file-icons.woff2
+
+
+# Extract a downloaded IcoMoon folder
+unpack: file-icons.zip
+	@rm -rf dist tmp icomoon.json
+	@unzip -d tmp $^
+	@mv tmp/fonts dist
+	@mv tmp/selection.json icomoon.json
+	@rm -rf tmp file-icons.zip
+	@echo "Files extracted"
+
+
+# Generate a WOFF2 file from a TTF
+%.woff2: %.ttf
+	woff2_compress $^
+	
+
+
 svg := $(wildcard svg/*.svg)
 
-
 # Clean up SVG source
-.PHONY: lint
 lint: $(svg)
 	@dos2unix --keepdate --quiet $^
 	@perl -0777 -pi -e '\
@@ -16,3 +33,7 @@ lint: $(svg)
 		s/"\s+>/">/g; \
 		s/\x20{2,}/ /g; \
 		s/[\t\n]+//gm;' $^
+
+
+# Mark everything as phony
+.PHONY: unpack lint
