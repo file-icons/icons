@@ -1,19 +1,29 @@
-all: unpack file-icons.woff2
+all: unpack dist/file-icons.woff2
+
+# Aliases
+unpack: dist/file-icons.ttf
 
 
 # Extract a downloaded IcoMoon folder
-unpack: file-icons.zip
+dist/%.ttf: %.zip
 	@rm -rf dist tmp icomoon.json
-	@unzip -d tmp $^
+	@unzip -qd tmp $^
 	@mv tmp/fonts dist
 	@mv tmp/selection.json icomoon.json
-	@rm -rf tmp file-icons.zip
-	@echo "Files extracted"
+	@rm -rf tmp $^
+	@echo "Files extracted."
 
 
 # Generate a WOFF2 file from a TTF
 %.woff2: %.ttf
-	woff2_compress $^
+	@[ ! -f $@ ] && { \
+		hash woff2_compress 2>/dev/null || { \
+			echo >&2 "WOFF2 conversion tools not found. Consult the readme file."; \
+			exit 2; \
+		}; \
+		woff2_compress $^ >/dev/null; \
+		echo "WOFF2 file generated."; \
+	};
 	
 
 
@@ -35,5 +45,10 @@ lint: $(svg)
 		s/[\t\n]+//gm;' $^
 
 
-# Mark everything as phony
-.PHONY: unpack lint
+# Delete extracted files
+clean:
+	@rm -rf dist
+
+
+.PHONY: clean
+.ONESHELL:
