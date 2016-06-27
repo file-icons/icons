@@ -6,9 +6,9 @@ These codepoints are locked in stone: once set, they're guaranteed never to chan
 <table>
 	<thead>
 		<tr>
-			<td>Icon</td>
-			<td>Name</td>
-			<td>Codepoint</td>
+			<th>Icon</th>
+			<th>Name</th>
+			<th>Codepoint</th>
 		</tr>
 	</thead>
 	
