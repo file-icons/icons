@@ -220,7 +220,7 @@ These codepoints are locked in stone: once set, they're guaranteed never to chan
 	<tbody data-s="OpenOffice"><tr><td align="center"><img src="png/OpenOffice.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>OpenOffice</b></td><td><code>\E9E4</code></td></tr></tbody>
 	<tbody data-s="OpensCAD"><tr><td align="center"><img src="png/OpensCAD.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>OpensCAD</b></td><td><code>\E911</code></td></tr></tbody>
 	<tbody data-s="Org-mode"><tr><td align="center"><img src="png/Org-Mode.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Org-mode</b></td><td><code>\E917</code></td></tr></tbody>
-	<tbody data-s="OWL"><tr><td align="center"><img src="png/Owl.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>OWL</b></td><td><code>\E957</code></td></tr></tbody>
+	<tbody data-s="OWL"><tr><td align="center"><img src="png/OWL.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>OWL</b></td><td><code>\E957</code></td></tr></tbody>
 	<tbody data-s="Ox"><tr><td align="center"><img src="png/Ox.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Ox</b></td><td><code>\E9A1</code></td></tr></tbody>
 	<tbody data-s="Oxygene"><tr><td align="center"><img src="png/Oxygene.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Oxygene</b></td><td><code>\E9BF</code></td></tr></tbody>
 	<tbody data-s="Oz"><tr><td align="center"><img src="png/Oz.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Oz</b></td><td><code>\E9BE</code></td></tr></tbody>
@@ -236,7 +236,7 @@ These codepoints are locked in stone: once set, they're guaranteed never to chan
 	<tbody data-s="Pickle"><tr><td align="center"><img src="png/Pickle.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Pickle</b></td><td><code>\E9C4</code></td></tr></tbody>
 	<tbody data-s="Pike"><tr><td align="center"><img src="png/Pike.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Pike</b></td><td><code>\E9B9</code></td></tr></tbody>
 	<tbody data-s="PogoScript"><tr><td align="center"><img src="png/PogoScript.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>PogoScript</b></td><td><code>\E9B8</code></td></tr></tbody>
-	<tbody data-s="PointWise"><tr><td align="center"><img src="png/Pointwise.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>PointWise</b></td><td><code>\E977</code></td></tr></tbody>
+	<tbody data-s="PointWise"><tr><td align="center"><img src="png/PointWise.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>PointWise</b></td><td><code>\E977</code></td></tr></tbody>
 	<tbody data-s="Pony"><tr><td align="center"><img src="png/Pony.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>Pony</b></td><td><code>\E9B7</code></td></tr></tbody>
 	<tbody data-s="PostCSS"><tr><td align="center"><img src="png/PostCSS.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>PostCSS</b></td><td><code>\E910</code></td></tr></tbody>
 	<tbody data-s="PostScript"><tr><td align="center"><img src="png/PostScript.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>PostScript</b></td><td><code>\E955</code></td></tr></tbody>
