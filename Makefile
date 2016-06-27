@@ -86,6 +86,7 @@ $(png-folder)/%.png: svg/%.svg
 		-path $(png-folder) $<
 	@echo "Generated: $(notdir $@)"
 	@$(call minify,$@)
+	@touch $@
 
 
 # Create the PNG directory if it doesn't exist yet
