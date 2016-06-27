@@ -1,3 +1,4 @@
+charmap     := charmap.md
 font-name   := file-icons
 font-folder := dist
 font-config := icomoon.json
@@ -13,7 +14,7 @@ png  := $(addprefix $(png-folder)/,$(patsubst %.svg,%.png,$(notdir $(svg))))
 
 # Aliases
 unpack:  $(font-folder)/$(font-name).ttf
-charmap: charmap.md
+charmap: $(charmap)
 
 
 # Extract a downloaded IcoMoon folder
@@ -93,13 +94,13 @@ $(png-folder):
 
 
 # Generate/update character map
-charmap.md:
+$(charmap):
 	@./create-map.pl $(font-folder)/$(font-name).svg $@
 
 
 # Update the charmap's "Name" column using each row's "data-s" attribute
 synced-names:
-	@perl -p -i -e 's/(<tbody data-s=")([^"]+)(".+<b>)[^<]+(<\/b>.+$$)/$$1$$2$$3$$2$$4/gmi' charmap.md
+	@perl -p -i -e 's/(<tbody data-s=")([^"]+)(".+<b>)[^<]+(<\/b>.+$$)/$$1$$2$$3$$2$$4/gmi' $(charmap)
 
 
 
@@ -117,5 +118,5 @@ distclean:
 	@rm -rf $(png-folder)
 
 
-.PHONY: clean distclean charmap.md
+.PHONY: clean distclean $(charmap)
 .ONESHELL:
