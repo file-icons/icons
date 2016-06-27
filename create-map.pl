@@ -45,7 +45,7 @@ open(my $fh, "< :encoding(UTF-8)", $output_path);
 }
 
 
-my $row = '<tbody data-s="%1$s"><tr><td><img src="png/%1$s.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>%1$s</b></td><td><code>\\%2$s</code></td></tr></tbody>';
+my $row = '<tbody data-s="%1$s"><tr><td align="center"><img src="png/%1$s.png" height="34" valign="bottom" hspace="3" alt=""/></td><td><b>%1$s</b></td><td><code>\\%2$s</code></td></tr></tbody>';
 
 # Pick up newly-defined characters from SVG font
 while(<>){
