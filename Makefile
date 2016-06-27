@@ -1,20 +1,27 @@
-all: unpack dist/file-icons.woff2
+font-name   := file-icons
+font-folder := dist
+font-config := icomoon.json
+png-folder  := png
+png-size    := 160x160
 
-svg := $(wildcard svg/*.svg)
-png := $(subst svg,png,$(svg))
-png-size := 160x160
+
+all: unpack $(font-folder)/$(font-name).woff2
+
+svg  := $(wildcard svg/*.svg)
+png  := $(addprefix $(png-folder)/,$(patsubst %.svg,%.png,$(notdir $(svg))))
 
 
 # Aliases
-unpack: dist/file-icons.ttf
+unpack:  $(font-folder)/$(font-name).ttf
+charmap: charmap.md
 
 
 # Extract a downloaded IcoMoon folder
-dist/%.ttf: %.zip
-	@rm -rf dist tmp icomoon.json
+$(font-folder)/%.ttf: %.zip
+	@rm -rf $(font-folder) tmp $(font-config)
 	@unzip -qd tmp $^
-	@mv tmp/fonts dist
-	@mv tmp/selection.json icomoon.json
+	@mv tmp/fonts $(font-folder)
+	@mv tmp/selection.json $(font-config)
 	@rm -rf tmp $^
 	@echo "Files extracted."
 
@@ -69,35 +76,46 @@ icon-previews: png $(png)
 
 
 # Generate a PNG from an SVG file
-png/%.png: svg/%.svg
+$(png-folder)/%.png: svg/%.svg
 	@mogrify \
 		-filter Catrom \
 		-background none \
 		-thumbnail $(png-size) \
 		-format png \
-		-path png $<
+		-path $(png-folder) $<
 	@echo "Generated: $(notdir $@)"
 	@$(call minify,$@)
 
 
 # Create the PNG directory if it doesn't exist yet
-png:
+$(png-folder):
 	mkdir -p $@
+
+
+# Generate/update character map
+charmap.md:
+	@./create-map.pl $(font-folder)/$(font-name).svg $@
+
+
+# Update the charmap's "Name" column using each row's "data-s" attribute
+synced-names:
+	@perl -p -i -e 's/(<tbody data-s=")([^"]+)(".+<b>)[^<]+(<\/b>.+$$)/$$1$$2$$3$$2$$4/gmi' charmap.md
+
 
 
 # Reset unstaged changes/additions in object directories
 clean:
-	@git clean -fd dist
-	@git clean -fd png
-	@git checkout -- dist 2>/dev/null || true
-	@git checkout -- png  2>/dev/null || true
+	@git clean -fd $(font-folder)
+	@git clean -fd $(png-folder)
+	@git checkout -- $(font-folder) 2>/dev/null || true
+	@git checkout -- $(png-folder)  2>/dev/null || true
 
 
 # Delete extracted and generated files
 distclean:
-	@rm -rf dist
-	@rm -rf png
+	@rm -rf $(font-folder)
+	@rm -rf $(png-folder)
 
 
-.PHONY: clean distclean
+.PHONY: clean distclean charmap.md
 .ONESHELL:
