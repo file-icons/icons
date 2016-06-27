@@ -20,10 +20,16 @@ To add new icons, repeat the following steps:
 5. Select one or more SVG files.
 6. Select each imported icon, then press **Generate Font**.
 7. Press **Download**.
-8. Move the downloaded ZIP folder to this repo's base directory.
-9. Run `make` from command-line to extract the files to the right locations.
+8. Extract files to the right locations:  
+	__Linux/Mac OS:__
+	<ol><li>Move the downloaded ZIP folder to this repo's base directory.</li>
+	<li>Run `make` from command-line.</li></ol>
+	__Windows:__
+	<ol><li>Move contents of `fonts` folder into repo's `dist` directory.</li>
+	<li>Replace `icomoon.json` with extracted `selection.json`.</li>
+	<li>Rename `selection.json` to `icomoon.json`.</li></ol>  
 
-Windows users may need to install [GOW](https://github.com/bmatzelle/gow) if they don't have Make installed.
+If IcoMoon didn't give you a WOFF2 file, just add what you can (with the SVG) and a maintainer will take care of the rest.
 
 
 Requirements when adding icons
@@ -36,3 +42,18 @@ Before submitting a pull request, make sure you've followed these steps:
 	* [Font Awesome](http://fortawesome.github.io/Font-Awesome/cheatsheet/)
 	* [DevOpIcons](https://github.com/Alhadis/DevOpicons)
 	* [MFixx](https://github.com/Alhadis/MFixx)
+
+
+Requirements for maintainers
+----------------------------
+* [Perl 5](https://www.perl.org/)
+* [GNU Make](http://www.gnu.org/software/make/manual/make.html)
+* [ImageMagick](http://www.imagemagick.org/)
+* [WOFF2 Encoder](https://github.com/google/woff2)
+
+Mac OS/X already ships with Perl and Make installed. The remaining dependencies can be installed with [Homebrew](http://brew.sh/):
+
+	brew tap homebrew/head-only
+	brew install imagemagick woff2
+
+WOFF2 is only necessary for users without a paid IcoMoon account.
