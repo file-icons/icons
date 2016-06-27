@@ -42,8 +42,8 @@ $(font-folder)/%.ttf: %.zip
 
 # Clean up SVG source
 lint: $(svg)
-	@dos2unix --keepdate --quiet $^
 	@perl -0777 -pi -e '\
+		s/\r\n/\n/g; \
 		s/<g id="icomoon-ignore">\s*<\/g>//gmi; \
 		s/<g\s*>\s*<\/g>//gmi; \
 		s/\s+(id|viewBox|xml:space)="[^"]*"/ /gmi; \
