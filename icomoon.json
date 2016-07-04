@@ -282,7 +282,7 @@
 				"isMulticolor2": false,
 				"grid": 16,
 				"tags": [
-					"flux-ux"
+					"fuel-ux"
 				]
 			},
 			"attrs": [
@@ -291,7 +291,7 @@
 			"properties": {
 				"order": 430,
 				"id": 360,
-				"name": "flux-ux",
+				"name": "fuel-ux",
 				"prevSize": 16,
 				"code": 59913
 			},
@@ -402,6 +402,7 @@
 				"isMulticolor2": false,
 				"grid": 16,
 				"tags": [
+					"codemirror",
 					"baboon"
 				]
 			},
@@ -411,7 +412,7 @@
 			"properties": {
 				"order": 426,
 				"id": 356,
-				"name": "baboon",
+				"name": "codemirror",
 				"prevSize": 16,
 				"code": 59917
 			},
@@ -7027,8 +7028,8 @@
 				"attrs": [],
 				"isMulticolor": false,
 				"tags": [
-					"font-size",
-					"wysiwyg"
+					"font",
+					"tt"
 				],
 				"grid": 16
 			},
@@ -7037,7 +7038,7 @@
 				"order": 1,
 				"prevSize": 16,
 				"ligatures": "font-size, wysiwyg3",
-				"name": "font-size",
+				"name": "font",
 				"id": 57,
 				"code": 59663
 			},
