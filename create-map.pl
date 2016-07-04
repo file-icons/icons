@@ -3,6 +3,26 @@ use strict;
 use warnings;
 use feature "say";
 use Data::Dumper;
+use Getopt::Long qw(:config auto_abbrev);
+
+
+# Parse options
+my $size=34;
+my $repo="";
+my $icon_folder="svg";
+GetOptions(
+	"size=i"        => \$size,
+	"repo=s"        => \$repo,
+	"icon-folder=s" => \$icon_folder
+);
+
+
+# Query author/repo from shell if not supplied
+unless($repo){
+	$repo = `git remote get-url origin`;
+	$repo =~ m/:(.+)\.git$/;
+	$repo = $1;
+}
 
 
 my $input_path  = $ARGV[0];
@@ -44,8 +64,10 @@ open(my $fh, "< :encoding(UTF-8)", $output_path);
 	close($fh);
 }
 
+my $url = "https://cdn.rawgit.com/$repo/master/svg/%1\$s.svg";
+my $row = '<tbody data-s="%1$s"><tr><td align="center"><a href="#%1$s" name="%1$s"><img src="' . $url .
+	'" height="34" valign="bottom" hspace="3" alt=""/></a></td><td><b>%1$s</b></td><td><code>\\%2$s</code></td></tr></tbody>';
 
-my $row = '<tbody data-s="%1$s"><tr><td align="center"><a href="#%1$s" name="%1$s"><img src="png/%1$s.png" height="34" valign="bottom" hspace="3" alt=""/></a></td><td><b>%1$s</b></td><td><code>\\%2$s</code></td></tr></tbody>';
 
 # Pick up newly-defined characters from SVG font
 while(<>){

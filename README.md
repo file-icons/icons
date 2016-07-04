@@ -48,12 +48,10 @@ Requirements for maintainers
 ----------------------------
 * [Perl 5](https://www.perl.org/)
 * [GNU Make](http://www.gnu.org/software/make/manual/make.html)
-* [ImageMagick](http://www.imagemagick.org/)
 * [WOFF2 Encoder](https://github.com/google/woff2)
 
 Mac OS/X already ships with Perl and Make installed. The remaining dependencies can be installed with [Homebrew](http://brew.sh/):
 
-	brew tap homebrew/head-only
-	brew install imagemagick woff2
+	brew tap homebrew/head-only && brew install woff2
 
 WOFF2 is only necessary for users without a paid IcoMoon account.

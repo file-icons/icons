@@ -2,14 +2,12 @@ charmap     := charmap.md
 font-name   := file-icons
 font-folder := dist
 font-config := icomoon.json
-png-folder  := png
-png-size    := 160x160
+icon-size   := 34
+icon-folder := svg
+svg         := $(wildcard $(icon-folder)/*.svg)
 
 
 all: unpack $(font-folder)/$(font-name).woff2
-
-svg  := $(wildcard svg/*.svg)
-png  := $(addprefix $(png-folder)/,$(patsubst %.svg,%.png,$(notdir $(svg))))
 
 
 # Aliases
@@ -57,46 +55,9 @@ lint: $(svg)
 
 
 
-# Routine to compress PNGs with TinyPNG, if an API key is available
-ifdef TINYPNG_KEY
-define minify
-echo "Compressing image with TinyPNG...";
-URL=$$(curl https://api.tinify.com/shrink \
-	--user api:$(TINYPNG_KEY) \
-	--data-binary @$1 \
-	--silent | grep -Eo '"url":"https[^"]+"' | cut -d: -f 2-3 | tr -d '"'); \
-echo "Downloading from $$URL"; \
-curl $$URL --user api:$(TINYPNG_KEY) --silent --output $1
-echo "Compression complete."
-endef
-endif
-
-
-# Generate PNG versions of each SVG and update character map
-icon-previews: png $(png)
-
-
-# Generate a PNG from an SVG file
-$(png-folder)/%.png: svg/%.svg
-	@mogrify \
-		-filter Catrom \
-		-background none \
-		-thumbnail $(png-size) \
-		-format png \
-		-path $(png-folder) $<
-	@echo "Generated: $(notdir $@)"
-	@$(call minify,$@)
-	@touch $@
-
-
-# Create the PNG directory if it doesn't exist yet
-$(png-folder):
-	mkdir -p $@
-
-
 # Generate/update character map
 $(charmap):
-	@./create-map.pl $(font-folder)/$(font-name).svg $@
+	@./create-map.pl -i=$(icon-folder) --size=$(icon-size) $(font-folder)/$(font-name).svg $@
 
 
 # Update the charmap's "Name" column using each row's "data-s" attribute
@@ -108,15 +69,12 @@ synced-names:
 # Reset unstaged changes/additions in object directories
 clean:
 	@git clean -fd $(font-folder)
-	@git clean -fd $(png-folder)
 	@git checkout -- $(font-folder) 2>/dev/null || true
-	@git checkout -- $(png-folder)  2>/dev/null || true
 
 
 # Delete extracted and generated files
 distclean:
 	@rm -rf $(font-folder)
-	@rm -rf $(png-folder)
 
 
 .PHONY: clean distclean $(charmap)
