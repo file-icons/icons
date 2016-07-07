@@ -56,7 +56,7 @@ open(my $fh, "< :encoding(UTF-8)", $output_path);
 		$output_src = $_;
 		
 		# Grab which codepoints are already listed
-		while($_ =~ m/<tbody data-s="([^"]+)".+<code>\\([0-9A-Fa-f]+)<\/code>.+<\/tbody>/ig){
+		while($_ =~ m/<tbody.+<a name="([^"]+)".+<code>\\([0-9A-Fa-f]+)<\/code>.+<\/tbody>/ig){
 			$codepoints{$2} = $1;
 			$table_rows{$1} = $&;
 		}
@@ -65,7 +65,7 @@ open(my $fh, "< :encoding(UTF-8)", $output_path);
 }
 
 my $url = "https://cdn.rawgit.com/$repo/master/svg/%1\$s.svg";
-my $row = '<tbody data-s="%1$s"><tr><td align="center"><a name="%1$s" href="' . $url . '"><img src="' . $url .
+my $row = '<tbody><tr><td align="center"><a name="%1$s" href="' . $url . '"><img src="' . $url .
 	'" height="34" valign="bottom" hspace="3" alt=""/></a></td><td><b>%1$s</b></td><td><code>\\%2$s</code></td></tr></tbody>';
 
 
