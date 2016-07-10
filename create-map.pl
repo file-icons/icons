@@ -56,7 +56,7 @@ open(my $fh, "< :encoding(UTF-8)", $output_path);
 		$output_src = $_;
 		
 		# Grab which codepoints are already listed
-		while($_ =~ m/<tbody.+<a name="([^"]+)".+<code>\\([0-9A-Fa-f]+)<\/code>.+<\/tbody>/ig){
+		while($_ =~ m/<tbody.+?<a name="([^"]+)".+<code>\\([0-9A-Fa-f]+)<\/code>.+<\/tbody>/ig){
 			$codepoints{$2} = $1;
 			$table_rows{$1} = $&;
 		}
