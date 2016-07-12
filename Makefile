@@ -7,7 +7,7 @@ icon-folder := svg
 svg         := $(wildcard $(icon-folder)/*.svg)
 
 
-all: unpack $(font-folder)/$(font-name).woff2
+all: unpack $(font-folder)/$(font-name).woff2 charmap
 
 
 # Aliases
