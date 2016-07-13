@@ -66,7 +66,7 @@ open(my $fh, "< :encoding(UTF-8)", $output_path);
 
 my $url = "https://cdn.rawgit.com/$repo/master/svg/%1\$s.svg";
 my $row = '<tbody><tr><td align="center"><a name="%1$s" href="' . $url . '"><img src="' . $url .
-	'" height="34" valign="bottom" hspace="3" alt=""/></a></td><td><b>%1$s</b></td><td><a name="%2$s"></a><code>\\%2$s</code></td></tr></tbody>';
+	'" height="34" valign="bottom" hspace="3" alt="&#x%2$s;"/></a></td><td><b>%1$s</b></td><td><a name="%2$s"></a><code>\\%2$s</code></td></tr></tbody>';
 
 
 # Pick up newly-defined characters from SVG font
