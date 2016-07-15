@@ -52,6 +52,6 @@ Requirements for maintainers
 
 Mac OS/X already ships with Perl and Make installed. The remaining dependencies can be installed with [Homebrew](http://brew.sh/):
 
-	brew tap homebrew/head-only && brew install woff2
+	brew install --HEAD homebrew/head-only/woff2
 
 WOFF2 is only necessary for users without a paid IcoMoon account.
