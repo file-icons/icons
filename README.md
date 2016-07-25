@@ -45,6 +45,19 @@ Before submitting a pull request, make sure you've followed these steps:
 	* [MFixx](https://github.com/Alhadis/MFixx)
 
 
+Exporting icons
+---------------
+If you're exporting an icon from a graphics program, make sure you've optimised it:
+
+1. Outline paths, and delete hidden or unused geometry.
+2. Leave everything ungrouped. Compound paths are enough.
+3. Merge duplicate control points. Simplify paths if possible.
+4. Export with the *maximum* permitted number of decimal spaces.  
+	* **Adobe Illustrator:** Use <kbd>File → Save as…</kbd>, not <kbd>Export as…</kbd>
+	* **Inkscape:** Save as "Plain SVG", not "Inkscape SVG"
+5. Run `make lint` to clean up source code.
+
+
 Requirements for maintainers
 ----------------------------
 * [Perl 5](https://www.perl.org/)
