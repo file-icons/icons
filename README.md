@@ -27,7 +27,8 @@ To add new icons, repeat the following steps:
 	__Windows:__
 	<ol><li>Move contents of `fonts` folder into repo's `dist` directory.</li>
 	<li>Replace `icomoon.json` with extracted `selection.json`.</li>
-	<li>Rename `selection.json` to `icomoon.json`.</li></ol>  
+	<li>Rename `selection.json` to `icomoon.json`.</li>
+	<li>Convert spaces in `icomoon.json` to tabs.</li></ol>  
 
 If IcoMoon didn't give you a WOFF2 file, just add what you can (with the SVG) and a maintainer will take care of the rest.
 
