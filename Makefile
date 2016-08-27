@@ -22,7 +22,7 @@ $(font-folder)/%.ttf: %.zip
 	@mv tmp/fonts $(font-folder)
 	@mv tmp/selection.json $(font-config)
 	@rm -rf tmp $^
-	@perl -pi -e 's|^( {4})+|"\t" x (length($$&)/4)|ge' $(font-config)
+	@perl -pi -e 's|^( {2})+|"\t" x (length($$&)/2)|ge' $(font-config)
 	@echo "" >> $(font-config) # Ensure trailing newline
 	@echo "Files extracted."
 
