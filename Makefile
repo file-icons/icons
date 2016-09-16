@@ -4,6 +4,7 @@ font-folder := dist
 font-config := icomoon.json
 icon-size   := 34
 icon-folder := svg
+repo-name   := Alhadis/FileIcons
 svg         := $(wildcard $(icon-folder)/*.svg)
 
 
@@ -59,7 +60,7 @@ lint: $(svg)
 
 # Generate/update character map
 $(charmap):
-	@./create-map.pl -i=$(icon-folder) --size=$(icon-size) $(font-folder)/$(font-name).svg $@
+	@./create-map.pl -r=$(repo-name) -i=$(icon-folder) --size=$(icon-size) $(font-folder)/$(font-name).svg $@
 
 
 
