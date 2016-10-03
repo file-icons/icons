@@ -65,6 +65,13 @@ $(charmap):
 
 
 
+# POSIX systems only: reattach hard links to File-Icons package
+relink:
+	@[ ! -z "$(ATOM_FILE_ICONS)" ] || { echo $(subst | ,$$'\n',$(ERR_UNDEF_FI)); exit 2; }
+	@ln -f $(font-folder)/$(font-name).woff2 $(wildcard $(ATOM_FILE_ICONS)/fonts/file-icons-*.woff2)
+
+
+
 # Reset unstaged changes/additions in object directories
 clean:
 	@git clean -fd $(font-folder)
@@ -78,3 +85,10 @@ distclean:
 
 .PHONY: clean distclean $(charmap)
 .ONESHELL:
+
+
+# Error message shown to users attempting to run `make relink` without a link
+ERR_UNDEF_FI := Environment variable ATOM_FILE_ICONS not found. \
+	| Run this instead:\
+	| \
+	| \	make relink ATOM_FILE_ICONS=/path/to/your/file-icons/installation
