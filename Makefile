@@ -68,21 +68,21 @@ $(charmap):
 
 # POSIX systems only: reattach hard links to File-Icons package
 relink:
-	@$(call need-var,ATOM_FILE_ICONS,ERR_UNDEF_FI)
+	@$(call need-var,ATOM_FILE_ICONS,ERROR_NO_PKG)
 	@ln -f $(font-folder)/$(font-name).woff2 $(wildcard $(ATOM_FILE_ICONS)/fonts/file-icons-*.woff2)
 
 
 
 # Force an icon's preview to be refreshed on GitHub
 cachebust:
-	@$(call need-var,icon,ERR_UNDEF_ICON)
+	@$(call need-var,icon,ERROR_NO_ICON)
 	@base="https://cdn.rawgit.com/Alhadis/FileIcons/"; \
 	perl -pi -e 's{$$base\K\w+(?=/svg/$(icon:%.svg=%)\.svg")}{$(last-commit)}ig;' $(charmap)
 
 
 # Dummy task to improve feedback if `cachebust` is mistyped
 icon:
-	$(call need-var,,ERR_ICON)
+	$(call need-var,,ERROR_UNDEF_ICON)
 
 
 
@@ -102,14 +102,15 @@ distclean:
 
 
 # Error message shown to users attempting to run `make relink` without a link
-ERR_UNDEF_FI := Environment variable ATOM_FILE_ICONS not found. \
-	| Run this instead:\
+ERROR_NO_PKG := Environment variable ATOM_FILE_ICONS not found. \
 	| \
-	| \	make relink ATOM_FILE_ICONS=/path/to/your/file-icons/installation
+	| Try this instead:\
+	| \
+	| \	make relink ATOM_FILE_ICONS=/path/to/your/file-icons/installation | 
 
 
 # Error message shown when running `make cachebust` without an icon
-ERR_UNDEF_ICON := No icon specified. Task aborted.| \
+ERROR_NO_ICON := No icon specified. Task aborted.| \
 	| Usage: \
 	| \	make icon=file[.svg] cachebust \
 	| \
@@ -119,7 +120,7 @@ ERR_UNDEF_ICON := No icon specified. Task aborted.| \
 
 
 # Shown if user tries running `make icon NAME cachebust` by mistake
-ERR_ICON := No task named \"icon\". \
+ERROR_UNDEF_ICON := No task named \"icon\". \
 	| \
 	| Did you mean this? \
 	| \	make icon=NAME cachebust | 
