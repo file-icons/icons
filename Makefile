@@ -6,6 +6,7 @@ icon-size   := 34
 icon-folder := svg
 repo-name   := Alhadis/FileIcons
 svg         := $(wildcard $(icon-folder)/*.svg)
+last-commit  = $(shell git log -1 --oneline --no-abbrev | cut -d' ' -f1)
 
 
 all: unpack $(font-folder)/$(font-name).woff2 charmap
@@ -72,6 +73,18 @@ relink:
 
 
 
+# Force an icon's preview to be refreshed on GitHub
+cachebust:
+	@[ ! -z "$(icon)" ] || { echo $(subst | ,$$'\n',$(ERR_UNDEF_ICON)); exit 2; }
+	@base="https://cdn.rawgit.com/Alhadis/FileIcons/"; \
+	perl -pi -e 's{$$base\K\w+(?=/svg/$(icon:%.svg=%)\.svg")}{$(last-commit)}ig;' $(charmap)
+
+
+# Dummy task to improve feedback when typing cachebust wrong
+icon:
+	@echo $(subst | ,$$'\n',$(ERR_ICON)); exit 2
+
+
 # Reset unstaged changes/additions in object directories
 clean:
 	@git clean -fd $(font-folder)
@@ -83,7 +96,7 @@ distclean:
 	@rm -rf $(font-folder)
 
 
-.PHONY: clean distclean $(charmap)
+.PHONY: clean distclean $(charmap) cachebust icon
 .ONESHELL:
 
 
@@ -92,3 +105,21 @@ ERR_UNDEF_FI := Environment variable ATOM_FILE_ICONS not found. \
 	| Run this instead:\
 	| \
 	| \	make relink ATOM_FILE_ICONS=/path/to/your/file-icons/installation
+
+
+# Error message shown when running `make cachebust` without an icon
+ERR_UNDEF_ICON := No icon specified. Task aborted.| \
+	| Usage: \
+	| \	make icon=file[.svg] cachebust \
+	| \
+	| Examples: \
+	| \	make icon=Manpage cachebust \
+	| \	make icon=APL.svg cachebust | 
+
+
+# Shown if user tries running `make icon NAME cachebust` by mistake
+ERR_ICON := No task named \"icon\". \
+	| \
+	| Did you mean this? \
+	| \	make icon=NAME cachebust | 
+	
