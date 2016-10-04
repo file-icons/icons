@@ -68,21 +68,22 @@ $(charmap):
 
 # POSIX systems only: reattach hard links to File-Icons package
 relink:
-	@[ ! -z "$(ATOM_FILE_ICONS)" ] || { echo $(subst | ,$$'\n',$(ERR_UNDEF_FI)); exit 2; }
+	@$(call need-var,ATOM_FILE_ICONS,ERR_UNDEF_FI)
 	@ln -f $(font-folder)/$(font-name).woff2 $(wildcard $(ATOM_FILE_ICONS)/fonts/file-icons-*.woff2)
 
 
 
 # Force an icon's preview to be refreshed on GitHub
 cachebust:
-	@[ ! -z "$(icon)" ] || { echo $(subst | ,$$'\n',$(ERR_UNDEF_ICON)); exit 2; }
+	@$(call need-var,icon,ERR_UNDEF_ICON)
 	@base="https://cdn.rawgit.com/Alhadis/FileIcons/"; \
 	perl -pi -e 's{$$base\K\w+(?=/svg/$(icon:%.svg=%)\.svg")}{$(last-commit)}ig;' $(charmap)
 
 
-# Dummy task to improve feedback when typing cachebust wrong
+# Dummy task to improve feedback if `cachebust` is mistyped
 icon:
-	@echo $(subst | ,$$'\n',$(ERR_ICON)); exit 2
+	$(call need-var,,ERR_ICON)
+
 
 
 # Reset unstaged changes/additions in object directories
@@ -123,3 +124,10 @@ ERR_ICON := No task named \"icon\". \
 	| Did you mean this? \
 	| \	make icon=NAME cachebust | 
 	
+
+
+# If the given value is empty, die with an error message
+need = @$(if $(1),,echo $(subst | ,$$'\n',$(2)); exit 2)
+
+# Like `need`, but uses variable names instead of string values
+need-var = @$(call need,$($(1)),$($(2)))
