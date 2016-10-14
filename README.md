@@ -21,7 +21,7 @@ To add new icons, repeat the following steps:
 6. Select each imported icon, then press **Generate Font**.
 7. Press **Download**.
 8. Extract files to the right locations:  
-	__Linux/Mac OS:__
+	__Linux/macOS:__
 	<ol><li>Move the downloaded ZIP folder to this repo's base directory.</li>
 	<li>Run `make` from command-line.</li></ol>
 	__Windows:__
@@ -64,7 +64,7 @@ Requirements for maintainers
 * [GNU Make](http://www.gnu.org/software/make/manual/make.html)
 * [WOFF2 Encoder](https://github.com/google/woff2)
 
-Mac OS/X already ships with Perl and Make installed. The remaining dependencies can be installed with [Homebrew](http://brew.sh/):
+macOS already ships with Perl and Make installed. The remaining dependencies can be installed with [Homebrew](http://brew.sh/):
 
 	brew install --HEAD homebrew/head-only/woff2
 
