@@ -9,16 +9,16 @@ svg         := $(wildcard $(icon-folder)/*.svg)
 last-commit  = $(shell git log -1 --oneline --no-abbrev | cut -d' ' -f1)
 
 
-all: unpack $(font-folder)/$(font-name).woff2 charmap
+all: unpack prune charmap lint
 
 
 # Aliases
-unpack:  $(font-folder)/$(font-name).ttf
+unpack:  $(font-folder)/$(font-name).woff2
 charmap: $(charmap)
 
 
 # Extract a downloaded IcoMoon folder
-$(font-folder)/%.ttf: %.zip
+$(font-folder)/%.woff2: %.zip
 	@rm -rf $(font-folder) tmp $(font-config)
 	@unzip -qd tmp $^
 	@mv tmp/fonts $(font-folder)
@@ -27,19 +27,21 @@ $(font-folder)/%.ttf: %.zip
 	@perl -pi -e 's|^( {2})+|"\t" x (length($$&)/2)|ge' $(font-config)
 	@echo "" >> $(font-config) # Ensure trailing newline
 	@echo "Files extracted."
-
-
-# Generate a WOFF2 file from a TTF
-%.woff2: %.ttf
 	@[ ! -f $@ ] && { \
 		hash woff2_compress 2>/dev/null || { \
 			echo >&2 "WOFF2 conversion tools not found. Consult the readme file."; \
 			exit 2; \
 		}; \
-		woff2_compress $^ >/dev/null; \
+		woff2_compress $(font-folder)/$*.ttf >/dev/null; \
 		echo "WOFF2 file generated."; \
 	};
 	
+
+
+# Delete unneeded font files
+prune:
+	@rm -f $(font-folder)/$(font-name).{eot,ttf,woff}
+
 
 
 # Clean up SVG source
@@ -97,7 +99,7 @@ distclean:
 	@rm -rf $(font-folder)
 
 
-.PHONY: clean distclean $(charmap) cachebust icon
+.PHONY: clean distclean $(charmap) cachebust icon prune
 .ONESHELL:
 
 

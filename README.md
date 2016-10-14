@@ -25,7 +25,7 @@ To add new icons, repeat the following steps:
 	<ol><li>Move the downloaded ZIP folder to this repo's base directory.</li>
 	<li>Run `make` from command-line.</li></ol>
 	__Windows:__
-	<ol><li>Move contents of `fonts` folder into repo's `dist` directory.</li>
+	<ol><li>Copy `file-icons.svg` and `file-icons.woff2` to repo's `dist` directory.</li>
 	<li>Replace `icomoon.json` with extracted `selection.json`.</li>
 	<li>Rename `selection.json` to `icomoon.json`.</li>
 	<li>Convert spaces in `icomoon.json` to tabs.</li></ol>  
