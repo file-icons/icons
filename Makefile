@@ -70,8 +70,8 @@ $(charmap):
 
 # POSIX systems only: reattach hard links to File-Icons package
 relink:
-	@$(call need-var,ATOM_FILE_ICONS,ERROR_NO_PKG)
-	@ln -f $(font-folder)/$(font-name).woff2 $(wildcard $(ATOM_FILE_ICONS)/fonts/file-icons-*.woff2)
+	@$(call need-var,FILE_ICONS,ERROR_NO_PKG)
+	@ln -f $(font-folder)/$(font-name).woff2 $(wildcard $(FILE_ICONS)/file-icons-*.woff2)
 
 
 
@@ -104,11 +104,11 @@ distclean:
 
 
 # Error message shown to users attempting to run `make relink` without a link
-ERROR_NO_PKG := Environment variable ATOM_FILE_ICONS not found. \
+ERROR_NO_PKG := Environment variable FILE_ICONS not found. \
 	| \
 	| Try this instead:\
 	| \
-	| \	make relink ATOM_FILE_ICONS=/path/to/your/file-icons/installation | 
+	| \	make relink FILE_ICONS=/path/to/your/file-icons/installation | 
 
 
 # Error message shown when running `make cachebust` without an icon
