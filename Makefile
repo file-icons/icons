@@ -32,7 +32,11 @@ $(font-folder)/%.woff2: %.zip
 			echo >&2 "WOFF2 conversion tools not found. Consult the readme file."; \
 			exit 2; \
 		}; \
-		woff2_compress $(font-folder)/$*.ttf >/dev/null; \
+		output=$$(woff2_compress $(font-folder)/$*.ttf 2>&1 >/dev/null) || { \
+			echo >&2 "WOFF2 conversion failed with error $$?:"; \
+			echo "$$output" | sed 's/^/\t/g'; \
+			exit 2; \
+		}; \
 		echo "WOFF2 file generated."; \
 	};
 	
