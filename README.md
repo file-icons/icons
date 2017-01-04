@@ -1,9 +1,9 @@
 File Icons
 ==========
 
-This is the source for the [File-Icons](https://github.com/DanBrooker/file-icons) package's custom icon-font.
+This is the source for the [File-Icons](https://github.com/file-icons/atom) package's custom icon-font.
 
-**NOTE:** Don't request icon additions here. Please do that at the [proper repository](https://github.com/DanBrooker/file-icons/issues/).
+**NOTE:** Don't request icon additions here. Please do that at the [proper repository](https://github.com/file-icons/atom/issues/).
 
 
 
