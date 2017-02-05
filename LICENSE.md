@@ -1,4 +1,4 @@
-Copyright (c) 2016, John Gardner
+Copyright (c) 2016-2017, John Gardner
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
