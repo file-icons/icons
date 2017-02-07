@@ -75,7 +75,7 @@ $(charmap):
 # POSIX systems only: reattach hard links to File-Icons package
 relink:
 	@$(call need-var,FILE_ICONS,ERROR_NO_PKG)
-	@ln -f $(font-folder)/$(font-name).woff2 $(wildcard $(FILE_ICONS)/file-icons-*.woff2)
+	@ln -f $(font-folder)/$(font-name).woff2 $(FILE_ICONS)/fonts/file-icons.woff2
 
 
 
