@@ -5,11 +5,11 @@ font-config := icomoon.json
 icon-size   := 34
 icon-folder := svg
 repo-name   := Alhadis/FileIcons
-svg         := $(wildcard $(icon-folder)/*.svg)
+svg-files   := $(wildcard $(icon-folder)/*.svg)
 last-commit  = $(shell git log -1 --oneline --no-abbrev | cut -d' ' -f1)
 
 
-all: unpack prune charmap lint
+all: unpack prune charmap
 
 
 # Aliases
@@ -49,19 +49,8 @@ prune:
 
 
 # Clean up SVG source
-lint: $(svg)
-	@perl -0777 -pi -e '\
-		s/\r\n/\n/g; \
-		s/<g id="icomoon-ignore">\s*<\/g>//gmi; \
-		s/<g\s*>\s*<\/g>//gmi; \
-		s/\s+(id|viewBox|xml:space)="[^"]*"/ /gmi; \
-		s/<!DOCTYPE[^>]*>//gi; \
-		s/<\?xml.*?\?>//gi; \
-		s/<!--.*?-->//gm; \
-		s/ style="enable-background:.*?;"//gmi; \
-		s/"\s+>/">/g; \
-		s/\x20{2,}/ /g; \
-		s/[\t\n]+//gm;' $^
+svg: $(svg-files)
+	@./clean-svg.pl $^
 
 
 
@@ -92,18 +81,7 @@ icon:
 
 
 
-# Reset unstaged changes/additions in object directories
-clean:
-	@git clean -fd $(font-folder)
-	@git checkout -- $(font-folder) 2>/dev/null || true
-
-
-# Delete extracted and generated files
-distclean:
-	@rm -rf $(font-folder)
-
-
-.PHONY: clean distclean $(charmap) cachebust icon prune
+.PHONY: $(charmap) cachebust icon prune svg
 .ONESHELL:
 
 
