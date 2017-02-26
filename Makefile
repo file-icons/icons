@@ -4,7 +4,7 @@ font-folder := dist
 font-config := icomoon.json
 icon-size   := 34
 icon-folder := svg
-repo-name   := Alhadis/FileIcons
+repo-name   := file-icons/source
 svg-files   := $(wildcard $(icon-folder)/*.svg)
 last-commit  = $(shell git log -1 --oneline --no-abbrev | cut -d' ' -f1)
 
