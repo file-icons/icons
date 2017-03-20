@@ -11,7 +11,6 @@ These codepoints are locked in stone: once set, they're guaranteed never to chan
 			<th>Codepoint</th>
 		</tr>
 	</thead>
-	
 	<!-- Multiple tbodies used to suppress GitHub's ugly backgrounds applied to every second <tr> node -->
 	<tbody><tr><td align="center"><a name="1C" href="https://cdn.rawgit.com/file-icons/source/396c2d51101edc6404c7aec9a17f633b24d78353/svg/1C.svg"><img src="https://cdn.rawgit.com/file-icons/source/396c2d51101edc6404c7aec9a17f633b24d78353/svg/1C.svg" height="34" valign="bottom" hspace="3" alt="&#xA5EA;"/></a></td><td><b>1C</b></td><td><a name="A5EA"></a><code>\A5EA</code></td></tr></tbody>
 	<tbody><tr><td align="center"><a name="1C, Alt" href="https://cdn.rawgit.com/file-icons/source/master/svg/1C-Alt.svg"><img src="https://cdn.rawgit.com/file-icons/source/master/svg/1C-Alt.svg" height="34" valign="bottom" hspace="3" alt="&#xEA28;"/></a></td><td><b>1C, Alt</b></td><td><a name="EA28"></a><code>\EA28</code></td></tr></tbody>
