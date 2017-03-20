@@ -5,11 +5,12 @@ font-config := icomoon.json
 icon-size   := 34
 icon-folder := svg
 repo-name   := file-icons/source
+install-dir := ~/Library/Fonts
 svg-files   := $(wildcard $(icon-folder)/*.svg)
 last-commit  = $(shell git log -1 --oneline --no-abbrev | cut -d' ' -f1)
 
 
-all: unpack prune charmap
+all: unpack install prune charmap relink
 
 
 # Aliases
@@ -39,7 +40,15 @@ $(font-folder)/%.woff2: %.zip
 		}; \
 		echo "WOFF2 file generated."; \
 	};
-	
+
+
+install: $(install-dir)/$(font-name).ttf
+
+# Install the TrueType version of an unpacked font
+$(install-dir)/$(font-name).ttf: $(install-dir)
+	@rm -f $@
+	@cp $(font-folder)/$(font-name).ttf $@
+	@echo >&2 "System-installed font updated."
 
 
 # Delete unneeded font files
@@ -61,10 +70,14 @@ $(charmap):
 
 
 
-# POSIX systems only: reattach hard links to File-Icons package
-relink:
-	@$(call need-var,FILE_ICONS,ERROR_NO_PKG)
-	@ln -f $(font-folder)/$(font-name).woff2 $(FILE_ICONS)/fonts/file-icons.woff2
+# Reattach broken hard links after extracting files
+relink: $(font-folder)/$(font-name).woff2
+	@[ -d $(FILE_ICONS) ] && { \
+		target=$(FILE_ICONS)/fonts/file-icons.woff2; \
+		[ $$(stat -f %m $<) != $$(stat -f %m "$$target") ] && \
+		ln -f $< $(FILE_ICONS)/fonts/file-icons.woff2 && \
+		echo >&2 "Hard links reconnected."; \
+	} || true;
 
 
 
@@ -81,7 +94,7 @@ icon:
 
 
 
-.PHONY: $(charmap) cachebust icon prune svg
+.PHONY: $(charmap) install cachebust icon prune svg
 .ONESHELL:
 
 
