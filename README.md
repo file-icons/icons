@@ -27,5 +27,4 @@ Requirements for maintainers
 
 macOS already ships with Perl and Make installed. The remaining dependencies can be installed with [Homebrew](http://brew.sh/):
 
-	brew tap bramstein/webfonttools
 	brew install bramstein/webfonttools/woff2
