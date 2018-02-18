@@ -27,19 +27,19 @@ chdir Cwd::abs_path(rel2abs("../..", "$0"));
 
 # Extract archive
 rmtree "tmp";
-$zip->extract("tmp") or die $@;
+$zip->extract(to => "tmp") or die $@;
 
-rmtree "dist";
-move "tmp/fonts", "dist";
-move "tmp/selection.json", "icomoon.json";
-say "Files extracted";
+move "tmp/fonts/file-icons.svg", "dist";
+move "tmp/fonts/file-icons.ttf", "dist";
+say "Fonts extracted";
+
+open(my $input, "<", "tmp/selection.json");
+open(my $output, ">", "icomoon.json");
+$/ = undef;
+$_ = join "", <$input>;
 
 # Fix that bullshit tabstop width I hate
-{
-	local $^I = "";
-	local @ARGV = ("selection.json");
-	while(<>){
-		s|^(?: {2})+|"\t" x (length($&) / 2)|gme;
-		print;
-	}
-}
+s|^(?: {2})+|"\t" x (length($&) / 2)|gme;
+s|\s*$||;
+s|"showCodes":\s*\Kfalse|true|;
+print $output "$_\n";

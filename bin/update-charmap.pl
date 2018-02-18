@@ -26,8 +26,6 @@ chdir Cwd::abs_path(rel2abs("../..", "$0"));
 my $svgfont_path = File::Spec->rel2abs("dist/file-icons.svg");
 my $charmap_path = File::Spec->rel2abs("charmap.md");
 
-# Should be "file-icons/source" unless URL changed
-my ($repo) = `git remote get-url origin` =~ m/:(.+)\.git$/;
 
 # Slurp character map
 my $charmap = do {{
@@ -44,20 +42,20 @@ while($charmap =~ m/<tbody.+?<a name="([^"]+)".+<code>\\([0-9A-Fa-f]+)<\/code>.+
 	$table_rows{$1} = $&;
 }
 
-my $url = "https://cdn.rawgit.com/$repo/master/svg/%1\$s.svg";
+my $url = "https://cdn.rawgit.com/file-icons/source/master/svg/%3\$s.svg";
 (my $row = <<HTML) =~ s/&\Kamp;|\h*<!--.*?-->|[\r\n\t]+//g;
 <tbody>
 	<tr>
 		<!-- Thumbnail + Permalink -->
 		<td align="center">
-			<a name="%1\$s" href="${url}">
+			<a name="%4\$s" href="${url}">
 				<img src="${url}" height="34" valign="bottom" hspace="3" alt="&amp;#x%2\$s;"/>
 			</a>
 		</td>
 		
 		<!-- Human-readable name -->
 		<td>
-			<b>%1\$s</b>
+			<b>%4\$s</b>
 		</td>
 		
 		<td>
@@ -68,17 +66,28 @@ my $url = "https://cdn.rawgit.com/$repo/master/svg/%1\$s.svg";
 </tbody>
 HTML
 
+
+# Keep capitalisation used by existing SVG files
+sub id { local $_ = shift; s/\W*(\w+)\W*/\L$1/g; return $_; }
+my %svgFiles = map {(id($_), $_) if s!^svg/|\.svg$!!ig} glob "svg/*";
+
 # Pick up newly-defined characters from SVG font
-@ARGV = ($charmap_path);
+@ARGV = ($svgfont_path);
 while(<>){
 	if(/^\s*<glyph\s+unicode="&#x([0-9A-Fa-f]+);?"\s+glyph-name="([^"]+)"/){
 		my $code = uc $1;
-		
+		my $name = ucfirst($2 =~ tr/-/ /r);
+
 		# Avoid clobbering existing rows that might've been edited by user
 		unless($codepoints{$code}){
-			my $name = ucfirst($2 =~ tr/-/ /r);
+			my $file = $svgFiles{id($name)} || $name;
+			$file =~ s/\s+/-/g;
 			$codepoints{$code} = $name;
-			$table_rows{$name} = sprintf $row, $name, $code;
+			$table_rows{$name} = sprintf $row, $name, $code, $file, do {{
+				$_ = $file;
+				s/[- ](Old|Alt|New)\s*(\d*)$/, \u$1 $2/i;
+				s/\s$//; $_
+			}};
 		}
 	}
 }

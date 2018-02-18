@@ -14,10 +14,18 @@ use File::Path qw< rmtree >;
 use File::Copy;
 use File::Spec::Functions qw< :ALL >;
 
+# Locate an executable in the user's $PATH
+sub which {
+	my $program = shift;
+	$_ = `which "$program" 2>/dev/null`;
+	chop;
+	return $_;
+}
+
 # Switch to project's root directory
 chdir Cwd::abs_path(rel2abs("../..", "$0"));
 
-my $woffBin = `which woff2_compress`;
+my $woffBin = which "woff2_compress";
 if(!$woffBin){
 	say 'WOFF2 conversion tools not found in $PATH.';
 	
@@ -29,12 +37,13 @@ if(!$woffBin){
 		# Hold onto your butts
 		say "Building from source...";
 		`git clone --recursive https://github.com/google/woff2.git` or die $@;
-		`cd woff2 && make clean all` or die "Failed to build WOFF2 binaries: $@\n";
+		my $make = which("gmake") ? "gmake" : "make";
+		`cd woff2 && ${make} clean all` or die "Failed to build WOFF2 binaries: $@\n";
 	}
 }
 
 for(@ARGV){
-	my $feedback = `"$woffBin" "$_"`;
+	my $feedback = `"$woffBin" "$_" 2>&1`;
 	if($?){
 		say "WOFF2 conversion failed with error $?:";
 		$feedback =~ s/^/\t/gm;

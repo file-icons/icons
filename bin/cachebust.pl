@@ -38,10 +38,9 @@ my $charmap = do {{
 
 for(@ARGV){
 	my $icon = ($_ =~ s/\.svg$//i);
-	my $base = "https://cdn.rawgit.com/Alhadis/FileIcons/";
-	$charmap =~ s|$base\K\w+(?=/svg/$icon)\.svg")|$lastCommit|ig;
+	my $base = "https://cdn.rawgit.com/(Alhadis|file-icons)/(FileIcons|source)/";
+	$charmap =~ s|$base\K\w+(?=/svg/$icon)\.svg"|$lastCommit|ig;
 }
 
-say $charmap;
-
-__END__
+open(my $fh, ">", "charmap.md");
+print $fh $charmap;
