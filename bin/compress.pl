@@ -22,13 +22,22 @@ sub which {
 	return $_;
 }
 
-# Switch to project's root directory
-chdir Cwd::abs_path(rel2abs("../..", "$0"));
-
-my $woffBin = which "woff2_compress";
-if(!$woffBin){
+# Retrieve the full path of an installed `woff2_compress` binary.
+# If no such binary exists, an attempt is made to install from
+# Homebrew, or to build from source as a last resort.
+sub getWOFF2 {
+	return $_ if(my $woffBin = which "woff2_compress");
+	
 	say 'WOFF2 conversion tools not found in $PATH.';
 	
+	# Install using Homebrew
+	if(`brew cat woff2` =~ m/woff2_compress/){
+		say "Installing from Homebrew...";
+		`brew install woff2` or die $@;
+		return which "woff2_compress";
+	}
+	
+	# Build from source as last resort
 	$woffBin = "woff2/woff2_compress";
 	if(-x $woffBin){
 		say "Using previously-built binary.";
@@ -40,7 +49,14 @@ if(!$woffBin){
 		my $make = which("gmake") ? "gmake" : "make";
 		`cd woff2 && ${make} clean all` or die "Failed to build WOFF2 binaries: $@\n";
 	}
+	return $woffBin;
 }
+
+# Switch to project's root directory
+chdir Cwd::abs_path(rel2abs("../..", "$0"));
+
+# Locate `woff2_compress` binary, installing if missing
+my $woffBin = getWOFF2();
 
 for(@ARGV){
 	my $feedback = `"$woffBin" "$_" 2>&1`;
