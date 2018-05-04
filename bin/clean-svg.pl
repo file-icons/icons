@@ -19,7 +19,7 @@ Usage: $0 [svg-files...]" and exit if $help;
 sub slurp {
 	local $/ = undef;
 	open(my $fh, shift);
-	return join "", <>;
+	return join "", <$fh>;
 }
 
 for (@ARGV) {
