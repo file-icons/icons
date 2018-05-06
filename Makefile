@@ -20,3 +20,4 @@ unpack:
 # Clean up SVG source
 svg: $(wildcard svg/*.svg)
 	@./bin/clean-svg.pl $^
+.PHONY: svg
