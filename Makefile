@@ -5,7 +5,6 @@ all: clean unpack charmap
 # Nuke untracked files
 clean:
 	rm -rf tmp
-	rm -f file-icons.zip
 	rm -f $(TTF)
 .PHONY: clean
 
