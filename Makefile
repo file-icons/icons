@@ -11,23 +11,21 @@ install:
 # Nuke untracked files
 clean:
 	rm -rf tmp
-	rm -f $(TTF) *.html
+	rm -f $(TTF) charmap.html
 .PHONY: clean
 
 # Update character map
 charmap:
 	./bin/update-charmap.pl
 
-# Generate an HTML preview of current character map
-charmap-preview: charmap.html
-
-charmap.html: charmap.md
+# Generate an unstyled HTML version of character map
+charmap-preview:
 	@ if command 2>&1 >/dev/null -v cmark-gfm; then GFM="cmark-gfm"; \
 	elif command 2>&1 >/dev/null -v gfm;       then GFM="gfm"; fi; \
 	[ "$$GFM" ] || { echo 2>&1 "No CommonMark parser installed!"; exit 2; }; \
 	"$$GFM" --unsafe charmap.md \
-	| sed -e 's~https://raw.githubusercontent.com/file-icons/source/master/svg/~svg/~g' \
-	| sed -e 's/\(\.svg\)\?sanitize=true/\1/g' \
+	| sed -e 's~https://raw.githubusercontent.com/file-icons/source/[^/]*/~~g' \
+	| sed -e 's/\?sanitize=true//g' \
 	> charmap.html
 
 # Extract a downloaded IcoMoon folder
