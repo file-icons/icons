@@ -10,3 +10,4 @@ node_modules
 *.zip
 /tmp/
 /woff2/
+/charmap.html
