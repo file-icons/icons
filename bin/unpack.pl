@@ -33,13 +33,6 @@ move "tmp/fonts/file-icons.svg", "dist";
 move "tmp/fonts/file-icons.ttf", "dist";
 say "Fonts extracted";
 
-open(my $input, "<", "tmp/selection.json");
-open(my $output, ">", "icomoon.json");
-$/ = undef;
-$_ = join "", <$input>;
-
 # Fix that bullshit tabstop width I hate
-s|^(?: {2})+|"\t" x (length($&) / 2)|gme;
-s|\s*$||;
-s|"showCodes":\s*\Kfalse|true|;
-print $output "$_\n";
+`ppjson -wt tmp/selection.json`;
+move "tmp/selection.json", "icomoon.json";

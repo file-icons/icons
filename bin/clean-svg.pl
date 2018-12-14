@@ -32,6 +32,8 @@ for (@ARGV) {
 	s/<!DOCTYPE[^>]*>//gi;
 	s/<\?xml.*?\?>//gi;
 	s/<!--.*?-->//gm;
+	s/ [xy]="0(?:px)?"//gi;
+	s/ xmlns:xlink="[^"]*"//gi;
 	s/ style="enable-background:.*?;"//gmi;
 	s/"\s+>/">/g;
 	s/\x20{2,}/ /g;
