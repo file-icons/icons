@@ -42,7 +42,7 @@ while($charmap =~ m/<tbody.+?<a name="([^"]+)".+<code>\\([0-9A-Fa-f]+)<\/code>.+
 	$table_rows{$1} = $&;
 }
 
-my $url = "https://cdn.rawgit.com/file-icons/source/master/svg/%3\$s.svg";
+my $url = "https://raw.githubusercontent.com/file-icons/source/master/svg/%3\$s.svg?sanitize=true";
 (my $row = <<HTML) =~ s/&\Kamp;|\h*<!--.*?-->|[\r\n\t]+//g;
 <tbody>
 	<tr>
