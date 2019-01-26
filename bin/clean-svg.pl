@@ -35,6 +35,7 @@ for (@ARGV) {
 	s/ [xy]="0(?:px)?"//gi;
 	s/ xmlns:xlink="[^"]*"//gi;
 	s/ style="enable-background:.*?;"//gmi;
+	s/ enable-background\s*=\s*"[^"]*"//gmi;
 	s/"\s+>/">/g;
 	s/\x20{2,}/ /g;
 	s/[\t\n]+//gm;
