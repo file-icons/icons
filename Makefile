@@ -32,6 +32,7 @@ charmap-preview:
 unpack:
 	./bin/unpack.pl file-icons.zip
 	./bin/compress.pl $(TTF)
+	chmod 0644 icomoon.json dist/*
 
 # Clean up SVG source
 svg: $(wildcard svg/*.svg)
