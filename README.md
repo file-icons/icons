@@ -1,6 +1,6 @@
-File Icons
-==========
+## :warning: Currently under maintenance :warning:
 
-This is the source for the [File-Icons](https://github.com/file-icons/atom) package's custom icon-font.
+Fonts and stylesheets are being migrated here from the `atom` repository,
+so they'll be easier to integrate into your project (and installable through `npm`).
 
-Please [submit a request](https://github.com/file-icons/source/issues) if an icon is missing.
+Check back soon!
