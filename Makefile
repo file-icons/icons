@@ -30,6 +30,7 @@ charmap-preview:
 
 # Extract a downloaded IcoMoon folder
 unpack:
+	test -f file-icons-*.zip && mv "$$_" file-icons.zip
 	./bin/unpack.pl file-icons.zip
 	./bin/compress.pl $(TTF)
 	chmod 0644 icomoon.json dist/*
