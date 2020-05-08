@@ -10,3 +10,6 @@ indent_size = 4
 
 [*.svg]
 insert_final_newline = false
+
+[icons.tsv]
+tab_length = 31
