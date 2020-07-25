@@ -56,6 +56,7 @@ U+2591	░	Antwar	Antwar.svg	antwar-icon
 U+EACF		AnyScript	AnyScript.svg	anyscript-icon
 U+E93E		Apache ANT	Apache-ANT.svg	ant-icon
 U+E92D		API Blueprint	API-Blueprint.svg	api-icon
+U+EB99		API Extractor	APIExtractor.svg	apiextractor-icon
 U+234B	⍋	APL	APL.svg	apl-icon
 U+E909		APL, Old	APL-Old.svg	
 U+EB54		Apollo Guidance Computer (AGC)	AGC.svg	
@@ -111,6 +112,7 @@ U+E9FA		Blender	Blender.svg	blender-icon
 U+E93C		Bluespec	Bluespec.svg	bluespec-icon
 U+2A74	⩴	BNF	BNF.svg	bnf-icon
 U+E939		Boo	Boo.svg	boo-icon
+U+EB96		Bosque	Bosque.svg	bosque-icon
 U+E93A		Brainfuck	Brainfuck.svg	brain-icon
 U+E9D6		Brakeman	Brakeman.svg	brakeman-icon
 U+E93B		Bro	Bro.svg	bro-icon
@@ -198,6 +200,7 @@ U+E95E		Creole	Creole.svg	creole-icon
 U+EAD3		Crowdin	Crowdin.svg	crowdin-icon
 U+E902		Crystal	Crystal.svg	crystal-icon
 U+E9F0		CSound	CSound.svg	csound-icon
+U+EB92		Cubit	Cubit.svg	cubit-icon
 U+F02B		Cucumber	Cucumber.svg	cucumber-icon
 U+EB76		Cuneiform	Cuneiform.svg	cuneiform-icon
 U+EB7A		Curl (language)	Curl-Lang.svg	
@@ -237,7 +240,9 @@ U+EB0B		doT.js	dotjs.svg	dotjs-icon
 U+E928		Doxygen	Doxygen.svg	doxygen-icon
 U+EAFD		DragonflyBSD	DragonflyBSD.svg	
 U+1F44C	👌	Dragula	Dragula.svg	dragula-icon
+U+EB93		draw.io	draw.io.svg	drawio-icon
 U+EA3D		Drone	Drone.svg	drone-icon
+U+EB98		DVC	DVC.svg	dvc-icon
 U+E90C		Dyalog	Dyalog.svg	dyalog-icon
 U+EA15		DyLib	DyLib.svg	dylib-icon
 U+0045	E	E	E.svg	e-icon
@@ -263,6 +268,7 @@ U+EA0F		ESLint	ESLint.svg	eslint-icon
 U+E90E		ESLint, Old	ESLint-Old.svg	
 U+EB71		Expo	Expo.svg	expo-icon
 U+E94B		Fabfile	Fabfile.svg	fabfile-icon
+U+1F4DC	📜	Fabric	Fabric.svg	fabric-icon
 U+E96A		Factor	Factor.svg	factor-icon
 U+EAE4		Falcon	Falcon.svg	falcon-icon
 U+E96B		Fancy	Fancy.svg	fancy-icon
@@ -295,6 +301,7 @@ U+EAF1		FreeDOS	FreeDOS.svg
 U+E970		FreeMarker	FreeMarker.svg	freemarker-icon
 U+EB7F		FreeMat	FreeMat.svg	
 U+E96E		Frege	Frege.svg	frege-icon
+U+EB97		ftHTML	ftHTML.svg	fthtml-icon
 U+EA09		FuelUX	FuelUX.svg	fuelux-icon
 U+EAD7		FuseBox	FuseBox.svg	fusebox-icon
 U+EB77		Futhark	Futhark.svg	futhark-icon
@@ -353,6 +360,7 @@ U+EAAF		HoundCI	HoundCI.svg	houndci-icon
 U+24BD	Ⓗ	Hugo	Hugo.svg	
 U+1F436	🐶	Husky	Husky.svg	husky-icon
 U+E97F		Hy	Hy.svg	hy-icon
+U+1F4C3	📃	Hygen	Hygen.svg	hygen-icon
 U+EB37		Hyper	Hyper.svg	hyper-icon
 U+EAEA		IcoMoon	IcoMoon.svg	icomoon-icon
 U+EA23		ICU	ICU.svg	
@@ -385,6 +393,7 @@ U+EA39		Jest	Jest.svg	jest-icon
 U+E944		Jinja	Jinja.svg	jinja-icon
 U+EA55		Jison	Jison.svg	jison-icon
 U+EA75		Jolie	Jolie.svg	jolie-icon
+U+EB95		jscpd	jscpd.svg	jscpd-icon
 U+EABE		JSON-1	JSON-1.svg	json-icon
 U+EABD		JSON-2	JSON-2.svg	
 U+E958		JSON-LD	JSON-LD1.svg	jsonld-icon
@@ -411,9 +420,12 @@ U+006B	k	kOS	kOS.svg	kos-icon
 U+E989		Kotlin	Kotlin.svg	kotlin-icon
 U+E988		KRL	KRL.svg	krl-icon
 U+2388	⎈	Kubernetes	Kubernetes.svg	kubernetes-icon
+U+EB9A		Kusto	Kusto.svg	kusto-icon
+U+EB9B		Kusto, Alt	Kusto-Alt.svg	
 U+EA9B		Kx	Kx.svg	kx-icon
 U+E98A		LabVIEW	LabVIEW.svg	labview-icon
 U+E98C		Lasso	Lasso.svg	lasso-icon
+U+1F426	🐦	Latino	Latino.svg	latino-icon
 U+EA07		Leaflet	Leaflet.svg	leaflet-icon
 U+004C	L	Lean	Lean.svg	lean-icon
 U+1F44A	👊	Lefthook	Lefthook.svg	
@@ -424,10 +436,13 @@ U+EA37		Lerna	Lerna.svg	lerna-icon
 U+101EF	𐇯	Lex	Lex.svg	lex-icon
 U+1316A	𓅪	Lex, Alt	Lex-Alt.svg	
 U+E94C		LFE	LFE.svg	lfe-icon
+U+1F435	🐵	LGTM	LGTM.svg	lgtm-icon
 U+EA21		libuv	libuv.svg	
 U+E9FB		LightWave	LightWave.svg	lightwave-icon
+U+26EF	⛯	Lighthouse	Lighthouse.svg	lighthouse-icon
 U+1F4AE	💮	LilyPond	LilyPond.svg	lilypond-icon
 U+EA36		Lime	Lime.svg	lime-icon
+U+1D6CC	𝛌	LINQPad	LINQPad.svg	linqpad-icon
 U+E908		Lisp	Lisp.svg	lisp-icon
 U+E914		LiveScript	LiveScript.svg	ls-icon
 U+E91D		LLVM	LLVM.svg	llvm-icon
@@ -538,6 +553,7 @@ U+E99D		NumPy	NumPy.svg	numpy-icon
 U+E953		Nunjucks	Nunjucks.svg	nunjucks-icon
 U+EACA		Nuxt	Nuxt.svg	nuxt-icon
 U+E95D		NVIDIA	NVIDIA.svg	nvidia-icon
+U+EB9C		Nx	Nx.svg	nx-icon
 U+EA6B		NXC	NXC.svg	nxc-icon
 U+EB3F		Oberon	Oberon.svg	oberon-icon
 U+E99E		Objective-J	Objective-J.svg	objj-icon
@@ -624,6 +640,7 @@ U+E9B2		PureScript	PureScript.svg	purescript-icon
 U+EA94		PyPi	PyPi.svg	pypi-icon
 U+2620	☠	Pyret	Pyret.svg	pyret-icon
 U+EB26		PyUp	PyUp.svg	pyup-icon
+U+EB91		Q#	Q#.svg	qsharp-icon
 U+EB81		Qiskit	Qiskit.svg	qiskit-icon
 U+1F50D	🔍	QlikView	QlikView.svg	qlik-icon
 U+EB00		QT	QT.svg	qt-icon
@@ -655,6 +672,7 @@ U+1F48D	💍	Ring	Ring.svg	ring-icon
 U+EB2E		Riot	Riot.svg	riot-icon
 U+E919		Riot, Old	Riot-Old.svg	
 U+EB5D		RISC-V	RISC-V.svg	
+U+211B	ℛ	Rmarkdown	Rmarkdown.svg	rmarkdown-icon
 U+EB0D		Robot	RobotFramework.svg	robot-icon
 U+E9AC		Robot, Old	RobotFramework-Old.svg	
 U+1F916	🤖	Robots	Robots.svg	robots-icon
@@ -742,6 +760,7 @@ U+F0C8		Terminal	Terminal.svg	terminal-icon
 U+1F54A	🕊	Tern	Tern.svg	tern-icon
 U+E916		Terraform	Terraform.svg	terraform-icon
 U+272C	✬	Terser	Terser.svg	terser-icon
+U+2714	✔	TestCafe	TestCafe.svg	testcafe-icon
 U+EA62		Test, CoffeeScript	Test-CoffeeScript.svg	test-coffee-icon
 U+EA60		Test, Directory	Test-Directory.svg	test-dir-icon
 U+EA63		Test, Generic	Test-Generic.svg	test-generic-icon
@@ -823,6 +842,7 @@ U+EAA8		Workbox	Workbox.svg	workbox-icon
 U+1F32D	🌭	Wurst	Wurst.svg	wurst-icon
 U+2169	Ⅹ	X10	X10.svg	x10-icon
 U+EA77		Xamarin	Xamarin.svg	xamarin-icon
+U+EB94		xmake	xmake.svg	xmake-icon
 U+0058	X	XMOS	XMOS.svg	xmos-icon
 U+E9C5		XPages	XPages.svg	xpages-icon
 U+E9C6		Xtend	Xtend.svg	xtend-icon
