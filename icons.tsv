@@ -315,6 +315,7 @@ U+24BC	Ⓖ	Gatsby	Gatsby.svg	gatsby-icon
 U+EB7E		GAUSS	GAUSS.svg	gauss-icon
 U+EA08		GDB	GDB.svg	gdb-icon
 U+E976		Genshi	Genshi.svg	genshi-icon
+U+2933	⤳	For the Record	ForTheRecord.svg	ftr-icon
 U+223F	∿	GenStat	GenStat.svg	genstat-icon
 U+E96D		Gentoo	Gentoo.svg	gentoo-icon
 U+EA8F		Ghostscript	Ghostscript.svg	
@@ -569,6 +570,7 @@ U+1F421	🐡	OpenBSD	OpenBSD.svg	openbsd-icon
 U+1F420	🐠	OpenBSD, Alt	OpenBSD-Alt.svg	
 U+E99F		OpenCL	OpenCL.svg	opencl-icon
 U+EA8D		OpenCV	OpenCV.svg	
+U+1F127	🄧	OpenEXR	OpenEXR.svg	openexr-icon
 U+EA7A		OpenGL	OpenGL.svg	opengl-icon
 U+01A3	ƣ	OpenIndiana	OpenIndiana.svg	
 U+E9E4		OpenOffice	OpenOffice.svg	openoffice-icon
@@ -577,6 +579,7 @@ U+EAF5		OpenSolaris	OpenSolaris.svg
 U+EB6F		OpenStack	OpenStack.svg	
 U+EAC6		OpenVMS	OpenVMS.svg	openvms-icon
 U+EAF3		OpenVPN	OpenVPN.svg	openvpn-icon
+U+1D419	𝐙	OpenZFS	OpenZFS.svg	openzfs-icon
 U+E917		Org-mode	Org-Mode.svg	org-icon
 U+EAF6		OS2	OS2.svg	
 U+E957		OWL	OWL.svg	owl-icon
@@ -681,6 +684,7 @@ U+EA20		Rollup	Rollup.svg	rollup-icon
 U+E9FD		Rollup, Old	Rollup-Old.svg	
 U+EA31		RSpec	RSpec.svg	rspec-icon
 U+24C7	Ⓡ	RStudio	RStudio.svg	rstudio-icon
+U+EB9E		rsync	rsync.svg	rsync-icon
 U+EADE		Rubocop	Rubocop.svg	rubocop-icon
 U+203C	‼	SAC	SAC.svg	sac-icon
 U+E9AB		Sage	Sage.svg	sage-icon
@@ -820,6 +824,7 @@ U+F057		Video	Video.svg	video-icon
 U+EA3E		VirtualBox	VirtualBox.svg	virtualbox-icon
 U+EA2E		VirtualBox, Alt	VirtualBox-Alt.svg	
 U+EA49		VMware	VMware.svg	vmware-icon
+U+24CB	Ⓥ	V-Ray	V-Ray.svg	vray-icon
 U+EB22		VSCode	VSCode.svg	
 U+EAC0		VSTS	VSTS.svg	vsts-icon
 U+E906		Vue	Vue.svg	vue-icon
