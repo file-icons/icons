@@ -111,6 +111,7 @@ U+EA6E		BinTray	BinTray.svg	bintray-icon
 U+1F402	🐂	Bison	Bison.svg	bison-icon
 U+EA2A		bitHound	bitHound.svg	bithound-icon
 U+E9FA		Blender	Blender.svg	blender-icon
+U+EBA5		BlitzBASIC	BlitzBASIC.svg	blitzbasic-icon
 U+EBA3		Bloc	Bloc.svg	bloc-icon
 U+E93C		Bluespec	Bluespec.svg	bluespec-icon
 U+2A74	⩴	BNF	BNF.svg	bnf-icon
@@ -680,6 +681,7 @@ U+EAA0		Reek	Reek.svg	reek-icon
 U+002A	*	RegEx	RegEx.svg	regex-icon
 U+EB1D		Remark	Remark.svg	remark-icon
 U+EB2D		Renovate	Renovate.svg	renovate-icon
+U+EBA7		ReScript	ReScript.svg	rescript-icon
 U+E9CC		reStructuredText	reStructuredText.svg	rst-icon
 U+EA16		Rexx	Rexx.svg	rexx-icon
 U+EA4A		Rhino3D	Rhino3D.svg	rhino-icon
@@ -743,6 +745,7 @@ U+EB72		Sophia	Sophia.svg	sophia-icon
 U+1F366	🍦	Sorbet	Sorbet.svg	sorbet-icon
 U+EB82		Source	Source.svg	source-icon
 U+EAA4		Spacemacs	Spacemacs.svg	spacemacs-icon
+U+29CF	⧏	Spacengine	Spacengine.svg	spacengine-icon
 U+EB57		SPARC	SPARC.svg	
 U+EA02		Spray	Spray.svg	
 U+E9A5		SQF	SQF.svg	sqf-icon
