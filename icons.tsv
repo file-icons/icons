@@ -325,6 +325,7 @@ U+E96D		Gentoo	Gentoo.svg	gentoo-icon
 U+EA8F		Ghostscript	Ghostscript.svg	
 U+EA88		GIMP	GIMP.svg	gimp-icon
 U+EA3C		GitLab	GitLab.svg	gitlab-icon
+U+1D5A6	𝖦	Gitpod	Gitpod.svg	gitpod-icon
 U+E938		Glade	Glade.svg	glade-icon
 U+EACB		Glide	Glide.svg	glide-icon
 U+EAA7		glTF	glTF.svg	gltf-icon
@@ -546,6 +547,7 @@ U+E999		Nit	Nit.svg	nit-icon
 U+E99A		Nix	Nix.svg	nix-icon
 U+E94D		Nmap	Nmap.svg	nmap-icon
 U+EA26		Nodemon	Nodemon.svg	nodemon-icon
+U+92F8	鋸	Nokogiri	Nokogiri.svg	nokogiri-icon
 U+EA96		Nomad	Nomad.svg	nomad-icon
 U+EB33		Noon	Noon.svg	noon-icon
 U+EA04		Normalize	Normalise.svg	normalize-icon
@@ -650,6 +652,7 @@ U+01B5	Ƶ	PureBasic	PureBasic.svg	purebasic-icon
 U+E9B2		PureScript	PureScript.svg	purescript-icon
 U+EA94		PyPi	PyPi.svg	pypi-icon
 U+2620	☠	Pyret	Pyret.svg	pyret-icon
+U+EBA6		pytest	pytest.svg	pytest-icon
 U+EB26		PyUp	PyUp.svg	pyup-icon
 U+EB91		Q#	Q#.svg	qsharp-icon
 U+EB81		Qiskit	Qiskit.svg	qiskit-icon
@@ -664,6 +667,7 @@ U+EA24		Rascal	Rascal.svg	rascal-icon
 U+0052	R	Razzle	Razzle.svg	razzle-icon
 U+E9B0		RDoc	RDoc.svg	rdoc-icon
 U+EAF7		ReactOS	ReactOS.svg	
+U+2398	⎘	Read the Docs	ReadTheDocs.svg	readthedocs-icon
 U+E9AF		REALbasic	REALbasic.svg	xojo-icon
 U+EA1D		Reason	Reason.svg	reason-icon
 U+EB45		Reason Studios	ReasonStudios.svg	
@@ -693,6 +697,7 @@ U+EA31		RSpec	RSpec.svg	rspec-icon
 U+24C7	Ⓡ	RStudio	RStudio.svg	rstudio-icon
 U+EB9E		rsync	rsync.svg	rsync-icon
 U+EADE		Rubocop	Rubocop.svg	rubocop-icon
+U+1F48E	💎	RubyGems	RubyGems.svg	rubygems-icon
 U+203C	‼	SAC	SAC.svg	sac-icon
 U+E9AB		Sage	Sage.svg	sage-icon
 U+EB87		Sails	Sails.svg	sails-icon
