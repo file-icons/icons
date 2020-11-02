@@ -117,6 +117,7 @@ U+EBA3		Bloc	Bloc.svg	bloc-icon
 U+E93C		Bluespec	Bluespec.svg	bluespec-icon
 U+2A74	⩴	BNF	BNF.svg	bnf-icon
 U+E939		Boo	Boo.svg	boo-icon
+U+1F441	👁	Bors	Bors.svg	bors-icon
 U+EB96		Bosque	Bosque.svg	bosque-icon
 U+E93A		Brainfuck	Brainfuck.svg	brain-icon
 U+E9D6		Brakeman	Brakeman.svg	brakeman-icon
@@ -129,6 +130,7 @@ U+0062	b	Browsersync	Browsersync.svg	browsersync-icon
 U+EA47		Brunch	Brunch.svg	brunch-icon
 U+EA46		Buck	Buck.svg	buck-icon
 U+F103		Build Boot	Build-Boot.svg	boot-icon
+U+EBAD		Buildkite	Buildkite.svg	buildkite-icon
 U+EA45		Bundler	Bundler.svg	bundler-icon
 U+E962		BYOND	BYOND.svg	byond-icon
 U+EB7B		C#	C%23.svg	
@@ -346,6 +348,7 @@ U+E903		Gradle	Gradle.svg	gradle-icon
 U+E978		Grammatical Framework	GF.svg	gf-icon
 U+EA8A		Graphite	Graphite.svg	graphite-icon
 U+E97C		GraphQL	GraphQL.svg	graphql-icon
+U+EBAE		GraphQL Code Generator	GraphQL-CodeGenerator.svg	gql-codegen-icon
 U+E97D		GraphViz	GraphViz.svg	graphviz-icon
 U+EB02		Gravit Designer	Gravit-Designer.svg	gvdesign-icon
 U+EB0C		Greenkeeper	Greenkeeper.svg	greenkeeper-icon
@@ -357,6 +360,7 @@ U+E9CE		Hack	Hack.svg	hack-icon
 U+F15B		Haml	Haml.svg	haml-icon
 U+E97B		Harbour	Harbour.svg	harbour-icon
 U+E97E		HashiCorp	HashiCorp.svg	hashicorp-icon
+U+EBAB		Haskell IDE Engine	HIE.svg	hie-icon
 U+E907		Haxe	Haxe.svg	haxe-icon
 U+EA3B		HaxeDevelop	HaxeDevelop.svg	haxedevelop-icon
 U+2695	⚕	Helix	Helix.svg	helix-icon
@@ -851,6 +855,7 @@ U+EB22		VSCode	VSCode.svg
 U+EAC0		VSTS	VSTS.svg	vsts-icon
 U+E906		Vue	Vue.svg	vue-icon
 U+EB31		Vyper	Vyper.svg	vyper-icon
+U+EBAC		W3C	W3C.svg	w3c-icon
 U+231F	⌟	Wallaby	Wallaby.svg	wallaby-icon
 U+EABA		Walt	Walt.svg	walt-icon
 U+2162	Ⅲ	Warcraft III	Warcraft-III.svg	warcraft3-icon
