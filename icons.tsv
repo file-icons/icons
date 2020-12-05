@@ -94,6 +94,7 @@ U+E931		Augeas	Augeas.svg	augeas-icon
 U+EA48		Aurelia	Aurelia.svg	aurelia-icon
 U+E932		AutoHotkey	AutoHotkey.svg	ahk-icon
 U+E933		AutoIt	AutoIt.svg	autoit-icon
+U+EBB4		Automator	Automator.svg	automator-icon
 U+EB6D		AVR	AVR.svg	
 U+EAA3		Avro	Avro.svg	avro-icon
 U+1F427	🐧	Awk	Awk.svg	awk-icon
@@ -347,6 +348,7 @@ U+E97A		Gosu	Gosu.svg	gosu-icon
 U+E903		Gradle	Gradle.svg	gradle-icon
 U+E978		Grammatical Framework	GF.svg	gf-icon
 U+EA8A		Graphite	Graphite.svg	graphite-icon
+U+1F4C9	📉	Grapher	Grapher.svg	grapher-icon
 U+E97C		GraphQL	GraphQL.svg	graphql-icon
 U+EBAE		GraphQL Code Generator	GraphQL-CodeGenerator.svg	gql-codegen-icon
 U+E97D		GraphViz	GraphViz.svg	graphviz-icon
@@ -370,6 +372,7 @@ U+EAC2		HJSON	HJSON.svg	hjson-icon
 U+1F37A	🍺	Homebrew	Homebrew.svg	brew-icon
 U+1F998	🦘	Hop	Hop.svg	
 U+EA4D		Hoplon	Hoplon.svg	hoplon-icon
+U+1F300	🌀	Houdini	Houdini.svg	houdini-icon
 U+EAAF		HoundCI	HoundCI.svg	houndci-icon
 U+24BD	Ⓗ	Hugo	Hugo.svg	
 U+1F436	🐶	Husky	Husky.svg	husky-icon
@@ -546,6 +549,7 @@ U+E9D7		New Relic	New-Relic.svg	newrelic-icon
 U+EAA5		Nextflow	Nextflow.svg	nextflow-icon
 U+24C3	Ⓝ	NextJS	NextJS.svg	nextjs-icon
 U+F146B	󱑫	nginx	nginx.svg	nginx-icon
+U+EBB2		NgRx	NgRx.svg	ngrx-icon
 U+2712	✒	Nib	Nib.svg	nib-icon
 U+00A2	¢	Nickle	Nickle.svg	nickle-icon
 U+EB08		Nightwatch	Nightwatch.svg	nightwatch-icon
@@ -582,6 +586,7 @@ U+E91A		OCaml	OCaml.svg	ocaml-icon
 U+EA33		Octave	Octave.svg	octave-icon
 U+EB36		Odin	Odin.svg	odin-icon
 U+EBAA		Ogone	Ogone.svg	ogone-icon
+U+EBAF		OmniGraffle	OmniGraffle.svg	omnigraffle-icon
 U+E9CB		OOC	OOC.svg	ooc-icon
 U+2601	☁	Opa	Opa.svg	opa-icon
 U+EB39		Open Policy Agent	OpenPolicyAgent.svg	openpolicy-icon
@@ -692,6 +697,7 @@ U+002A	*	RegEx	RegEx.svg	regex-icon
 U+EB1D		Remark	Remark.svg	remark-icon
 U+EB2D		Renovate	Renovate.svg	renovate-icon
 U+EBA7		ReScript	ReScript.svg	rescript-icon
+U+EBB0		restQL	restQL.svg	restql-icon
 U+E9CC		reStructuredText	reStructuredText.svg	rst-icon
 U+EA16		Rexx	Rexx.svg	rexx-icon
 U+EA4A		Rhino3D	Rhino3D.svg	rhino-icon
@@ -715,6 +721,7 @@ U+E9AB		Sage	Sage.svg	sage-icon
 U+EB87		Sails	Sails.svg	sails-icon
 U+E915		SaltStack	SaltStack.svg	saltstack-icon
 U+EAE6		San	San.svg	san-icon
+U+EBB1		Sandbox	Sandbox.svg	sandbox-icon
 U+E95A		SAS	SAS.svg	sas-icon
 U+E9D2		SBT	SBT.svg	sbt-icon
 U+03BB	λ	Scheme	Scheme.svg	scheme-icon
@@ -872,8 +879,10 @@ U+EB24		WebVTT	WebVTT.svg	webvtt-icon
 U+8A00	言	Wenyan	Wenyan.svg	wenyan-icon
 U+EA19		Wercker	Wercker.svg	wercker-icon
 U+EB38		Wget	Wget.svg	wget-icon
+U+EBB7		WinUI	WinUI.svg	winui-icon
 U+1F377	🍷	Wine	Wine.svg	wine-icon
 U+EAB0		WiX	WiX.svg	wix-icon
+U+1F43A	🐺	Wolfram	Wolfram.svg	wolfram-icon
 U+EAA8		Workbox	Workbox.svg	workbox-icon
 U+1F32D	🌭	Wurst	Wurst.svg	wurst-icon
 U+2169	Ⅹ	X10	X10.svg	x10-icon
