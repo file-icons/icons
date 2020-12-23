@@ -3,3 +3,16 @@
 	shallow = true
 	update = none
 	url = https://github.com/primer/octicons
+[submodule "fontawesome"]
+	path = fonts/fontawesome
+	shallow = true
+	update = none
+	url = https://github.com/FortAwesome/Font-Awesome
+[submodule "devopicons"]
+	path = fonts/devopicons
+	shallow = true
+	url = https://github.com/file-icons/DevOpicons
+[submodule "mfixx"]
+	path = fonts/mfixx
+	shallow = true
+	url = https://github.com/file-icons/Mfixx
