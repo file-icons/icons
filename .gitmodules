@@ -1,0 +1,5 @@
+[submodule "octicons"]
+	path = fonts/octicons
+	shallow = true
+	update = none
+	url = https://github.com/primer/octicons

@@ -1,0 +1,225 @@
+#!/usr/bin/env fontforge
+
+#
+# NOTE: The use of FontForge's native scripting language is deliberate.
+# Python would've been easier, but the rest of this codebase is written
+# in Perl--requiring *two* programming languages to update a font feels
+# rather excessive. Moreover, not every FontForge installation includes
+# Python bindings (although most do).
+#
+# An effort has been made to maximise reusability between projects; one
+# need only provide a TSV file of the format described in icons.tsv(5).
+# See file-icons(1) for details on program options and usage.
+#
+
+# Control characters
+CR      = Chr(0x0D)      # Carriage return
+LF      = Chr(0x0A)      # Newline
+TAB     = Chr(0x09)      # Tab
+ESC     = Chr(0x1B)      # Escape
+
+# Strings used in diagnostics
+PS      = LF + LF        # Paragraph separator
+CSI     = ESC + "["      # Control sequence introducer
+DEFAULT = "icons.tsv"    # Hardcoded basename(3) of default table
+
+# Prefixes to (manually) insert before a diagnostic message
+E = $0:r + ": ERROR: "
+W = $0:r + ": WARNING: "
+I = $0:r + ": INFO: "
+D = $0:r + ": DEBUG: "
+
+# Diagnostic functions that can be "filtered" by replacing the
+# functions they reference with one that behaves as a no-op.
+ERROR   = "Error"
+WARN    = "PostNotice"
+INFO    = "PostNotice"
+DEBUG   = "PostNotice"
+
+# Global variable that stores the exit code to use when the script
+# finishes running to completion, but with warnings emitted during
+# execution. Set to a non-zero value after calling `(WARN)`, which
+# must be done manually.
+_exitCode = 0
+
+
+
+#
+
+# Options
+debug     = 1    # Print non-essential, informational messages
+verbosity = 3    # Display all diagnostics except `DEBUG`
+tablePath = ""   # Path of TSV file containing icon definitions
+
+
+# User-supplied table file
+if($argc > 1 && $1 != "")
+	tablePath = $1
+	(DEBUG)("Using user-provided table path: " + tablePath)
+
+# Use default table file
+else
+	(DEBUG)("Using default table: ../" + DEFAULT)
+	(DEBUG)("Resolving parent directory of $0")
+	
+	# Executed path has no directory component
+	if($0 == $0:t)
+		(DEBUG)("$0 has no directory component")
+		
+		dir = "."
+		src = "process's working directory"
+		
+		# Give users an opportunity to override their "real" location
+		if((j = GetEnv("PWD")) != "")
+			dir = j
+			src = "$PWD environment variable"
+		
+		# FIXME: Not sure how reliable this variable is, hence our caution
+		elseif((j = GetEnv("_")) != "")
+			ext = ToLower(j:e)
+			
+			# Make sure we aren't referencing FontForge binary itself
+			if(ext == "ff" || ext == "pe")
+				dir = j
+				src = "$_ environment variable"
+			endif
+		endif
+		(DEBUG)("Using " + src + " to resolve relative paths")
+		
+		# Now that we have some sense of location, start searching for a TSV
+		(DEBUG)("Searching nearby directories for `" + DEFAULT + "`")
+		nearbyDirs = [dir, dir + "/..", dir + "/icons"]
+		i = 0
+		l = SizeOf(nearbyDirs)
+		
+		while(tablePath == "" && i < l)
+			j = nearbyDirs[i++] + "/" + DEFAULT
+			(DEBUG)("Trying " + j)
+			
+			if(~FileAccess(j))
+				(DEBUG)("Found table at " + j)
+				tablePath = j
+				break
+			endif
+		endloop
+	
+	# Only one directory component (i.e., `bin/build-font.ff`)
+	elseif($0:h == $0:h:h)
+		tablePath = "./" + DEFAULT
+		if($0:h == ".")
+			tablePath = "." + tablePath
+		endif
+		(DEBUG)("$0 has only one directory component: " + $0:h)
+		(DEBUG)("Using table at " + tablePath)
+	
+	# Equivalent of `realpath "${0%/*}/../icons.tsv"`
+	else
+		tablePath = $0:h:h + "/" + DEFAULT
+		(DEBUG)("Using table at ../" + DEFAULT)
+		(DEBUG)("tablePath is now " + tablePath)
+	endif
+endif
+
+# Still nothing? Give up already.
+if(tablePath == "")
+	(ERROR)("Failed to locate table file")
+endif
+
+# Specified table doesn't exist on disk
+if(!~FileAccess(tablePath))
+	(ERROR)("No such file: " + tablePath)
+endif
+
+# Load the damn table already
+table = LoadStringFromFile(tablePath)
+if(table == "")
+	(ERROR)("Empty or unreadable file: " + tablePath)
+endif
+
+# 
+
+# Make no assumptions about line endings
+i = 0; eol = [CR + LF, LF, CR]
+while(i < 3)
+	if(-1 != Strstr(table, eol[i]))
+		table = StrSplit(table, eol[i])
+		if(debug)
+			abbrs = ["CRLF", "LF", "CR"]
+			(DEBUG)("Using " + abbrs[i] + " as record separator")
+		endif
+		break
+	endif
+	++i
+endloop
+
+# Bail if file contains nothing useful
+if("String" == TypeOf(table) || !(count = SizeOf(table)))
+	Error("Table appears to be empty")
+endif
+
+
+# Declare required column headers
+columns    = Array(7)
+columns[0] = fontColumn  = [-1, "face fontid fontname fontfamily fontface"]
+columns[1] = codeColumn  = [-1, "code codepoint unicode charcode charactercode"]
+columns[2] = idColumn    = [-1, "id key slug internalid"]
+columns[3] = svgColumn   = [-1, "svg svgfile file filename filepath path pathname"]
+columns[4] = scaleColumn = [-1, "scale"]
+columns[5] = xColumn     = [-1, "x xoffset offsetx translatex xtranslation left"]
+columns[6] = yColumn     = [-1, "y yoffset offsety translatey ytranslation top"]
+
+# Expand keyword lists: "foo bar" => ["foo", "bar"]
+i = 0; while(i < SizeOf(columns))
+	l = columns[i][1]
+	if("String" == TypeOf(l))
+		columns[i][1] = StrSplit(l, " ")
+	endif
+	++i
+endloop
+
+# Expand header row: "# Foo\tBar" => ["# Foo", "Bar"]
+table[0] = StrSplit(table[0], TAB)
+count    = SizeOf(table[0])
+
+# Not enough fields? Bail, we don't have enough to work with.
+if(count < 4)
+	# TODO: Permit omission of `font` column if `--font-name` is specified.
+	# This is to cover the likely scenario of an author only wanting/caring
+	# about a single icon-font (and as such, including the `Font` column is
+	# redundant).
+	(ERROR)("Insufficient column count (" + count + " found when 4+ expected)")
+endif
+(DEBUG)("Found " + count + " columns")
+
+
+# Start parsing the actual headers present in the table
+(DEBUG)("Normalising column names...")
+i = 0
+while(i < count)
+	name = ToLower(table[0][i])
+	
+	# Replace non-alphanumeric characters with blanks
+	nameSeq = Ucs4(name)
+	l = SizeOf(nameSeq)
+	j = 0; name = ""
+	while(j < l)
+		k = Chr(nameSeq[j++])
+		if(!IsAlNum(k)) k = " "; endif
+		name += k
+	endloop
+	
+	# Strip whitespace
+	while(~(j = Strstr(name, " ")))
+		name = Strsub(name, 0, j) + "" + Strsub(name, j + 1)
+	endloop
+	
+	# Bail if we're left with an empty string
+	if(name == "")
+		Error("Empty column header at index " + i)
+	endif
+	
+	if(debug)
+		Print(TAB + table[0][i] + " => " + name)
+	endif
+	++i
+endloop
