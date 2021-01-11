@@ -24,10 +24,10 @@ CSI     = ESC + "["      # Control sequence introducer
 DEFAULT = "icons.tsv"    # Hardcoded basename(3) of default table
 
 # Prefixes to (manually) insert before a diagnostic message
-E = $0:r + ": ERROR: "
-W = $0:r + ": WARNING: "
-I = $0:r + ": INFO: "
-D = $0:r + ": DEBUG: "
+E = $0:t:r + ": ERROR: "
+W = $0:t:r + ": WARNING: "
+I = $0:t:r + ": INFO: "
+D = $0:t:r + ": DEBUG: "
 
 # Diagnostic functions that can be "filtered" by replacing the
 # functions they reference with one that behaves as a no-op.
@@ -55,16 +55,16 @@ tablePath = ""   # Path of TSV file containing icon definitions
 # User-supplied table file
 if($argc > 1 && $1 != "")
 	tablePath = $1
-	(DEBUG)("Using user-provided table path: " + tablePath)
+	(DEBUG)(D + "Using user-provided table path: " + tablePath)
 
 # Use default table file
 else
-	(DEBUG)("Using default table: ../" + DEFAULT)
-	(DEBUG)("Resolving parent directory of $0")
+	(DEBUG)(D + "Using default table: ../" + DEFAULT)
+	(DEBUG)(D + "Resolving parent directory of $0")
 	
 	# Executed path has no directory component
 	if($0 == $0:t)
-		(DEBUG)("$0 has no directory component")
+		(DEBUG)(D + "$0 has no directory component")
 		
 		dir = "."
 		src = "process's working directory"
@@ -84,20 +84,20 @@ else
 				src = "$_ environment variable"
 			endif
 		endif
-		(DEBUG)("Using " + src + " to resolve relative paths")
+		(DEBUG)(D + "Using " + src + " to resolve relative paths")
 		
 		# Now that we have some sense of location, start searching for a TSV
-		(DEBUG)("Searching nearby directories for `" + DEFAULT + "`")
+		(DEBUG)(D + "Searching nearby directories for `" + DEFAULT + "`")
 		nearbyDirs = [dir, dir + "/..", dir + "/icons"]
 		i = 0
 		l = SizeOf(nearbyDirs)
 		
 		while(tablePath == "" && i < l)
 			j = nearbyDirs[i++] + "/" + DEFAULT
-			(DEBUG)("Trying " + j)
+			(DEBUG)(D + "Trying " + j)
 			
 			if(~FileAccess(j))
-				(DEBUG)("Found table at " + j)
+				(DEBUG)(D + "Found table at " + j)
 				tablePath = j
 				break
 			endif
@@ -109,31 +109,31 @@ else
 		if($0:h == ".")
 			tablePath = "." + tablePath
 		endif
-		(DEBUG)("$0 has only one directory component: " + $0:h)
-		(DEBUG)("Using table at " + tablePath)
+		(DEBUG)(D + "$0 has only one directory component: " + $0:h)
+		(DEBUG)(D + "Using table at " + tablePath)
 	
 	# Equivalent of `realpath "${0%/*}/../icons.tsv"`
 	else
 		tablePath = $0:h:h + "/" + DEFAULT
-		(DEBUG)("Using table at ../" + DEFAULT)
-		(DEBUG)("tablePath is now " + tablePath)
+		(DEBUG)(D + "Using table at ../" + DEFAULT)
+		(DEBUG)(D + "tablePath is now " + tablePath)
 	endif
 endif
 
 # Still nothing? Give up already.
 if(tablePath == "")
-	(ERROR)("Failed to locate table file")
+	(ERROR)(E + "Failed to locate table file")
 endif
 
 # Specified table doesn't exist on disk
 if(!~FileAccess(tablePath))
-	(ERROR)("No such file: " + tablePath)
+	(ERROR)(E + "No such file: " + tablePath)
 endif
 
 # Load the damn table already
 table = LoadStringFromFile(tablePath)
 if(table == "")
-	(ERROR)("Empty or unreadable file: " + tablePath)
+	(ERROR)(E + "Empty or unreadable file: " + tablePath)
 endif
 
 # 
@@ -145,7 +145,7 @@ while(i < 3)
 		table = StrSplit(table, eol[i])
 		if(debug)
 			abbrs = ["CRLF", "LF", "CR"]
-			(DEBUG)("Using " + abbrs[i] + " as record separator")
+			(DEBUG)(D + "Using " + abbrs[i] + " as record separator")
 		endif
 		break
 	endif
@@ -187,13 +187,13 @@ if(count < 4)
 	# This is to cover the likely scenario of an author only wanting/caring
 	# about a single icon-font (and as such, including the `Font` column is
 	# redundant).
-	(ERROR)("Insufficient column count (" + count + " found when 4+ expected)")
+	(ERROR)(E + "Insufficient column count (" + count + " found when 4+ expected)")
 endif
-(DEBUG)("Found " + count + " columns")
+(DEBUG)(D + "Found " + count + " columns")
 
 
 # Start parsing the actual headers present in the table
-(DEBUG)("Normalising column names...")
+(DEBUG)(D + "Normalising column names...")
 i = 0
 while(i < count)
 	name = ToLower(table[0][i])
