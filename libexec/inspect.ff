@@ -1,0 +1,73 @@
+#
+# Return a colourful, pretty-printed representation of an object
+# for debugging and experimentation.
+#
+
+# Control characters
+LF         = Chr(0x0A)
+TAB        = Chr(0x09)
+ESC        = Chr(0x1B)
+
+# Colour palette
+RESET      = ESC + "[0m"
+BOLD       = ESC + "[1m"
+GREY       = ESC + "[38;5;237m"
+RED        = ESC + "[38;5;9m"
+YELLOW     = ESC + "[38;5;3m"
+GREEN      = ESC + "[38;5;10m"
+DARK_GREEN = ESC + "[38;5;22m"
+
+
+# Take care of the "special" types FontForge uses internally
+type = TypeOf($1)
+if(type == "LValue" || type == "Void")
+	return BOLD + type + RESET
+endif
+
+
+# Now that they won't cause the next line to break, let's continue…
+value = $argv[1]
+
+# Numeric types
+if("Integer" == type || "Real" == type)
+	value = ToString(value)
+	if("Real" == type && -1 == Strstr(value, "."))
+		value += ".0"
+	endif
+	return YELLOW + value + RESET
+
+# Codepoint selection: 0u002E
+elseif("Unicode" == type)
+	return RED + ToString(value) + RESET
+
+# Quoted string
+elseif("String" == type)
+	lquote = DARK_GREEN + '"' + GREEN
+	rquote = DARK_GREEN + '"' + RESET
+	value  = "libexec/escape-string.ff"(value, DARK_GREEN, GREEN)
+	return lquote + value + rquote
+
+# List of values enclosed in square brackets
+elseif("Array" == type)
+	length = SizeOf(value)
+	if(length < 1)
+		return GREY + "[]" + RESET
+	else
+		entries = ""
+		j = 0; while(j < length)
+			entries += "libexec/inspect.ff"(value[j++])
+			if(j < length)
+				entries += LF
+			endif
+		endloop
+		
+		# Indent each line we inspected
+		result  = GREY + "[" + RESET + LF
+		entries = StrSplit(entries, LF)
+		length  = SizeOf(entries)
+		j = 0; while(j < length)
+			result += TAB + entries[j++] + LF
+		endloop
+		return result + GREY + "]" + RESET
+	endif
+endif

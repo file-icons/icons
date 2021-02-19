@@ -1,0 +1,35 @@
+#
+# Escape control characters in a string, optionally with some
+# form of highlighting (typically ANSI escape sequences).
+#
+
+input  = ToString($1)
+output = ""
+before = ""; if($argc > 2) before = ToString($2); endif
+after  = ""; if($argc > 3) after  = ToString($3); endif
+
+i = 0
+l = Strlen(input)
+while(i < l)
+	code = Ord(input, i++)
+	if     (0x00 == code) esc = Chr(0x5C) + "0"       # NUL
+	elseif (0x07 == code) esc = Chr(0x5C) + "a"       # Alarm
+	elseif (0x08 == code) esc = Chr(0x5C) + "b"       # Backspace
+	elseif (0x09 == code) esc = Chr(0x5C) + "t"       # Horizontal tab
+	elseif (0x0A == code) esc = Chr(0x5C) + "n"       # Line feed
+	elseif (0x0B == code) esc = Chr(0x5C) + "v"       # Vertical tab
+	elseif (0x0C == code) esc = Chr(0x5C) + "f"       # Form feed
+	elseif (0x0D == code) esc = Chr(0x5C) + "r"       # Carriage return
+	elseif (0x1B == code) esc = Chr(0x5C) + "e"       # Escape
+	elseif (0x5C == code) esc = Chr(0x5C) + Chr(0x5C) # Backslash
+	elseif (0x7F == code) esc = "^?"                  # Delete
+	elseif (code < 32)    esc = "^" + Chr(code + 64)  # Caret notation
+	else                  esc = ""                    # Unescaped
+	endif
+	
+	if(esc != "") output += before + esc + after
+	else          output += Chr(code)
+	endif
+endloop
+
+return output
