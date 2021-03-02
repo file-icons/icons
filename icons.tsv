@@ -149,6 +149,7 @@ U+EA43		CakePHP	CakePHP.svg	cakephp-icon
 U+E9D3		CakePHP, Old	CakePHP-Old.svg	
 U+EBA1		Calva	Calva.svg	calva-icon
 U+EA98		Carthage	Carthage.svg	carthage-icon
+U+EBB6		CASC	CASC.svg	casc-icon
 U+E94F		Ceylon	Ceylon.svg	ceylon-icon
 U+0063	c	Chai	Chai.svg	chai-icon
 U+E950		Chapel	Chapel.svg	chapel-icon
@@ -168,6 +169,7 @@ U+F104		ClojureJS	ClojureJS.svg	cljs-icon
 U+EA82		Closure Template	ClosureTemplate.svg	closure-tpl-icon
 U+EAD0		CloudFoundry	CloudFoundry.svg	cloudfoundry-icon
 U+E93F		Cmake	Cmake.svg	cmake-icon
+U+EBB5		CNAB	CNAB.svg	cnab-icon
 U+EA44		COBOL	COBOL.svg	cobol-icon
 U+EA97		CocoaPods	CocoaPods.svg	cocoapods-icon
 U+EA8B		Codacy	Codacy.svg	codacy-icon
@@ -288,6 +290,7 @@ U+22C0	⋀	Faust	Faust.svg	faust-icon
 U+E9FC		FBX	FBX.svg	fbx-icon
 U+EB20		Fexl	Fexl.svg	fexl-icon
 U+EA22		FFmpeg	FFmpeg.svg	
+U+24BB	Ⓕ	Fiddle	Fiddle.svg	fiddle-icon
 U+1D4BB	𝒻	Final Draft	FinalDraft.svg	finaldraft-icon
 U+E9E9		Finder	Finder.svg	finder-icon
 U+EA7F		Firebase	Firebase.svg	firebase-icon
@@ -857,6 +860,7 @@ U+E9AA		VHDL	VHDL.svg	vhdl-icon
 U+F057		Video	Video.svg	video-icon
 U+EA3E		VirtualBox	VirtualBox.svg	virtualbox-icon
 U+EA2E		VirtualBox, Alt	VirtualBox-Alt.svg	
+U+2607	☇	Vite	Vite.svg	vite-icon
 U+EA49		VMware	VMware.svg	vmware-icon
 U+24CB	Ⓥ	V-Ray	V-Ray.svg	vray-icon
 U+EB22		VSCode	VSCode.svg	
