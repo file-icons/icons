@@ -84,8 +84,8 @@ U+EB4B		Assembly, RISC-V	Assembly-RISCV.svg
 U+EB4A		Assembly, SPARC	Assembly-SPARC.svg	
 U+EB48		Assembly, VAX	Assembly-VAX.svg	asm-vax-icon
 U+EB47		Assembly, Zilog	Assembly-Zilog.svg	asm-zilog-icon
-U+EAE3		Asymptote	Asymptote.svg	
-U+EAE5		Asymptote, Alt	Asymptote-Alt.svg	asymptote-icon
+U+EAE5		Asymptote	Asymptote.svg	asymptote-icon
+U+EAE3		Asymptote, Alt	Asymptote-Alt.svg	
 U+EB55		AT&T	ATT.svg	
 U+2649	♉	Atoum	Atoum.svg	atoum-icon
 U+E934		ATS	ATS.svg	ats-icon
@@ -180,6 +180,7 @@ U+EB8F		CodeMeta	CodeMeta.svg	codemeta-icon
 U+EA0D		CodeMirror	CodeMirror.svg	
 U+EA6A		CodeShip	CodeShip.svg	codeship-icon
 U+E929		ColdFusion	ColdFusion.svg	cf-icon
+U+EBB3		Commitizen	Commitizen.svg	commitizen-icon
 U+1F191	🆑	CommitLint	CommitLint.svg	commitlint-icon
 U+E972		Common Lisp	Common-Lisp.svg	cl-icon
 U+E942		Component Pascal	Component-Pascal.svg	cp-icon
@@ -420,8 +421,8 @@ U+E958		JSON-LD	JSON-LD1.svg	jsonld-icon
 U+E959		JSON-LD2	JSON-LD2.svg	sparql-icon
 U+2478	⑸	JSON5	JSON5.svg	json5-icon
 U+EB1E		Jsonnet	Jsonnet.svg	jsonnet-icon
-U+F101		JSX	JSX.svg	
-U+E9E6		JSX, Alt	JSX-Alt.svg	jsx-icon
+U+E9E6		JSX	JSX.svg	jsx-icon
+U+F101		JSX, Alt	JSX-Alt.svg	
 U+F100		JSX, Atom	JSX-Atom.svg	react-icon
 U+26EC	⛬	Julia	Julia.svg	julia-icon
 U+EA81		Junos	Junos.svg	junos-icon
@@ -445,13 +446,14 @@ U+EB9A		Kusto	Kusto.svg	kusto-icon
 U+EB9B		Kusto, Alt	Kusto-Alt.svg	
 U+EA9B		Kx	Kx.svg	kx-icon
 U+E98A		LabVIEW	LabVIEW.svg	labview-icon
+U+E63F		Laravel	Laravel.svg	laravel-icon
 U+1316B	𓅫	Lark	Lark.svg	lark-icon
 U+E98C		Lasso	Lasso.svg	lasso-icon
 U+1F426	🐦	Latino	Latino.svg	latino-icon
 U+EA07		Leaflet	Leaflet.svg	leaflet-icon
 U+004C	L	Lean	Lean.svg	lean-icon
-U+1F44A	👊	Lefthook	Lefthook.svg	
-U+EB8B		Lefthook, Alt	Lefthook-Alt.svg	lefthook-icon
+U+EB8B		Lefthook	Lefthook.svg	lefthook-icon
+U+1F44A	👊	Lefthook, Alt	Lefthook-Alt.svg	
 U+F105		Leiningen	Leiningen.svg	lein-icon
 U+EAB9		Lektor	Lektor.svg	lektor-icon
 U+EA37		Lerna	Lerna.svg	lerna-icon
@@ -689,8 +691,8 @@ U+EAF7		ReactOS	ReactOS.svg
 U+2398	⎘	Read the Docs	ReadTheDocs.svg	readthedocs-icon
 U+E9AF		REALbasic	REALbasic.svg	xojo-icon
 U+EA1D		Reason	Reason.svg	reason-icon
-U+EB45		Reason Studios	ReasonStudios.svg	
-U+EB44		Reason Studios, Alt	ReasonStudios-Alt.svg	reasonstudios-icon
+U+EB44		Reason Studios	ReasonStudios.svg	reasonstudios-icon
+U+EB45		Reason Studios, Alt	ReasonStudios-Alt.svg	
 U+E9AE		Rebol	Rebol.svg	rebol-icon
 U+EAEC		Red	Red.svg	red-icon
 U+E9AD		Red, Old	Red-Old.svg	
@@ -829,16 +831,16 @@ U+1F143	🅃	TOML	TOML.svg	toml-icon
 U+EA93		TortoiseSVN	TortoiseSVN.svg	tortoise-icon
 U+EB34		TOTVS	TOTVS.svg	totvs-icon
 U+EB3B		Truffle	Truffle.svg	truffle-icon
-U+E9D1		TSX	TSX.svg	
-U+E9E7		TSX, Alt	TSX-Alt.svg	tsx-icon
+U+E9E7		TSX	TSX.svg	tsx-icon
+U+E9D1		TSX, Alt	TSX-Alt.svg	
 U+2476	⑶	TTCN-3	TTCN-3.svg	ttcn3-icon
 U+E9B6		Turing	Turing.svg	turing-icon
 U+2E19	⸙	Twig	Twig.svg	twig-icon
 U+EA5D		Twine	Twine.svg	twine-icon
 U+E9C1		TXL	TXL.svg	txl-icon
 U+E9FE		TypeDoc	TypeDoc.svg	typedoc-icon
-U+E912		TypeScript	TypeScript.svg	
-U+02A6	ʦ	TypeScript, Alt	TypeScript-Alt.svg	ts-icon
+U+02A6	ʦ	TypeScript	TypeScript.svg	ts-icon
+U+E912		TypeScript, Alt	TypeScript-Alt.svg	
 U+E9DF		Typings	Typings.svg	typings-icon
 U+1F144	🅄	UFO	UFO.svg	ufo-icon
 U+EAC4		Unibeautify	Unibeautify.svg	unbeautify-icon
