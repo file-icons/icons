@@ -3,17 +3,17 @@ devicons	U+E653		Angular		angular	1	0	0.1875	1
 devicons	U+E6AB		Appcelerator		appcelerator	1	0	0.1875	1	
 devicons	U+E613		App Store		appstore	1	0	0.1875	1	
 devicons	U+E67F		DotNet / .NET		asp	1	0	0.1875	1	
-devicons	U+E664		Atom		atom	1	0	0.1875	1	T
+devicons	U+E664		Atom		atom	1	0	0.1875	1	thicken
 devicons	U+E652		Backbone		backbone	1	0	0.1875	1	
 devicons	U+E603		Bitbucket		bitbucket	1	0	0.1875	1	
 devicons	U+E647		Bootstrap		bootstrap	0.9375	0	0.125	1	
-devicons	U+E64D		Bower		bower	1	0	0.1875	1	S
+devicons	U+E64D		Bower		bower	1	0	0.1875	1	sharpen
 devicons	U+E643		Chrome		chrome	1	0	0.1875	1	
-devicons	U+E668		Clojure		clojure	1	0	0.1875	1	T
+devicons	U+E668		Clojure		clojure	1	0	0.1875	1	thicken
 devicons	U+E661		Compass		compass	0.875	0	0.125	1	
 devicons	U+E698		Dart		dart	0.9375	0	0.125	1	
 devicons	U+E6AF		D		dlang	1	0	0.1875	1	
-devicons	U+E61C		Dojo		dojo	1	0	0.25	1.2	T
+devicons	U+E61C		Dojo		dojo	1	0	0.25	1.2	thicken
 devicons	U+E607		Dropbox		dropbox	1	0	0.1875	1	
 devicons	U+E69E		Eclipse		eclipse	1	0	0.1875	1	
 devicons	U+E6B1		Erlang		erlang	1	0	0.1875	1	
@@ -22,13 +22,13 @@ devicons	U+E645		Firefox		firefox	1	0	0.1875	1
 devicons	U+E6A7		FSharp		fsharp	1	0.0625	0.125	1	
 devicons	U+E602		Git		git	0.9375	0	0.125	1	
 devicons	U+E67B		Heroku		heroku	1	0	0.1875	1	
-devicons	U+E60D		Jekyll		jekyll	1	0	0.1875	1	S
+devicons	U+E60D		Jekyll		jekyll	1	0	0.1875	1	sharpen
 devicons	U+E650		jQuery		jquery	0.9375	0	0.125	1	
 devicons	U+E654		jQuery UI		jqueryui	0.9375	0	0.125	1	
-devicons	U+E63F		Laravel, Old		laravel-old	1	0	0.1875	1	T
-devicons	U+E6B6		Materialize		materialize	1	0	0.1875	1.2	T
+devicons	U+E63F		Laravel, Old		laravel-old	1	0	0.1875	1	thicken
+devicons	U+E6B6		Materialize		materialize	1	0	0.1875	1.2	thicken
 devicons	U+E620		Modernizr		modernizr	1	0	0.1875	1	
-devicons	U+E68F		MooTools		mootools	1	0	0.1875	1	S
+devicons	U+E68F		MooTools		mootools	1	0	0.1875	1	sharpen
 devicons	U+E618		Node		node	1	0	0.1875	1	
 devicons	U+E669		Perl		perl	0.9375	0	0.125	1	
 devicons	U+E6A1		Prolog		prolog	1	0	0.1875	1	
@@ -60,7 +60,7 @@ mf	U+F119		GNOME		gnome	0.875	0	0.0625	1
 mf	U+F121		Haskell		haskell	1	0	0.125	1	
 mf	U+F126		Java		java	1	0	0.125	1	
 mf	U+F129		JavaScript		js	0.875	0	0.0625	1	
-mf	U+F136		mSQL		msql	0.9375	0	0.125	1	S
+mf	U+F136		mSQL		msql	0.9375	0	0.125	1	sharpen
 mf	U+F13E		Objective-C		objc	1	0	0.125	1	
 mf	U+F141		Mac OS/X		osx	0.875	0	0.0625	1	
 mf	U+F14A		PL/pgSQL		pgsql	1	0	0.125	1	
@@ -118,7 +118,7 @@ fa	U+F143		RSS		rss	1	0	0.125	1
 fa	U+F24E		Scales		scales	0.9375	0	0.0625	1	
 fa	U+F0EB		Smarty		smarty	0.9375	0	0	1	
 fa	U+F279		Source Map		sourcemap	0.875	0	0	1	
-fa	U+F185		Sun		sun	0.875	0	0	1	T
+fa	U+F185		Sun		sun	0.875	0	0	1	thicken
 fa	U+F03A		Table of Contents		toc	0.9375	0	0.125	1	
 fa	U+F1D7		WeChat		wechat	1	0	0.125	1	
 fi	U+A5EA	ꗪ	1C	1C.svg	_1c	1	0	0.1875	1	
@@ -568,7 +568,7 @@ fi	U+EB9A		Kusto	Kusto.svg	kusto	1	0	0	1
 fi	U+EB9B		Kusto, Alt	Kusto-Alt.svg	kusto-alt	1	0	0	1	
 fi	U+EA9B		Kx	Kx.svg	kx	1	0	0	1	
 fi	U+E98A		LabVIEW	LabVIEW.svg	labview	1	0	0	1	
-fi	U+E63F		Laravel	Laravel.svg	laravel	1	0	0	1	S
+fi	U+E63F		Laravel	Laravel.svg	laravel	1	0	0	1	sharpen
 fi	U+1316B	𓅫	Lark	Lark.svg	lark	1	0	0	1	
 fi	U+E98C		Lasso	Lasso.svg	lasso	1	0	0	1	
 fi	U+1F426	🐦	Latino	Latino.svg	latino	1	0	0	1	
