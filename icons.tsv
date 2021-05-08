@@ -1,1043 +1,1043 @@
-# Font	Codepoint	Character	Name	SVG file	ID	Scale	X offset	Y offset	Zoom	Flags
-devicons	U+E653		Angular		angular	1	0	0.1875	1	
-devicons	U+E6AB		Appcelerator		appcelerator	1	0	0.1875	1	
-devicons	U+E613		App Store		appstore	1	0	0.1875	1	
-devicons	U+E67F		DotNet / .NET		asp	1	0	0.1875	1	
-devicons	U+E664		Atom		atom	1	0	0.1875	1	thicken
-devicons	U+E652		Backbone		backbone	1	0	0.1875	1	
-devicons	U+E603		Bitbucket		bitbucket	1	0	0.1875	1	
-devicons	U+E647		Bootstrap		bootstrap	0.9375	0	0.125	1	
-devicons	U+E64D		Bower		bower	1	0	0.1875	1	sharpen
-devicons	U+E643		Chrome		chrome	1	0	0.1875	1	
-devicons	U+E668		Clojure		clojure	1	0	0.1875	1	thicken
-devicons	U+E661		Compass		compass	0.875	0	0.125	1	
-devicons	U+E698		Dart		dart	0.9375	0	0.125	1	
-devicons	U+E6AF		D		dlang	1	0	0.1875	1	
-devicons	U+E61C		Dojo		dojo	1	0	0.25	1.2	thicken
-devicons	U+E607		Dropbox		dropbox	1	0	0.1875	1	
-devicons	U+E69E		Eclipse		eclipse	1	0	0.1875	1	
-devicons	U+E6B1		Erlang		erlang	1	0	0.1875	1	
-devicons	U+E68E		Ext JS		extjs	1	0	0.1875	1	
-devicons	U+E645		Firefox		firefox	1	0	0.1875	1	
-devicons	U+E6A7		FSharp		fsharp	1	0.0625	0.125	1	
-devicons	U+E602		Git		git	0.9375	0	0.125	1	
-devicons	U+E67B		Heroku		heroku	1	0	0.1875	1	
-devicons	U+E60D		Jekyll		jekyll	1	0	0.1875	1	sharpen
-devicons	U+E650		jQuery		jquery	0.9375	0	0.125	1	
-devicons	U+E654		jQuery UI		jqueryui	0.9375	0	0.125	1	
-devicons	U+E63F		Laravel, Old		laravel-old	1	0	0.1875	1	thicken
-devicons	U+E6B6		Materialize		materialize	1	0	0.1875	1.2	thicken
-devicons	U+E620		Modernizr		modernizr	1	0	0.1875	1	
-devicons	U+E68F		MooTools		mootools	1	0	0.1875	1	sharpen
-devicons	U+E618		Node		node	1	0	0.1875	1	
-devicons	U+E669		Perl		perl	0.9375	0	0.125	1	
-devicons	U+E6A1		Prolog		prolog	1	0	0.1875	1	
-devicons	U+E63B		Rails		rails	1	0	0.1875	1	
-devicons	U+E65F		Raphael		raphael	0.9375	0	0.1875	1	
-devicons	U+E670		RequireJS		requirejs	1	0	0.1875	1	
-devicons	U+E6A8		Rust		rust	1	0	0.1875	1	
-devicons	U+E648		Safari		safari	1	0	0.1875	1	
-devicons	U+E64B		Sass / SCSS		sass	1	0	0.1875	1	
-devicons	U+E68C		Sencha Touch		sencha	1	0	0.1875	1	
-devicons	U+E65E		Snap.svg		snapsvg	1	0	0.1875	1	
-devicons	U+E655		Swift		swift	1	0.0625	0.1875	1	
-devicons	U+E67E		Travis		travis	0.9375	0	0.125	1	
-devicons	U+E672		TYPO3		typo3	1	0	0.1875	1	
-devicons	U+E673		UI Kit		uikit	0.9375	0	0.125	1	
-devicons	U+E621		Unity 3D		unity3d	1	0	0.1875	1	
-devicons	U+E6C5		Vim		vim	1	0	0.1875	1	
-devicons	U+E60C		Visual Studio		vs	0.875	0	0.125	1	
-devicons	U+E60F		Windows		windows	0.875	0	0.125	1	
-devicons	U+E67A		Yeoman		yeoman	1	0	0.1875	1	
-mf	U+F102		Apache		apache	0.9375	0	0.1875	1	
-mf	U+0041	A	Arch Linux		archlinux	0.9375	0	0.0625	1	
-mf	U+F106		C		c	0.8125	0	0.0625	1	
-mf	U+F10B		C++		cpp	0.875	0	0.0625	1	
-mf	U+F10C		C#		csharp	0.875	0	0.0625	1	
-mf	U+F111		Debian		debian	0.875	0	0.0625	1	
-mf	U+F113		Elixir		elixir	0.875	0	0.0625	1	
-mf	U+F119		GNOME		gnome	0.875	0	0.0625	1	
-mf	U+F121		Haskell		haskell	1	0	0.125	1	
-mf	U+F126		Java		java	1	0	0.125	1	
-mf	U+F129		JavaScript		js	0.875	0	0.0625	1	
-mf	U+F136		mSQL		msql	0.9375	0	0.125	1	sharpen
-mf	U+F13E		Objective-C		objc	1	0	0.125	1	
-mf	U+F141		Mac OS/X		osx	0.875	0	0.0625	1	
-mf	U+F14A		PL/pgSQL		pgsql	1	0	0.125	1	
-mf	U+F14C		Python		python	0.875	0	0.0625	1	
-mf	U+F14E		Red Hat		red-hat	0.875	0	0.125	1	
-mf	U+F154		Scala		scala	0.875	0	0.0625	1	
-mf	U+F10E		SQL		sql	0.875	0	0.0625	1	
-mf	U+F15C		SVG		svg	0.875	0	0.0625	1	
-mf	U+F16E		X11		x11	0.8125	0	0.0625	1	
-octicons	U+F094		Binary		binary	1	0	0.0625	1	
-octicons	U+F007		Book		book	1	0	0.0625	1	
-octicons	U+F05F		Code		code	1	0	0.0625	1	
-octicons	U+F096		Database		database	1	0	0.0625	1	
-octicons	U+F02F		Gear		gear	1	0	0.0625	1	
-octicons	U+F01F		Git, commit		git-commit	1	0	0.0625	1	
-octicons	U+F023		Git, merge		git-merge	1	0	0.0625	1	
-octicons	U+F00A		GitHub		github	1	0	0.0625	1	
-octicons	U+F043		Graph		graph	1	0	0.0625	1	
-octicons	U+F012		Image		image	1	0	0.0625	1	
-octicons	U+F049		Key		key	1	0	0.0625	1	
-octicons	U+F0B0		Link		link	1	0	0.0625	1	
-octicons	U+F0C9		Markdown		markdown	1	0	0.0625	1	
-octicons	U+F0C4		Package		package	1	0	0.0625	1	
-octicons	U+F047		Ruby		ruby	1	0	0.0625	1	
-octicons	U+F08C		Secret		secret	1	0	0.0625	1	
-octicons	U+F011		Text		text	1	0	0.0625	1	
-octicons	U+F013		Zip		zip	1	0	0.0625	1	
-octicons	U+F076		Checklist		checklist	1.0625	0.0625	0	1	
-octicons	U+F0B2		Squirrel		squirrel	0.9375	0	0.0625	1	
-fa	U+F13D		Anchor		anchor	1	0	0.0625	1	
-fa	U+F17B		Android		android	1	0	0.0625	1	
-fa	U+F1FA		At Sign		at	0.9375	0	0.0625	1	
-fa	U+F028		Audio		audio	0.9375	0	0.0625	1	
-fa	U+F1DA		Backup		backup	0.8125	0	0.0625	1	
-fa	U+F15A		Bitcoin		bitcoin	1	0	0.0625	1	
-fa	U+F02D		Book, Alt		book-alt	1	0	0.125	1	
-fa	U+F0A1		Bullhorn		bullhorn	1	0	0.125	1	
-fa	U+F1EC		Calculator		calc	0.875	0	0	1	
-fa	U+F0F4		Coffee		coffee	0.875	0	0.0625	1	
-fa	U+F13C		CSS 3		css3	0.8125	0	0	1	
-fa	U+F111		Circle		circle	1	0	0.0625	1	
-fa	U+F019		Download		download	1	0	0.125	1	
-fa	U+F0AC		Earth		earth	0.9375	0	0	1	
-fa	U+F0B0		Filter		filter	1	0	0	1	
-fa	U+F085		Gears		gears	0.9375	0	0	1	
-fa	U+F13B		HTML5		html5	0.9375	0	0.0625	1	
-fa	U+F023		Lock		lock	1.0625	0	0.125	1	
-fa	U+F10B		Mobile		mobile	1.25	0	0.125	1	
-fa	U+F186		Moon		moon	1	0	0.0625	1	
-fa	U+F001		Musical Note		music	0.9375	0	0	1	
-fa	U+F02F		Printer		print	0.9375	0	0.125	1	
-fa	U+F059		Question		question	1	0	0.0625	1	
-fa	U+F1B8		Recycle Sign		recycle	0.9375	0	0.125	1	
-fa	U+F143		RSS		rss	1	0	0.125	1	
-fa	U+F24E		Scales		scales	0.9375	0	0.0625	1	
-fa	U+F0EB		Smarty		smarty	0.9375	0	0	1	
-fa	U+F279		Source Map		sourcemap	0.875	0	0	1	
-fa	U+F185		Sun		sun	0.875	0	0	1	thicken
-fa	U+F03A		Table of Contents		toc	0.9375	0	0.125	1	
-fa	U+F1D7		WeChat		wechat	1	0	0.125	1	
-fi	U+A5EA	ꗪ	1C	1C.svg	_1c	1	0	0.1875	1	
-fi	U+EA28		1C, Alt	1C-Alt.svg	_1c-alt	1	0	0	1	
-fi	U+E9E8		3D Model	3D-Model.svg	model	1	0	0	1	
-fi	U+E900		3DS Max	3DS-Max.svg	maxscript	1	0	0	1	
-fi	U+EB73		4D	4D.svg	_4d	1	0	0	1	
-fi	U+EB79		A+	A+.svg	a-plus	1	0	0	1	
-fi	U+E92B		ABAP	ABAP.svg	abap	1	0	0	1	
-fi	U+EA4E		ABIF	ABIF.svg	abif	1	0	0	1	
-fi	U+237A	⍺	Acre	Acre.svg	acre	1	0	0	1	
-fi	U+E92E		ActionScript	ActionScript.svg	as	1	0	0	1	
-fi	U+E90B		Ada	Ada.svg	ada	1	0	0	1	
-fi	U+1D235	𝈵	Adobe	Adobe.svg	adobe	1	0	0	1	
-fi	U+EB5F		Adobe Acrobat	Adobe-Acrobat.svg	acrobat	1	0	0	1	
-fi	U+E9F3		Adobe After Effects	Adobe-AfterEffects.svg	ae	1	0	0	1	
-fi	U+EB41		Adobe Animate	Adobe-Animate.svg	adobe-animate	1	0	0	1	
-fi	U+3373	㍳	Adobe Audition	Adobe-Audition.svg	adobe-audition	1	0	0	1	
-fi	U+EB61		Adobe Bridge	Adobe-Bridge.svg	adobe-bridge	1	0	0	1	
-fi	U+EB62		Adobe Character Animator	Adobe-CharacterAnimator.svg	adobe-charanim	1	0	0	1	
-fi	U+EB5E		Adobe Creative Cloud	Adobe-CreativeCloud.svg	adobe-cc	1	0	0	1	
-fi	U+EB63		Adobe Dimension	Adobe-Dimension.svg	adobe-dimension	1	0	0	1	
-fi	U+EB64		Adobe Dreamweaver	Adobe-Dreamweaver.svg	dreamweaver	1	0	0	1	
-fi	U+EB43		Adobe Flash	Adobe-Flash.svg	flash	1	0	0	1	
-fi	U+EB65		Adobe Fuse	Adobe-Fuse.svg	adobe-fuse	1	0	0	1	
-fi	U+E6B4		Adobe Illustrator	Adobe-Illustrator.svg	ai	1	0	0	1	
-fi	U+1F18B	🆋	Adobe InCopy	Adobe-InCopy.svg	incopy	1	0	0	1	
-fi	U+E9F4		Adobe InDesign	Adobe-InDesign.svg	indesign	1	0	0	1	
-fi	U+EB67		Adobe Lightroom	Adobe-Lightroom.svg	lightroom	1	0	0	1	
-fi	U+EB68		Adobe Media Encoder	Adobe-MediaEncoder.svg	adobe-encoder	1	0	0	1	
-fi	U+E6B8		Adobe Photoshop	Adobe-Photoshop.svg	psd	1	0	0	1	
-fi	U+EB69		Adobe Prelude	Adobe-Prelude.svg	adobe-prelude	1	0	0	1	
-fi	U+E9F5		Adobe Premiere	Adobe-Premiere.svg	premiere	1	0	0	1	
-fi	U+EB6A		Adobe Premiere Rush	Adobe-PremiereRush.svg	premiere-rush	1	0	0	1	
-fi	U+EB6B		Adobe XD	Adobe-XD.svg	adobe-xd	1	0	0	1	
-fi	U+00E6	æ	Aeternity	Aeternity.svg	aeternity	1	0	0	1	
-fi	U+EB2C		AffectScript	AffectScript.svg	affectscript	1	0	0	1	
-fi	U+EABB		AffinityDesigner	AffinityDesigner.svg	affinity	1	0	0	1	
-fi	U+1315A	𓅚	Agda	Agda.svg	agda	1	0	0	1	
-fi	U+EA0E		Akka	Akka.svg	akka	1	0	0	1	
-fi	U+EB27		Alacritty	Alacritty.svg	alacritty	1	0	0	1	
-fi	U+EB28		Alacritty, Alt	Alacritty-Alt.svg	alacritty-alt	1	0	0	1	
-fi	U+29CB	⧋	Alex	Alex.svg	alex	1	0	0	1	
-fi	U+E935		Alloy	Alloy.svg	alloy	1	0	0	1	
-fi	U+E9FF		Alpine Linux	Alpine-Linux.svg	alpine	1	0	0	1	
-fi	U+EB59		AMD	AMD.svg	amd	1	0	0	1	
-fi	U+26BD	⚽	AmigaOS	AmigaOS.svg	amigaos	1	0	0	1	
-fi	U+E94E		AMPL	AMPL.svg	ampl	1	0	0	1	
-fi	U+EB32		AmuseWiki	AmuseWiki.svg	amusewiki	1	0	0	1	
-fi	U+EB7D		Analytica	Analytica.svg	analytica	1	0	0	1	
-fi	U+EA5B		AngelScript	AngelScript.svg	angelscript	1	0	0	1	
-fi	U+EAED		AnimeStudio	AnimeStudio.svg	animestudio	1	0	0	1	
-fi	U+24B6	Ⓐ	Ansible	Ansible.svg	ansible	1	0	0	1	
-fi	U+0061	a	Ansible, Alt	Ansible-Alt.svg	ansible-alt	1	0	0	1	
-fi	U+E92C		ANTLR	ANTLR.svg	antlr	1	0	0	1	
-fi	U+2591	░	Antwar	Antwar.svg	antwar	1	0	0	1	
-fi	U+EACF		AnyScript	AnyScript.svg	anyscript	1	0	0	1	
-fi	U+E93E		Apache ANT	Apache-ANT.svg	ant	1	0	0	1	
-fi	U+E92D		API Blueprint	API-Blueprint.svg	api	1	0	0	1	
-fi	U+EB99		API Extractor	APIExtractor.svg	apiextractor	1	0	0	1	
-fi	U+234B	⍋	APL	APL.svg	apl	1	0	0	1	
-fi	U+E909		APL, Old	APL-Old.svg	apl-old	1	0	0	1	
-fi	U+1F110	🄐	Apollo	Apollo.svg	apollo	1	0	0	1	
-fi	U+EB54		Apollo Guidance Computer (AGC)	AGC.svg	agc	1	0	0	1	
-fi	U+E925		Apple	Apple.svg	apple	1	0	0	1	
-fi	U+E923		Appveyor	Appveyor.svg	appveyor	1	0	0	1	
-fi	U+E92F		Arc	Arc.svg	arc	1	0	0	1	
-fi	U+0041	A	Arch Linux	Arch-Linux.svg	archlinux	1	0	0	1	
-fi	U+E930		Arduino	Arduino.svg	arduino	1	0	0	1	
-fi	U+EB5B		ARM	ARM.svg	arm	1	0	0	1	
-fi	U+24D0	ⓐ	ArtText	ArtText.svg	arttext	1	0	0	1	
-fi	U+E918		AsciiDoc	AsciiDoc.svg	asciidoc	1	0	0	1	
-fi	U+EAC7		Asciidoctor	Asciidoctor.svg	asciidoctor	1	0	0	1	
-fi	U+EB53		Assembly, AGC	Assembly-AGC.svg	asm-agc	1	0	0	1	
-fi	U+EB52		Assembly, AMD	Assembly-AMD.svg	asm-amd	1	0	0	1	
-fi	U+EB51		Assembly, ARM	Assembly-ARM.svg	asm-arm	1	0	0	1	
-fi	U+EB50		Assembly, AT&T	Assembly-ATT.svg	asm-att	1	0	0	1	
-fi	U+EB6C		Assembly, AVR	Assembly-AVR.svg	asm-avr	1	0	0	1	
-fi	U+EB4F		Assembly, Generic	Assembly-Generic.svg	asm	1	0	0	1	
-fi	U+EB60		Assembly, Hitachi	Assembly-Hitachi.svg	asm-hitachi	1	0	0	1	
-fi	U+EB4E		Assembly, Intel	Assembly-Intel.svg	asm-intel	1	0	0	1	
-fi	U+EB4D		Assembly, Motorola	Assembly-Motorola.svg	asm-m68k	1	0	0	1	
-fi	U+EB4C		Assembly, PPC	Assembly-PowerPC.svg	asm-powerpc	1	0	0	1	
-fi	U+EB4B		Assembly, RISC-V	Assembly-RISCV.svg	asm-riscv	1	0	0	1	
-fi	U+EB4A		Assembly, SPARC	Assembly-SPARC.svg	asm-sparc	1	0	0	1	
-fi	U+EB48		Assembly, VAX	Assembly-VAX.svg	asm-vax	1	0	0	1	
-fi	U+EB47		Assembly, Zilog	Assembly-Zilog.svg	asm-zilog	1	0	0	1	
-fi	U+EAE5		Asymptote	Asymptote.svg	asymptote	1	0	0	1	
-fi	U+EAE3		Asymptote, Alt	Asymptote-Alt.svg	asymptote-alt	1	0	0	1	
-fi	U+EB55		AT&T	ATT.svg	att	1	0	0	1	
-fi	U+2649	♉	Atoum	Atoum.svg	atoum	1	0	0	1	
-fi	U+E934		ATS	ATS.svg	ats	1	0	0	1	
-fi	U+E9F9		Audacity	Audacity.svg	audacity	1	0	0	1	
-fi	U+E931		Augeas	Augeas.svg	augeas	1	0	0	1	
-fi	U+EA48		Aurelia	Aurelia.svg	aurelia	1	0	0	1	
-fi	U+E932		AutoHotkey	AutoHotkey.svg	ahk	1	0	0	1	
-fi	U+E933		AutoIt	AutoIt.svg	autoit	1	0	0	1	
-fi	U+EBB4		Automator	Automator.svg	automator	1	0	0	1	
-fi	U+EB6D		AVR	AVR.svg	avr	1	0	0	1	
-fi	U+EAA3		Avro	Avro.svg	avro	1	0	0	1	
-fi	U+1F427	🐧	Awk	Awk.svg	awk	1	0	0	1	
-fi	U+1F680	🚀	Azure Pipelines	Azure-Pipelines.svg	azurepipelines	1	0	0	1	
-fi	U+E91F		Babel	Babel.svg	babel	1	0	0	1	
-fi	U+EAC8		Ballerina	Ballerina.svg	ballerina	1	0	0	1	
-fi	U+EACD		Bazaar	Bazaar.svg	bazaar	1	0	0	1	
-fi	U+EAD2		Bazel	Bazel.svg	bazel	1	0	0	1	
-fi	U+EA5A		Bazel, Old	Bazel-Old.svg	bazel-old	1	0	0	1	
-fi	U+EA89		Behat	Behat.svg	behat	1	0	0	1	
-fi	U+EA59		BEM	BEM.svg	bem	1	0	0	1	
-fi	U+E601		BibTeX	BibTeX.svg	bibtex	1	0	0	1	
-fi	U+EB29		Biml	Biml.svg	biml	1	0	0	1	
-fi	U+EBA4		Binder	Binder.svg	binder	1	0	0	1	
-fi	U+EA6E		BinTray	BinTray.svg	bintray	1	0	0	1	
-fi	U+1F402	🐂	Bison	Bison.svg	bison	1	0	0	1	
-fi	U+EA2A		bitHound	bitHound.svg	bithound	1	0	0	1	
-fi	U+E9FA		Blender	Blender.svg	blender	1	0	0	1	
-fi	U+EBA5		BlitzBASIC	BlitzBASIC.svg	blitzbasic	1	0	0	1	
-fi	U+EBA3		Bloc	Bloc.svg	bloc	1	0	0	1	
-fi	U+E93C		Bluespec	Bluespec.svg	bluespec	1	0	0	1	
-fi	U+2A74	⩴	BNF	BNF.svg	bnf	1	0	0	1	
-fi	U+E939		Boo	Boo.svg	boo	1	0	0	1	
-fi	U+1F441	👁	Bors	Bors.svg	bors	1	0	0	1	
-fi	U+EB96		Bosque	Bosque.svg	bosque	1	0	0	1	
-fi	U+E93A		Brainfuck	Brainfuck.svg	brain	1	0	0	1	
-fi	U+E9D6		Brakeman	Brakeman.svg	brakeman	1	0	0	1	
-fi	U+E93B		Bro	Bro.svg	bro	1	0	0	1	
-fi	U+E922		Broccoli	Broccoli.svg	broccoli	1	0	0	1	
-fi	U+EAA2		Brotli	Brotli.svg	brotli	1	0	0	1	
-fi	U+EA6C		Brotli, Old	Brotli-Old.svg	brotli-old	1	0	0	1	
-fi	U+EA80		Browserslist	Browserslist.svg	browserslist	1	0	0	1	
-fi	U+0062	b	Browsersync	Browsersync.svg	browsersync	1	0	0	1	
-fi	U+EA47		Brunch	Brunch.svg	brunch	1	0	0	1	
-fi	U+EA46		Buck	Buck.svg	buck	1	0	0	1	
-fi	U+F103		Build Boot	Build-Boot.svg	boot	1	0	0	1	
-fi	U+EBAD		Buildkite	Buildkite.svg	buildkite	1	0	0	1	
-fi	U+EA45		Bundler	Bundler.svg	bundler	1	0	0	1	
-fi	U+E962		BYOND	BYOND.svg	byond	1	0	0	1	
-fi	U+EB7B		C#	C%23.svg	c-sharp	1	0	0	1	
-fi	U+E9E2		C# Script	C%23-Script.svg	csscript	1	0	0	1	
-fi	U+EB7C		C++	C++.svg	cpp	1	0	0	1	
-fi	U+E9C2		Cabal	Cabal.svg	cabal	1	0	0	1	
-fi	U+1F512	🔒	Caddy	Caddy.svg	caddy	1	0	0	1	
-fi	U+EA58		Caddy, Old	Caddy-Old.svg	caddy-old	1	0	0	1	
-fi	U+EA9A		Caffe	Caffe.svg	caffe	1	0	0	1	
-fi	U+EAB6		Caffe2	Caffe2.svg	caffe2	1	0	0	1	
-fi	U+EA92		Cairo	Cairo.svg	cairo	1	0	0	1	
-fi	U+E9E3		Cake	Cake.svg	cake	1	0	0	1	
-fi	U+E924		Cakefile	Cakefile.svg	cakefile	1	0	0	1	
-fi	U+EA43		CakePHP	CakePHP.svg	cakephp	1	0	0	1	
-fi	U+E9D3		CakePHP, Old	CakePHP-Old.svg	cakephp-old	1	0	0	1	
-fi	U+EBA1		Calva	Calva.svg	calva	1	0	0	1	
-fi	U+EA98		Carthage	Carthage.svg	carthage	1	0	0	1	
-fi	U+EBB6		CASC	CASC.svg	casc-icon	1	0	0	1	
-fi	U+E94F		Ceylon	Ceylon.svg	ceylon	1	0	0	1	
-fi	U+0063	c	Chai	Chai.svg	chai	1	0	0	1	
-fi	U+E950		Chapel	Chapel.svg	chapel	1	0	0	1	
-fi	U+EA0B		ChartJS	ChartJS.svg	chartjs	1	0	0	1	
-fi	U+1F406	🐆	Cheetah3D	Cheetah3D.svg	cheetah3d	1	0	0	1	
-fi	U+EA42		Chef	Chef.svg	chef	1	0	0	1	
-fi	U+1F36B	🍫	Chocolatey	Chocolatey.svg	chocolatey	1	0	0	1	
-fi	U+E943		ChucK	ChucK.svg	chuck	1	0	0	1	
-fi	U+EA12		CircleCI	CircleCI.svg	circleci	1	0	0	1	
-fi	U+E951		Cirru	Cirru.svg	cirru	1	0	0	1	
-fi	U+EA0C		CKEditor	CKEditor.svg	ckeditor	1	0	0	1	
-fi	U+E952		Clarion	Clarion.svg	clarion	1	0	0	1	
-fi	U+E95B		Clean	Clean.svg	clean	1	0	0	1	
-fi	U+E95C		Click	Click.svg	click	1	0	0	1	
-fi	U+E940		CLIPS	CLIPS.svg	clips	1	0	0	1	
-fi	U+F104		ClojureJS	ClojureJS.svg	cljs	1	0	0	1	
-fi	U+EA82		Closure Template	ClosureTemplate.svg	closure-tpl	1	0	0	1	
-fi	U+EAD0		CloudFoundry	CloudFoundry.svg	cloudfoundry	1	0	0	1	
-fi	U+E93F		Cmake	Cmake.svg	cmake	1	0	0	1	
-fi	U+EBB5		CNAB	CNAB.svg	cnab-icon	1	0	0	1	
-fi	U+EA44		COBOL	COBOL.svg	cobol	1	0	0	1	
-fi	U+EA97		CocoaPods	CocoaPods.svg	cocoapods	1	0	0	1	
-fi	U+EA8B		Codacy	Codacy.svg	codacy	1	0	0	1	
-fi	U+E9D5		Code Climate	Code-Climate.svg	cc	1	0	0	1	
-fi	U+2602	☂	Codecov	Codecov.svg	codecov	1	0	0	1	
-fi	U+EA41		CodeKit	CodeKit.svg	codekit	1	0	0	1	
-fi	U+EB8F		CodeMeta	CodeMeta.svg	codemeta	1	0	0	1	
-fi	U+EA0D		CodeMirror	CodeMirror.svg	codemirror	1	0	0	1	
-fi	U+EA6A		CodeShip	CodeShip.svg	codeship	1	0	0	1	
-fi	U+E929		ColdFusion	ColdFusion.svg	cf	1	0	0	1	
-fi	U+1F191	🆑	CommitLint	CommitLint.svg	commitlint	1	0	0	1	
-fi	U+EBB3		Commitizen	Commitizen.svg	commitizen	1.06666	0	3	1	
-fi	U+E972		Common Lisp	Common-Lisp.svg	cl	1	0	0	1	
-fi	U+E942		Component Pascal	Component-Pascal.svg	cp	1	0	0	1	
-fi	U+E683		Composer	Composer.svg	composer	1	0	0	1	
-fi	U+EB46		Computable Document Format	CDF.svg	cdf	1	0	0	1	
-fi	U+EAD1		Conan	Conan.svg	conan	1	0	0	1	
-fi	U+EB3C		Conda	Conda.svg	conda	1	0	0	1	
-fi	U+F07C		Config	Config.svg	config	1	0	0	1	
-fi	U+EB18		Config, CoffeeScript	Config-CoffeeScript.svg	config-coffee	1	0	0	1	
-fi	U+EB12		Config, Go	Config-Go.svg	config-go	1	0	0	1	
-fi	U+EB14		Config, Haskell	Config-Haskell.svg	config-hs	1	0	0	1	
-fi	U+EB1A		Config, JS	Config-JS.svg	config-js	1	0	0	1	
-fi	U+EB19		Config, Perl	Config-Perl.svg	config-perl	1	0	0	1	
-fi	U+EB15		Config, Python	Config-Python.svg	config-python	1	0	0	1	
-fi	U+EB16		Config, React	Config-React.svg	config-react	1	0	0	1	
-fi	U+EB17		Config, Ruby	Config-Ruby.svg	config-ruby	1	0	0	1	
-fi	U+EB13		Config, Rust	Config-Rust.svg	config-rust	1	0	0	1	
-fi	U+EB1B		Config, TypeScript	Config-TypeScript.svg	config-ts	1	0	0	1	
-fi	U+EAA6		CoNLL	CoNLL.svg	conll	1	0	0	1	
-fi	U+E95F		Coq	Coq.svg	coq	1	0	0	1	
-fi	U+EA11		Cordova	Cordova.svg	cordova	1	0	0	1	
-fi	U+EA90		CorelDRAW	CorelDRAW.svg	coreldraw	1	0	0	1	
-fi	U+EA91		CorelDRAW, Alt	CorelDRAW-Alt.svg	corel	1	0	0	1	
-fi	U+272A	✪	Coveralls	Coveralls.svg	coveralls	1	0	0	1	
-fi	U+EA87		CPAN	CPAN.svg	cpan	1	0	0	1	
-fi	U+EB8D		CpcdosC+	CpcdosC+.svg	cpcdosc	1	0	0	1	
-fi	U+EB89		Craft Tweaker	CraftTweaker.svg	crafttweaker	1	0	0	1	
-fi	U+E95E		Creole	Creole.svg	creole	1	0	0	1	
-fi	U+EAD3		Crowdin	Crowdin.svg	crowdin	1	0	0	1	
-fi	U+E902		Crystal	Crystal.svg	crystal	1	0	0	1	
-fi	U+E9F0		CSound	CSound.svg	csound	1	0	0	1	
-fi	U+EB92		Cubit	Cubit.svg	cubit	1	0	0	1	
-fi	U+F02B		Cucumber	Cucumber.svg	cucumber	1	0	0	1	
-fi	U+EB76		Cuneiform	Cuneiform.svg	cuneiform	1	0	0	1	
-fi	U+EB7A		Curl (language)	Curl-Lang.svg	curl-lang	1	0	0	1	
-fi	U+002F	/	cURL (program)	cURL.svg	curl	1	0	0	1	
-fi	U+EB78		Curry	Curry.svg	curry	1	0	0	1	
-fi	U+1F41F	🐟	CVS	CVS.svg	cvs	1	0	0	1	
-fi	U+29D9	⧙	CWL	CWL.svg	cwl	1	0	0	1	
-fi	U+E963		Cython	Cython.svg	cython	1	0	0	1	
-fi	U+EA10		D3	D3.svg	d3	1	0	0	1	
-fi	U+EB8C		Dafny	Dafny.svg	dafny	1	0	0	1	
-fi	U+E964		Darcs	Darcs-Patch.svg	darcs	1	0	0	1	
-fi	U+F07D		Dashboard	Dashboard.svg	dashboard	1	0	0	1	
-fi	U+EA99		DataWeave	DataWeave.svg	dataweave	1	0	0	1	
-fi	U+E9F1		dBASE	dBASE.svg	dbase	1	0	0	1	
-fi	U+1F5CC	🗌	Default	Default.svg	default	1	0	0	1	
-fi	U+EA40		Delphi	Delphi.svg	delphi	1	0	0	1	
-fi	U+EAEF		Deno	Deno.svg	deno	1	0	0	1	
-fi	U+EB3E		Dependabot	Dependabot.svg	dependabot	1	0	0	1	
-fi	U+EB83		DevContainer	DevContainer.svg	devcontainer	1	0	0	1	
-fi	U+EA57		DeviceTree	DeviceTree.svg	devicetree	1	0	0	1	
-fi	U+1F58B	🖋	Dhall	Dhall.svg	dhall	1	0	0	1	
-fi	U+EAB5		Dia	Dia.svg	dia	1	0	0	1	
-fi	U+E960		Diff	Diff.svg	diff	1	0	0	1	
-fi	U+EB03		Digdag	Digdag.svg	digdag	1	0	0	1	
-fi	U+2624	☤	DNA	DNA.svg	dna	1	0	0	1	
-fi	U+13167	𓅧	DocBook	DocBook.svg	docbook	1	0	0	1	
-fi	U+F106		Dockerfile	Docker.svg	docker	1	0	0	1	
-fi	U+EA3F		Doclets	Doclets.svg	doclets	1	0	0	1	
-fi	U+21B9	↹	DocPad	DocPad.svg	docpad	1	0	0	1	
-fi	U+EB21		Docz	Docz.svg	docz	1	0	0	1	
-fi	U+E946		Dogescript	Dogescript.svg	doge	1	0	0	1	
-fi	U+EA71		DOM	DOM.svg	dom	1	0	0	1	
-fi	U+1F3C1	🏁	DoneJS	DoneJS.svg	donejs	1	0	0	1	
-fi	U+EAF2		DOSBox	DOSBox.svg	dosbox	1	0	0	1	
-fi	U+EAF0		DOSBox, Alt	DOSBox-Alt.svg	dosbox-alt	1	0	0	1	
-fi	U+EB0B		doT.js	dotjs.svg	dotjs	1	0	0	1	
-fi	U+E928		Doxygen	Doxygen.svg	doxygen	1	0	0	1	
-fi	U+EAFD		DragonflyBSD	DragonflyBSD.svg	dragonflybsd	1	0	0	1	
-fi	U+1F44C	👌	Dragula	Dragula.svg	dragula	1	0	0	1	
-fi	U+EB93		draw.io	draw.io.svg	drawio	1	0	0	1	
-fi	U+EA3D		Drone	Drone.svg	drone	1	0	0	1	
-fi	U+EBA2		DUB	DUB.svg	dub	1	0	0	1	
-fi	U+EB98		DVC	DVC.svg	dvc	1	0	0	1	
-fi	U+E90C		Dyalog	Dyalog.svg	dyalog	1	0	0	1	
-fi	U+EA15		DyLib	DyLib.svg	dylib	1	0	0	1	
-fi	U+0045	E	E	E.svg	e	1	0	0	1	
-fi	U+E965		Eagle	Eagle.svg	eagle	1	0	0	1	
-fi	U+EA85		EasyBuild	EasyBuild.svg	easybuild	1	0	0	1	
-fi	U+E9C9		eC	eC.svg	ec	1	0	0	1	
-fi	U+E966		Ecere	Ecere.svg	ecere	1	0	0	1	
-fi	U+EB80		ECLiPSe (language)	ECLiPSe-Lang.svg	eclipse-lang	1	0	0	1	
-fi	U+EA78		Edge	Edge.svg	edge	1	0	0	1	
-fi	U+EA1B		EditorConfig	EditorConfig.svg	editorconfig	1	0	0	1	
-fi	U+E967		Eiffel	Eiffel.svg	eiffel	1	0	0	1	
-fi	U+EA4B		EJS	EJS.svg	ejs	1	0	0	1	
-fi	U+EA27		Electron	Electron.svg	electron	1	0	0	1	
-fi	U+24D4	ⓔ	ElementaryOS	ElementaryOS.svg	elementaryos	1	0	0	1	
-fi	U+F102		Elm	Elm.svg	elm	1	0	0	1	
-fi	U+E926		Emacs	Emacs.svg	emacs	1	0	0	1	
-fi	U+E61B		Ember	Ember.svg	ember	1	0	0	1	
-fi	U+E968		EmberScript	EmberScript.svg	em	1	0	0	1	
-fi	U+EAD4		Ensime	Ensime.svg	ensime	1	0	0	1	
-fi	U+EA0A		EQ	EQ.svg	eq	1	0	0	1	
-fi	U+EA5C		ESDoc	ESDoc.svg	esdoc	1	0	0	1	
-fi	U+EA0F		ESLint	ESLint.svg	eslint	1	0	0	1	
-fi	U+E90E		ESLint, Old	ESLint-Old.svg	eslint-old	1	0	0	1	
-fi	U+EB71		Expo	Expo.svg	expo	1	0	0	1	
-fi	U+E94B		Fabfile	Fabfile.svg	fabfile	1	0	0	1	
-fi	U+1F4DC	📜	Fabric	Fabric.svg	fabric	1	0	0	1	
-fi	U+E96A		Factor	Factor.svg	factor	1	0	0	1	
-fi	U+EAE4		Falcon	Falcon.svg	falcon	1	0	0	1	
-fi	U+E96B		Fancy	Fancy.svg	fancy	1	0	0	1	
-fi	U+E96F		Fantom	Fantom.svg	fantom	1	0	0	1	
-fi	U+13168	𓅨	Fauna	Fauna.svg	fauna	1	0	0	1	
-fi	U+22C0	⋀	Faust	Faust.svg	faust	1	0	0	1	
-fi	U+E9FC		FBX	FBX.svg	fbx	1	0	0	1	
-fi	U+EB20		Fexl	Fexl.svg	fexl	1	0	0	1	
-fi	U+EA22		FFmpeg	FFmpeg.svg	ffmpeg	1	0	0	1	
-fi	U+24BB	Ⓕ	Fiddle	Fiddle.svg	fiddle	1	0	0	1	
-fi	U+1D4BB	𝒻	Final Draft	FinalDraft.svg	finaldraft	1	0	0	1	
-fi	U+E9E9		Finder	Finder.svg	finder	1	0	0	1	
-fi	U+EA7F		Firebase	Firebase.svg	firebase	1	0	0	1	
-fi	U+26A1	⚡	Firebase Bolt	Firebase-Bolt.svg	firebase-bolt	1	0	0	1	
-fi	U+1F704	🜄	Flask	Flask.svg	flask	1	0	0	1	
-fi	U+EAD5		Floobits	Floobits.svg	floobits	1	0	0	1	
-fi	U+E921		Flow	Flow.svg	flow	1	0	0	1	
-fi	U+EAEB		Flutter	Flutter.svg	flutter	1	0	0	1	
-fi	U+E969		Flux	Flux.svg	flux	1	0	0	1	
-fi	U+E90F		Font	Font.svg	font-old	1	0	0	1	
-fi	U+EAAB		Font, Bitmap	Font-Bitmap.svg	font-bitmap	1	0	0	1	
-fi	U+EAAA		Font, Outline	Font-Outline.svg	font	1	0	0	1	
-fi	U+FB00	ﬀ	FontForge	FontForge.svg	ff	1	0	0	1	
-fi	U+2442	⑂	Fork	Fork.svg	fork	1	0	0	1	
-fi	U+E90A		Fortran	Fortran.svg	fortran	1	0	0	1	
-fi	U+EAC3		FOSSA	FOSSA.svg	fossa	1	0	0	1	
-fi	U+EAD6		Fossil	Fossil.svg	fossil	1	0	0	1	
-fi	U+1F135	🄵	Fountain	Fountain.svg	fountain	1	0	0	1	
-fi	U+EA56		Franca	Franca.svg	franca	1	0	0	1	
-fi	U+EB07		FreeDesktop	FreeDesktop.svg	freedesktop	1	0	0	1	
-fi	U+EAF1		FreeDOS	FreeDOS.svg	freedos	1	0	0	1	
-fi	U+E970		FreeMarker	FreeMarker.svg	freemarker	1	0	0	1	
-fi	U+EB7F		FreeMat	FreeMat.svg	freemat	1	0	0	1	
-fi	U+E96E		Frege	Frege.svg	frege	1	0	0	1	
-fi	U+EB97		ftHTML	ftHTML.svg	fthtml	1	0	0	1	
-fi	U+EA09		FuelUX	FuelUX.svg	fuelux	1	0	0	1	
-fi	U+EAD7		FuseBox	FuseBox.svg	fusebox	1	0	0	1	
-fi	U+EB77		Futhark	Futhark.svg	futhark	1	0	0	1	
-fi	U+EB74		Galaxy	Galaxy.svg	galaxy	1	0	0	1	
-fi	U+EAD8		Galen	Galen.svg	galen	1	0	0	1	
-fi	U+E975		GameMaker	GameMaker.svg	gml	1	0	0	1	
-fi	U+E973		GAMS	GAMS.svg	gams	1	0	0	1	
-fi	U+E971		GAP	GAP.svg	gap	1	0	0	1	
-fi	U+24BC	Ⓖ	Gatsby	Gatsby.svg	gatsby	1	0	0	1	
-fi	U+EB7E		GAUSS	GAUSS.svg	gauss	1	0	0	1	
-fi	U+EA08		GDB	GDB.svg	gdb	1	0	0	1	
-fi	U+E976		Genshi	Genshi.svg	genshi	1	0	0	1	
-fi	U+2933	⤳	For the Record	ForTheRecord.svg	ftr	1	0	0	1	
-fi	U+223F	∿	GenStat	GenStat.svg	genstat	1	0	0	1	
-fi	U+E96D		Gentoo	Gentoo.svg	gentoo	1	0	0	1	
-fi	U+EA8F		Ghostscript	Ghostscript.svg	ghostscript	1	0	0	1	
-fi	U+EA88		GIMP	GIMP.svg	gimp	1	0	0	1	
-fi	U+EA3C		GitLab	GitLab.svg	gitlab	1	0	0	1	
-fi	U+1D5A6	𝖦	Gitpod	Gitpod.svg	gitpod	1	0	0	1	
-fi	U+E938		Glade	Glade.svg	glade	1	0	0	1	
-fi	U+EACB		Glide	Glide.svg	glide	1	0	0	1	
-fi	U+EAA7		glTF	glTF.svg	gltf	1	0	0	1	
-fi	U+0047	G	Glyphs	Glyphs.svg	glyphs	1	0	0	1	
-fi	U+EA25		GN	GN.svg	gn	1	0	0	1	
-fi	U+E679		GNU	GNU.svg	gnu	1	0	0	1	
-fi	U+1F4C8	📈	Gnuplot	Gnuplot.svg	gnuplot	1	0	0	1	
-fi	U+EAAE		Go	Go.svg	go	1	0	0	1	
-fi	U+E624		Go, Old	Go-Old.svg	go-old	1	0	0	1	
-fi	U+E974		Godot	Godot.svg	godot	1	0	0	1	
-fi	U+E979		Golo	Golo.svg	golo	1	0	0	1	
-fi	U+EB90		GoReleaser	GoReleaser.svg	goreleaser	1	0	0	1	
-fi	U+E97A		Gosu	Gosu.svg	gosu	1	0	0	1	
-fi	U+E903		Gradle	Gradle.svg	gradle	1	0	0	1	
-fi	U+E978		Grammatical Framework	GF.svg	gf	1	0	0	1	
-fi	U+EA8A		Graphite	Graphite.svg	graphite	1	0	0	1	
-fi	U+1F4C9	📉	Grapher	Grapher.svg	grapher	1	0	0	1	
-fi	U+E97C		GraphQL	GraphQL.svg	graphql	1	0	0	1	
-fi	U+EBAE		GraphQL Code Generator	GraphQL-CodeGenerator.svg	gql-codegen	1	0	0	1	
-fi	U+E97D		GraphViz	GraphViz.svg	graphviz	1	0	0	1	
-fi	U+EB02		Gravit Designer	Gravit-Designer.svg	gvdesign	1	0	0	1	
-fi	U+EB0C		Greenkeeper	Greenkeeper.svg	greenkeeper	1	0	0	1	
-fi	U+EAE7		Gridsome	Gridsome.svg	gridsome	1	0	0	1	
-fi	U+E904		Groovy	Groovy.svg	groovy	1	0	0	1	
-fi	U+E611		Grunt	Grunt.svg	grunt	1	0	0	1	
-fi	U+E610		Gulp	Gulp.svg	gulp	1	0	0	1	
-fi	U+E9CE		Hack	Hack.svg	hack	1	0	0	1	
-fi	U+F15B		Haml	Haml.svg	haml	1	0	0	1	
-fi	U+E97B		Harbour	Harbour.svg	harbour	1	0	0	1	
-fi	U+E97E		HashiCorp	HashiCorp.svg	hashicorp	1	0	0	1	
-fi	U+EBAB		Haskell IDE Engine	HIE.svg	hie	1	0	0	1	
-fi	U+E907		Haxe	Haxe.svg	haxe	1	0	0	1	
-fi	U+EA3B		HaxeDevelop	HaxeDevelop.svg	haxedevelop	1	0	0	1	
-fi	U+2695	⚕	Helix	Helix.svg	helix	1	0	0	1	
-fi	U+33CB	㏋	Hewlett-Packard	HewlettPackard.svg	hp	1	0	0	1	
-fi	U+EB66		Hitachi	Hitachi.svg	hitachi	1	0	0	1	
-fi	U+EAC2		HJSON	HJSON.svg	hjson	1	0	0	1	
-fi	U+1F37A	🍺	Homebrew	Homebrew.svg	brew	1	0	0	1	
-fi	U+1F998	🦘	Hop	Hop.svg	hop	1	0	0	1	
-fi	U+EA4D		Hoplon	Hoplon.svg	hoplon	1	0	0	1	
-fi	U+1F300	🌀	Houdini	Houdini.svg	houdini	1	0	0	1	
-fi	U+EAAF		HoundCI	HoundCI.svg	houndci	1	0	0	1	
-fi	U+24BD	Ⓗ	Hugo	Hugo.svg	hugo	1	0	0	1	
-fi	U+1F436	🐶	Husky	Husky.svg	husky	1	0	0	1	
-fi	U+E97F		Hy	Hy.svg	hy	1	0	0	1	
-fi	U+1F4C3	📃	Hygen	Hygen.svg	hygen	1	0	0	1	
-fi	U+EB37		Hyper	Hyper.svg	hyper	1	0	0	1	
-fi	U+EAEA		IcoMoon	IcoMoon.svg	icomoon	1	0	0	1	
-fi	U+EA23		ICU	ICU.svg	icu	1	0	0	1	
-fi	U+E947		IDL	IDL.svg	idl	1	0	0	1	
-fi	U+E983		Idris	Idris.svg	idris	1	0	0	1	
-fi	U+E980		IGOR Pro	IGOR-Pro.svg	igorpro	1	0	0	1	
-fi	U+EAF4		illumos	illumos.svg	illumos	1	0	0	1	
-fi	U+F012		Image	Image.svg	image	1	0	0	1	
-fi	U+26FF	⛿	Imba	Imba.svg	imba	1	0	0	1	
-fi	U+EAE9		Imba, Alt	Imba-Alt.svg	imba-alt	1	0	0	1	
-fi	U+1F4A0	💠	Imba, Old	Imba-Old.svg	imba-old	1	0	0	1	
-fi	U+EB1F		InfluxData	InfluxData.svg	influxdata	1	0	0	1	
-fi	U+E984		Inform 7	Inform7.svg	inform7	1	0	0	1	
-fi	U+EACE		Ink	Ink.svg	ink	1	0	0	1	
-fi	U+EA8E		Inkscape	Inkscape.svg	inkscape	1	0	0	1	
-fi	U+E985		Inno Setup	InnoSetup.svg	inno	1	0	0	1	
-fi	U+EB5A		Intel	Intel.svg	intel	1	0	0	1	
-fi	U+E981		Io	Io.svg	io	1	0	0	1	
-fi	U+E982		Ioke	Ioke.svg	ioke	1	0	0	1	
-fi	U+F14B		Ionic Project	Ionic-Project.svg	ionic	1	0	0	1	
-fi	U+E945		Isabelle	Isabelle.svg	isabelle	1	0	0	1	
-fi	U+1F54C	🕌	Istanbul	Istanbul.svg	istanbul	1	0	0	1	
-fi	U+E937		J	J.svg	j	1	0	0	1	
-fi	U+E90D		Jade	Jade.svg	jade	1	0	0	1	
-fi	U+E948		Jake	Jakefile.svg	jake	1	0	0	1	
-fi	U+EB2A		Janet	Janet.svg	janet	1	0	0	1	
-fi	U+EA3A		Jasmine	Jasmine.svg	jasmine	1	0	0	1	
-fi	U+E667		Jenkins	Jenkins.svg	jenkins	1	0	0	1	
-fi	U+EA39		Jest	Jest.svg	jest	1	0	0	1	
-fi	U+E944		Jinja	Jinja.svg	jinja	1	0	0	1	
-fi	U+EA55		Jison	Jison.svg	jison	1	0	0	1	
-fi	U+EA75		Jolie	Jolie.svg	jolie	1	0	0	1	
-fi	U+EB95		jscpd	jscpd.svg	jscpd	1	0	0	1	
-fi	U+EABE		JSON-1	JSON-1.svg	json	1	0	0	1	
-fi	U+EABD		JSON-2	JSON-2.svg	json-alt	1	0	0	1	
-fi	U+E958		JSON-LD	JSON-LD1.svg	jsonld	1	0	0	1	
-fi	U+E959		JSON-LD2	JSON-LD2.svg	sparql	1	0	0	1	
-fi	U+2478	⑸	JSON5	JSON5.svg	json5	1	0	0	1	
-fi	U+EB1E		Jsonnet	Jsonnet.svg	jsonnet	1	0	0	1	
-fi	U+E9E6		JSX	JSX.svg	jsx	1	0	0	1	
-fi	U+F101		JSX, Alt	JSX-Alt.svg	jsx-alt	1	0	0	1	
-fi	U+F100		JSX, Atom	JSX-Atom.svg	react	1	0	0	1	
-fi	U+26EC	⛬	Julia	Julia.svg	julia	1	0	0	1	
-fi	U+EA81		Junos	Junos.svg	junos	1	0	0	1	
-fi	U+E987		Jupyter	Jupyter.svg	jupyter	1	0	0	1	
-fi	U+30AB	カ	Kaitai	Kaitai.svg	kaitai	1	0	0	1	
-fi	U+E9CD		Karma	Karma.svg	karma	1	0	0	1	
-fi	U+EAF8		Keybase	Keybase.svg	keybase	1	0	0	1	
-fi	U+E9E5		Keynote	Keynote.svg	keynote	1	0	0	1	
-fi	U+E9F8		Khronos	Khronos.svg	khronos	1	0	0	1	
-fi	U+EBA9		Kibo	Kibo.svg	kibo	1	0	0	1	
-fi	U+EA4C		KiCad	KiCad.svg	kicad	1	0	0	1	
-fi	U+EA38		KitchenCI	KitchenCI.svg	kitchenci	1	0	0	1	
-fi	U+E901		Kivy	Kivy.svg	kivy	1	0	0	1	
-fi	U+EB75		KNIME	KNIME.svg	knime	1	0	0	1	
-fi	U+004B	K	Knockout	Knockout.svg	knockout	1	0	0	1	
-fi	U+006B	k	kOS	kOS.svg	kos	1	0	0	1	
-fi	U+E989		Kotlin	Kotlin.svg	kotlin	1	0	0	1	
-fi	U+E988		KRL	KRL.svg	krl	1	0	0	1	
-fi	U+2388	⎈	Kubernetes	Kubernetes.svg	kubernetes	1	0	0	1	
-fi	U+EB9A		Kusto	Kusto.svg	kusto	1	0	0	1	
-fi	U+EB9B		Kusto, Alt	Kusto-Alt.svg	kusto-alt	1	0	0	1	
-fi	U+EA9B		Kx	Kx.svg	kx	1	0	0	1	
-fi	U+E98A		LabVIEW	LabVIEW.svg	labview	1	0	0	1	
-fi	U+E63F		Laravel	Laravel.svg	laravel	1	0	0	1	sharpen
-fi	U+1316B	𓅫	Lark	Lark.svg	lark	1	0	0	1	
-fi	U+E98C		Lasso	Lasso.svg	lasso	1	0	0	1	
-fi	U+1F426	🐦	Latino	Latino.svg	latino	1	0	0	1	
-fi	U+EA07		Leaflet	Leaflet.svg	leaflet	1	0	0	1	
-fi	U+004C	L	Lean	Lean.svg	lean	1	0	0	1	
-fi	U+EB8B		Lefthook	Lefthook.svg	lefthook	1	0	0	1	
-fi	U+1F44A	👊	Lefthook, Alt	Lefthook-Alt.svg	lefthook-alt	1	0	0	1	
-fi	U+F105		Leiningen	Leiningen.svg	lein	1	0	0	1	
-fi	U+EAB9		Lektor	Lektor.svg	lektor	1	0	0	1	
-fi	U+EA37		Lerna	Lerna.svg	lerna	1	0	0	1	
-fi	U+101EF	𐇯	Lex	Lex.svg	lex	1	0	0	1	
-fi	U+1316A	𓅪	Lex, Alt	Lex-Alt.svg	lex-alt	1	0	0	1	
-fi	U+E94C		LFE	LFE.svg	lfe	1	0	0	1	
-fi	U+1F435	🐵	LGTM	LGTM.svg	lgtm	1	0	0	1	
-fi	U+EA21		libuv	libuv.svg	libuv	1	0	0	1	
-fi	U+E9FB		LightWave	LightWave.svg	lightwave	1	0	0	1	
-fi	U+26EF	⛯	Lighthouse	Lighthouse.svg	lighthouse	1	0	0	1	
-fi	U+1F4AE	💮	LilyPond	LilyPond.svg	lilypond	1	0	0	1	
-fi	U+EA36		Lime	Lime.svg	lime	1	0	0	1	
-fi	U+1D6CC	𝛌	LINQPad	LINQPad.svg	linqpad	1	0	0	1	
-fi	U+E908		Lisp	Lisp.svg	lisp	1	0	0	1	
-fi	U+E914		LiveScript	LiveScript.svg	ls	1	0	0	1	
-fi	U+E91D		LLVM	LLVM.svg	llvm	1	0	0	1	
-fi	U+E98D		Logtalk	Logtalk.svg	logtalk	1	0	0	1	
-fi	U+1F63A	😺	LOLCODE	LOLCODE.svg	lolcode	1	0	0	1	
-fi	U+E98E		LookML	LookML.svg	lookml	1	0	0	1	
-fi	U+E98B		LSL	LSL.svg	lsl	1	0	0	1	
-fi	U+E91B		Lua	Lua.svg	lua	1	0	0	1	
-fi	U+2644	♄	Macaulay2	Macaulay2.svg	macaulay2	1	0	0	1	
-fi	U+EB23		MacVim	MacVim.svg	macvim	1	0	0	1	
-fi	U+EB05		Magit	Magit.svg	magit	1	0	0	1	
-fi	U+E98F		Mako	Mako.svg	mako	1	0	0	1	
-fi	U+EB06		Manjaro	Manjaro.svg	manjaro	1	0	0	1	
-fi	U+E936		Manpage	Manpage.svg	manpage	1	0	0	1	
-fi	U+E941		Mapbox	Mapbox.svg	mapbox	1	0	0	1	
-fi	U+F0C9		MarkdownLint	MarkdownLint.svg	markdownlint	1	0	0	1	
-fi	U+E920		Marko	Marko.svg	marko	1	0	0	1	
-fi	U+E990		Mathematica	Mathematica.svg	mathematica	1	0	0	1	
-fi	U+EA06		MathJax	MathJax.svg	mathjax	1	0	0	1	
-fi	U+E991		MATLAB	MATLAB.svg	matlab	1	0	0	1	
-fi	U+2668	♨	Matroska	Matroska.svg	matroska	1	0	0	1	
-fi	U+E993		Max	Max.svg	max	1	0	0	1	
-fi	U+E9F6		Maya	Maya.svg	maya	1	0	0	1	
-fi	U+EAB7		MDX	MDX.svg	mdx	1	0	0	1	
-fi	U+E954		MediaWiki	MediaWiki.svg	mediawiki	1	0	0	1	
-fi	U+33AB	㎫	MELPA	MELPA.svg	melpa	1	0	0	1	
-fi	U+263F	☿	Mercurial	Mercurial.svg	hg	1	0	0	1	
-fi	U+E994		Mercury	Mercury.svg	mercury	1	0	0	1	
-fi	U+EB84		Mermaid	Mermaid.svg	mermaid	1	0	0	1	
-fi	U+EAFE		Meson	Meson.svg	meson	1	0	0	1	
-fi	U+EA54		Meson, Old	Meson-Old.svg	meson-old	1	0	0	1	
-fi	U+004D	M	Metal	Metal.svg	metal	1	0	0	1	
-fi	U+1D5AC	𝖬	MetaPost	MetaPost.svg	metapost	1	0	0	1	
-fi	U+E6A5		Meteor	Meteor.svg	meteor	1	0	0	1	
-fi	U+E9EA		Microsoft Access	Microsoft-Access.svg	access	1	0	0	1	
-fi	U+E9EE		Microsoft Excel	Microsoft-Excel.svg	excel	1	0	0	1	
-fi	U+EA35		Microsoft InfoPath	Microsoft-InfoPath.svg	infopath	1	0	0	1	
-fi	U+EAD9		Microsoft Lync	Microsoft-Lync.svg	lync	1	0	0	1	
-fi	U+E9EB		Microsoft OneNote	Microsoft-OneNote.svg	onenote	1	0	0	1	
-fi	U+EADA		Microsoft Outlook	Microsoft-Outlook.svg	outlook	1	0	0	1	
-fi	U+E9EC		Microsoft PowerPoint	Microsoft-PowerPoint.svg	powerpoint	1	0	0	1	
-fi	U+EAE8		Microsoft Project	Microsoft-Project.svg	msproject	1	0	0	1	
-fi	U+EADD		Microsoft Publisher	Microsoft-Publisher.svg	publisher	1	0	0	1	
-fi	U+EA83		Microsoft Visio	Microsoft-Visio.svg	visio	1	0	0	1	
-fi	U+E9ED		Microsoft Word	Microsoft-Word.svg	word	1	0	0	1	
-fi	U+E9DC		Minecraft	Minecraft.svg	minecraft	1	0	0	1	
-fi	U+EA53		MiniZinc	MiniZinc.svg	minizinc	1	0	0	1	
-fi	U+E995		Mirah	Mirah.svg	mirah	1	0	0	1	
-fi	U+EA52		Miranda	Miranda.svg	miranda	1	0	0	1	
-fi	U+EB3A		mIRC	mIRC.svg	mirc	1	0	0	1	
-fi	U+EA6F		MJML	MJML.svg	mjml	1	0	0	1	
-fi	U+26FE	⛾	Mocha	Mocha.svg	mocha	1	0	0	1	
-fi	U+EAFF		Modelica	Modelica.svg	modelica	1	0	0	1	
-fi	U+EB9F		Modern Web	ModernWeb.svg	modernweb	1	0	0	1	
-fi	U+F01F		Modo	Modo.svg	modo	1	0	0	1	
-fi	U+E996		Modula 2	Modula-2.svg	modula2	1	0	0	1	
-fi	U+2778	❸	Modula-3	Modula-3.svg	modula3	1	0	0	1	
-fi	U+EAEE		Moho	Moho.svg	moho	1	0	0	1	
-fi	U+EB0E		Moleculer	Moleculer.svg	moleculer	1	0	0	1	
-fi	U+1F558	🕘	Moment	Moment.svg	moment	1	0	0	1	
-fi	U+1F30D	🌍	Moment Timezone	Moment-Timezone.svg	moment-tz	1	0	0	1	
-fi	U+E997		Monkey	Monkey.svg	monkey	1	0	0	1	
-fi	U+1F5FF	🗿	Mono	Mono.svg	mono	1	0	0	1	
-fi	U+1F400	🐀	Monotone	Monotone.svg	monotone	1	0	0	1	
-fi	U+24C2	Ⓜ	Motorola	Motorola.svg	motorola	1	0	0	1	
-fi	U+E60F		Moustache	Moustache.svg	mustache	1	0	0	1	
-fi	U+EA18		Mruby	Mruby.svg	mruby	1	0	0	1	
-fi	U+EAFA		MS-DOS	MS-DOS.svg	msdos	1	0	0	1	
-fi	U+E9CA		MuPAD	MuPAD.svg	mupad	1	0	0	1	
-fi	U+EA76		Nano	Nano.svg	nano	1	0	0	1	
-fi	U+EA51		Nanoc	Nanoc.svg	nanoc	1	0	0	1	
-fi	U+E9E1		NAnt	NAnt.svg	nant	1	0	0	1	
-fi	U+EA72		NASM	NASM.svg	nasm	1	0	0	1	
-fi	U+EAB4		NDepend	NDepend.svg	ndepend	1	0	0	1	
-fi	U+EA05		Neko	Neko.svg	neko	1	0	0	1	
-fi	U+1F985	🦅	Nemerle	Nemerle.svg	nemerle	1	0	0	1	
-fi	U+EAB3		Neo4J	Neo4J.svg	neo4j	1	0	0	1	
-fi	U+EB8E		NEON	NEON.svg	neon	1	0	0	1	
-fi	U+23E3	⏣	Nessus	Nessus.svg	nessus	1	0	0	1	
-fi	U+EAC9		NestJS	NestJS.svg	nestjs	1	0	0	1	
-fi	U+EABF		Netlify	Netlify.svg	netlify	1	0	0	1	
-fi	U+E99B		NetLinx	NetLinx.svg	amx	1	0	0	1	
-fi	U+E99C		NetLogo	NetLogo.svg	netlogo	1	0	0	1	
-fi	U+E9D7		New Relic	New-Relic.svg	newrelic	1	0	0	1	
-fi	U+EAA5		Nextflow	Nextflow.svg	nextflow	1	0	0	1	
-fi	U+24C3	Ⓝ	NextJS	NextJS.svg	nextjs	1	0	0	1	
-fi	U+F146B	󱑫	nginx	nginx.svg	nginx	1	0	0	1	
-fi	U+EBB2		NgRx	NgRx.svg	ngrx	1	0	0	1	
-fi	U+2712	✒	Nib	Nib.svg	nib	1	0	0	1	
-fi	U+00A2	¢	Nickle	Nickle.svg	nickle	1	0	0	1	
-fi	U+EB08		Nightwatch	Nightwatch.svg	nightwatch	1	0	0	1	
-fi	U+EB85		Nimble	Nimble.svg	nimble	1	0	0	1	
-fi	U+E998		Nimrod	Nimrod.svg	nimrod	1	0	0	1	
-fi	U+006E	n	Nintendo 64	Nintendo64.svg	n64	1	0	0	1	
-fi	U+E999		Nit	Nit.svg	nit	1	0	0	1	
-fi	U+E99A		Nix	Nix.svg	nix	1	0	0	1	
-fi	U+E94D		Nmap	Nmap.svg	nmap	1	0	0	1	
-fi	U+EA26		Nodemon	Nodemon.svg	nodemon	1	0	0	1	
-fi	U+92F8	鋸	Nokogiri	Nokogiri.svg	nokogiri	1	0	0	1	
-fi	U+EA96		Nomad	Nomad.svg	nomad	1	0	0	1	
-fi	U+EB33		Noon	Noon.svg	noon	1	0	0	1	
-fi	U+EA04		Normalize	Normalise.svg	normalize	1	0	0	1	
-fi	U+E91C		NPM	NPM.svg	npm	1	0	0	1	
-fi	U+F17B		NPM, Old	NPM-Old.svg	npm-old	1	0	0	1	
-fi	U+EA1E		NSIS	NSIS.svg	nsis	1	0	0	1	
-fi	U+E992		NSIS, Old	NSIS-Old.svg	nsis-old	1	0	0	1	
-fi	U+EB2F		NSRI	NSRI.svg	nsri	1	0	0	1	
-fi	U+EB2B		NSRI, Alt	NSRI-Alt.svg	nsri-alt	1	0	0	1	
-fi	U+EA34		Nuclide	Nuclide.svg	nuclide	1	0	0	1	
-fi	U+E9D9		NuGet	NuGet.svg	nuget	1	0	0	1	
-fi	U+EBA8		NumPy	NumPy.svg	numpy	1	0	0	1	
-fi	U+E99D		NumPy, Old	NumPy-Old.svg	numpy-old	1	0	0	1	
-fi	U+E953		Nunjucks	Nunjucks.svg	nunjucks	1	0	0	1	
-fi	U+EACA		Nuxt	Nuxt.svg	nuxt	1	0	0	1	
-fi	U+E95D		NVIDIA	NVIDIA.svg	nvidia	1	0	0	1	
-fi	U+23FF	⏿	NWScript	NWScript.svg	nwscript	1	0	0	1	
-fi	U+EB9C		Nx	Nx.svg	nx	1	0	0	1	
-fi	U+EA6B		NXC	NXC.svg	nxc	1	0	0	1	
-fi	U+EB3F		Oberon	Oberon.svg	oberon	1	0	0	1	
-fi	U+E99E		Objective-J	Objective-J.svg	objj	1	0	0	1	
-fi	U+E91A		OCaml	OCaml.svg	ocaml	1	0	0	1	
-fi	U+EA33		Octave	Octave.svg	octave	1	0	0	1	
-fi	U+EB36		Odin	Odin.svg	odin	1	0	0	1	
-fi	U+EBAA		Ogone	Ogone.svg	ogone	1	0	0	1	
-fi	U+EBAF		OmniGraffle	OmniGraffle.svg	omnigraffle	1	0	0	1	
-fi	U+E9CB		OOC	OOC.svg	ooc	1	0	0	1	
-fi	U+2601	☁	Opa	Opa.svg	opa	1	0	0	1	
-fi	U+EB39		Open Policy Agent	OpenPolicyAgent.svg	openpolicy	1	0	0	1	
-fi	U+EB0A		OpenAPI	OpenAPI.svg	openapi	1	0	0	1	
-fi	U+1F421	🐡	OpenBSD	OpenBSD.svg	openbsd	1	0	0	1	
-fi	U+1F420	🐠	OpenBSD, Alt	OpenBSD-Alt.svg	openbsd-alt	1	0	0	1	
-fi	U+E99F		OpenCL	OpenCL.svg	opencl	1	0	0	1	
-fi	U+EA8D		OpenCV	OpenCV.svg	opencv	1	0	0	1	
-fi	U+1F127	🄧	OpenEXR	OpenEXR.svg	openexr	1	0	0	1	
-fi	U+EA7A		OpenGL	OpenGL.svg	opengl	1	0	0	1	
-fi	U+01A3	ƣ	OpenIndiana	OpenIndiana.svg	openindiana	1	0	0	1	
-fi	U+E9E4		OpenOffice	OpenOffice.svg	openoffice	1	0	0	1	
-fi	U+E911		OpensCAD	OpensCAD.svg	scad	1	0	0	1	
-fi	U+EAF5		OpenSolaris	OpenSolaris.svg	opensolaris	1	0	0	1	
-fi	U+EB6F		OpenStack	OpenStack.svg	openstack	1	0	0	1	
-fi	U+EAC6		OpenVMS	OpenVMS.svg	openvms	1	0	0	1	
-fi	U+EAF3		OpenVPN	OpenVPN.svg	openvpn	1	0	0	1	
-fi	U+1D419	𝐙	OpenZFS	OpenZFS.svg	openzfs	1	0	0	1	
-fi	U+E917		Org-mode	Org-Mode.svg	org	1	0	0	1	
-fi	U+EAF6		OS2	OS2.svg	os2	1	0	0	1	
-fi	U+E957		OWL	OWL.svg	owl	1	0	0	1	
-fi	U+E9A1		Ox	Ox.svg	ox	1	0	0	1	
-fi	U+E9BF		Oxygene	Oxygene.svg	oxygene	1	0	0	1	
-fi	U+E9BE		Oz	Oz.svg	oz	1	0	0	1	
-fi	U+EA50		P4	P4.svg	p4	1	0	0	1	
-fi	U+E9BD		Pan	Pan.svg	pan	1	0	0	1	
-fi	U+E9BC		Papyrus	Papyrus.svg	papyrus	1	0	0	1	
-fi	U+E9BB		Parrot	Parrot.svg	parrot	1	0	0	1	
-fi	U+E92A		Pascal	Pascal.svg	pascal	1	0	0	1	
-fi	U+E961		Patch	Patch.svg	patch	1	0	0	1	
-fi	U+EB42		Patreon	Patreon.svg	patreon	1	0	0	1	
-fi	U+265F	♟	PAWN	PAWN.svg	pawn	1	0	0	1	
-fi	U+26C5	⛅	PCD	PCD.svg	pcd	1	0	0	1	
-fi	U+EA74		PegJS	PegJS.svg	peg	1	0	0	1	
-fi	U+E96C		Perl6	Perl6.svg	perl6	1	0	0	1	
-fi	U+E94A		Phalcon	Phalcon.svg	phalcon	1	0	0	1	
-fi	U+EA5F		Phoenix	Phoenix.svg	phoenix	1	0	0	1	
-fi	U+F147		PHP	PHP.svg	php	1	0	0	1	
-fi	U+EA32		PHPUnit	PHPUnit.svg	phpunit	1	0	0	1	
-fi	U+EADB		PhraseApp	PhraseApp.svg	phraseapp	1	0	0	1	
-fi	U+E9C4		Pickle	Pickle.svg	pickle	1	0	0	1	
-fi	U+EABC		PICO-8	PICO-8.svg	pico8	1	0	0	1	
-fi	U+EB25		PicoLisp	PicoLisp.svg	picolisp	1	0	0	1	
-fi	U+E9B9		Pike	Pike.svg	pike	1	0	0	1	
-fi	U+EB30		PineScript	PineScript.svg	pinescript	1	0	0	1	
-fi	U+1F381	🎁	Pipenv	Pipenv.svg	pipenv	1	0	0	1	
-fi	U+EAF9		pkgsrc	pkgsrc.svg	pkgsrc	1	0	0	1	
-fi	U+EA2C		PlatformIO	PlatformIO.svg	platformio	1	0	0	1	
-fi	U+2630	☰	PM2	PM2.svg	pm2	1	0	0	1	
-fi	U+EB86		PNPM	PNPM.svg	pnpm	1	0	0	1	
-fi	U+EA84		Pod	Pod.svg	pod	1	0	0	1	
-fi	U+E9B8		PogoScript	PogoScript.svg	pogo	1	0	0	1	
-fi	U+E977		PointWise	PointWise.svg	pointwise	1	0	0	1	
-fi	U+EA2B		Polymer	Polymer.svg	polymer	1	0	0	1	
-fi	U+E9B7		Pony	Pony.svg	pony	1	0	0	1	
-fi	U+E910		PostCSS	PostCSS.svg	postcss	1	0	0	1	
-fi	U+E955		PostScript	PostScript.svg	postscript	1	0	0	1	
-fi	U+0050	P	POV-Ray	POV-Ray.svg	povray	1	0	0	1	
-fi	U+EA14		PowerBuilder	PowerBuilder.svg	powerbuilder	1	0	0	1	
-fi	U+EB58		PowerPC	PowerPC.svg	powerpc	1	0	0	1	
-fi	U+E9DA		PowerShell	PowerShell.svg	powershell	1	0	0	1	
-fi	U+2295	⊕	Precision	Precision.svg	precision	1	0	0	1	
-fi	U+EAC1		Precommit	Precommit.svg	precommit	1	0	0	1	
-fi	U+EAA1		Prettier	Prettier.svg	prettier	1	0	0	1	
-fi	U+EAC5		Prisma	Prisma.svg	prisma	1	0	0	1	
-fi	U+E9A0		Processing	Processing.svg	processing	1	0	0	1	
-fi	U+EADC		Progress	Progress.svg	progress	1	0	0	1	
-fi	U+E9C0		Progress, Old	Progress-Old.svg	progress-old	1	0	0	1	
-fi	U+E9B5		Propeller	Propeller.svg	propeller	1	0	0	1	
-fi	U+EAAD		PROS	PROS.svg	pros	1	0	0	1	
-fi	U+EA6D		Proselint	Proselint.svg	proselint	1	0	0	1	
-fi	U+E9DE		Protractor	Protractor.svg	protractor	1	0	0	1	
-fi	U+EA13		Pug	Pug.svg	pug	1	0	0	1	
-fi	U+E9D0		Pug, Alt	Pug-Old.svg	pug-alt	1	0	0	1	
-fi	U+293E	⤾	PullApprove	PullApprove.svg	pullapprove	1	0	0	1	
-fi	U+F0C3		Puppet	Puppet.svg	puppet	1	0	0	1	
-fi	U+1F4A7	💧	Pure	Pure.svg	pure	1	0	0	1	
-fi	U+01B5	Ƶ	PureBasic	PureBasic.svg	purebasic	1	0	0	1	
-fi	U+E9B2		PureScript	PureScript.svg	purescript	1	0	0	1	
-fi	U+EA94		PyPi	PyPi.svg	pypi	1	0	0	1	
-fi	U+2620	☠	Pyret	Pyret.svg	pyret	1	0	0	1	
-fi	U+EBA6		pytest	pytest.svg	pytest	1	0	0	1	
-fi	U+EB26		PyUp	PyUp.svg	pyup	1	0	0	1	
-fi	U+EB91		Q#	Q#.svg	qsharp	1	0	0	1	
-fi	U+EB81		Qiskit	Qiskit.svg	qiskit	1	0	0	1	
-fi	U+1F50D	🔍	QlikView	QlikView.svg	qlik	1	0	0	1	
-fi	U+EB00		QT	QT.svg	qt	1	0	0	1	
-fi	U+EACC		Quasar	Quasar.svg	quasar	1	0	0	1	
-fi	U+E905		R	R.svg	r	1	0	0	1	
-fi	U+EB49		R database	RData.svg	rdata	1	0	0	1	
-fi	U+E9B1		Racket	Racket.svg	racket	1	0	0	1	
-fi	U+E913		RAML	RAML.svg	raml	1	0	0	1	
-fi	U+EA24		Rascal	Rascal.svg	rascal	1	0	0	1	
-fi	U+0052	R	Razzle	Razzle.svg	razzle	1	0	0	1	
-fi	U+E9B0		RDoc	RDoc.svg	rdoc	1	0	0	1	
-fi	U+EAF7		ReactOS	ReactOS.svg	reactos	1	0	0	1	
-fi	U+2398	⎘	Read the Docs	ReadTheDocs.svg	readthedocs	1	0	0	1	
-fi	U+E9AF		REALbasic	REALbasic.svg	xojo	1	0	0	1	
-fi	U+EA1D		Reason	Reason.svg	reason	1	0	0	1	
-fi	U+EB44		Reason Studios	ReasonStudios.svg	reasonstudios	1	0	0	1	
-fi	U+EB45		Reason Studios, Alt	ReasonStudios-Alt.svg	reasonstudios-alt	1	0	0	1	
-fi	U+E9AE		Rebol	Rebol.svg	rebol	1	0	0	1	
-fi	U+EAEC		Red	Red.svg	red	1	0	0	1	
-fi	U+E9AD		Red, Old	Red-Old.svg	red-old	1	0	0	1	
-fi	U+EA30		Redux	Redux.svg	redux	1	0	0	1	
-fi	U+EAA0		Reek	Reek.svg	reek	1	0	0	1	
-fi	U+002A	*	RegEx	RegEx.svg	regex	1	0	0	1	
-fi	U+EB1D		Remark	Remark.svg	remark	1	0	0	1	
-fi	U+EB2D		Renovate	Renovate.svg	renovate	1	0	0	1	
-fi	U+EBA7		ReScript	ReScript.svg	rescript	1	0	0	1	
-fi	U+EBB0		restQL	restQL.svg	restql	1	0	0	1	
-fi	U+E9CC		reStructuredText	reStructuredText.svg	rst	1	0	0	1	
-fi	U+EA16		Rexx	Rexx.svg	rexx	1	0	0	1	
-fi	U+EA4A		Rhino3D	Rhino3D.svg	rhino	1	0	0	1	
-fi	U+1F48D	💍	Ring	Ring.svg	ring	1	0	0	1	
-fi	U+EB2E		Riot	Riot.svg	riot	1	0	0	1	
-fi	U+E919		Riot, Old	Riot-Old.svg	riot-old	1	0	0	1	
-fi	U+EB5D		RISC-V	RISC-V.svg	riscv	1	0	0	1	
-fi	U+211B	ℛ	Rmarkdown	Rmarkdown.svg	rmarkdown	1	0	0	1	
-fi	U+EB0D		Robot	RobotFramework.svg	robot	1	0	0	1	
-fi	U+E9AC		Robot, Old	RobotFramework-Old.svg	robot-old	1	0	0	1	
-fi	U+1F916	🤖	Robots	Robots.svg	robots	1	0	0	1	
-fi	U+EA20		Rollup	Rollup.svg	rollup	1	0	0	1	
-fi	U+E9FD		Rollup, Old	Rollup-Old.svg	rollup-old	1	0	0	1	
-fi	U+EA31		RSpec	RSpec.svg	rspec	1	0	0	1	
-fi	U+24C7	Ⓡ	RStudio	RStudio.svg	rstudio	1	0	0	1	
-fi	U+EB9E		rsync	rsync.svg	rsync	1	0	0	1	
-fi	U+EADE		Rubocop	Rubocop.svg	rubocop	1	0	0	1	
-fi	U+1F48E	💎	RubyGems	RubyGems.svg	rubygems	1	0	0	1	
-fi	U+203C	‼	SAC	SAC.svg	sac	1	0	0	1	
-fi	U+E9AB		Sage	Sage.svg	sage	1	0	0	1	
-fi	U+EB87		Sails	Sails.svg	sails	1	0	0	1	
-fi	U+E915		SaltStack	SaltStack.svg	saltstack	1	0	0	1	
-fi	U+EAE6		San	San.svg	san	1	0	0	1	
-fi	U+EBB1		Sandbox	Sandbox.svg	sandbox	1	0	0	1	
-fi	U+E95A		SAS	SAS.svg	sas	1	0	0	1	
-fi	U+E9D2		SBT	SBT.svg	sbt	1	0	0	1	
-fi	U+03BB	λ	Scheme	Scheme.svg	scheme	1	0	0	1	
-fi	U+E9A9		Scilab	Scilab.svg	scilab	1	0	0	1	
-fi	U+EAE2		Scilla	Scilla.svg	scilla	1	0	0	1	
-fi	U+00A7	§	Scratch	Scratch.svg	scratch	1	0	0	1	
-fi	U+E9D4		Scrutinizer	Scrutinizer.svg	scrutinizer	1	0	0	1	
-fi	U+E9A8		Self	Self.svg	self	1	0	0	1	
-fi	U+1F7CD	🟍	Semantic Release	SemanticRelease.svg	semrelease	1	0	0	1	
-fi	U+EB1C		Sentry	Sentry.svg	sentry	1	0	0	1	
-fi	U+EA2F		Sequelize	Sequelize.svg	sequelize	1	0	0	1	
-fi	U+EAB8		Serverless	Serverless.svg	serverless	1	0	0	1	
-fi	U+E9DB		Service Fabric	Service-Fabric.svg	sf	1	0	0	1	
-fi	U+EB88		Shadow CLJS	ShadowCLJS.svg	shadowcljs	1	0	0	1	
-fi	U+E9A7		Shen	Shen.svg	shen	1	0	0	1	
-fi	U+26F5	⛵	Shipit	Shipit.svg	shipit	1	0	0	1	
-fi	U+EA2D		Shippable	Shippable.svg	shippable	1	0	0	1	
-fi	U+E9CF		Shopify	Shopify.svg	shopify	1	0	0	1	
-fi	U+272B	✫	Shuriken	Shuriken.svg	shuriken	1	0	0	1	
-fi	U+1F764	🝤	Sigils	Sigils.svg	sigils	1	0	0	1	
-fi	U+2318	⌘	SiliconGraphics	SiliconGraphics.svg	sgi	1	0	0	1	
-fi	U+E800		SilverStripe	SilverStripe.svg	silverstripe	1	0	0	1	
-fi	U+EA03		Sinatra	Sinatra.svg	sinatra	1	0	0	1	
-fi	U+E927		Sketch	Sketch.svg	sketch	1	0	0	1	
-fi	U+EA7C		SketchUp LayOut	SketchUp-LayOut.svg	sketchup-lo	1	0	0	1	
-fi	U+EA7E		SketchUp Make	SketchUp-Make.svg	sketchup-mk	1	0	0	1	
-fi	U+EA7D		SketchUp Style Builder	SketchUp-StyleBuilder.svg	sketchup-sb	1	0	0	1	
-fi	U+E9A6		Slash	Slash.svg	slash	1	0	0	1	
-fi	U+EAFC		SmartOS	SmartOS.svg	smartos	1	0	0	1	
-fi	U+EAFB		SmartOS, Alt	SmartOS-Alt.svg	smartos-alt	1	0	0	1	
-fi	U+EB09		Snapcraft	Snapcraft.svg	snapcraft	1	0	0	1	
-fi	U+1F43D	🐽	Snort	Snort.svg	snort	1	0	0	1	
-fi	U+1F3D4	🏔	Snowpack	Snowpack.svg	snowpack	1	0	0	1	
-fi	U+EA1C		Snyk	Snyk.svg	snyk	1	0	0	1	
-fi	U+1D5E6	𝗦	Solidarity	Solidarity.svg	solidarity	1	0	0	1	
-fi	U+EA86		Solidity	Solidity.svg	solidity	1	0	0	1	
-fi	U+EB72		Sophia	Sophia.svg	sophia	1	0	0	1	
-fi	U+1F366	🍦	Sorbet	Sorbet.svg	sorbet	1	0	0	1	
-fi	U+EB82		Source	Source.svg	source	1	0	0	1	
-fi	U+EAA4		Spacemacs	Spacemacs.svg	spacemacs	1	0	0	1	
-fi	U+29CF	⧏	Spacengine	Spacengine.svg	spacengine	1	0	0	1	
-fi	U+EB57		SPARC	SPARC.svg	sparc	1	0	0	1	
-fi	U+EA02		Spray	Spray.svg	spray	1	0	0	1	
-fi	U+E9A5		SQF	SQF.svg	sqf	1	0	0	1	
-fi	U+E9DD		SQLite	SQLite.svg	sqlite	1	0	0	1	
-fi	U+EA5E		Squarespace	SquareSpace.svg	squarespace	1	0	0	1	
-fi	U+E9A4		Stan	Stan.svg	stan	1	0	0	1	
-fi	U+E9A3		Stata	Stata.svg	stata	1	0	0	1	
-fi	U+EB70		StdlibJS	StdlibJS.svg	stdlibjs	1	0	0	1	
-fi	U+EA95		Stencil	Stencil.svg	stencil	1	0	0	1	
-fi	U+EBA0		Stitches	Stitches.svg	stitches	1	0	0	1	
-fi	U+EADF		Storybook	Storybook.svg	storybook	1	0	0	1	
-fi	U+E9EF		Storyist	Storyist.svg	storyist	1	0	0	1	
-fi	U+E9E0		Strings	Strings.svg	strings	1	0	0	1	
-fi	U+EAE0		Stylable	Stylable.svg	stylable	1	0	0	1	
-fi	U+1F485	💅	StyledComponents	StyledComponents.svg	nailpolish	1	0	0	1	
-fi	U+E93D		Stylelint	Stylelint.svg	stylelint	1	0	0	1	
-fi	U+EB3D		Stylish Haskell	StylishHaskell.svg	stylishhaskell	1	0	0	1	
-fi	U+0073	s	Stylus	Stylus-S.svg	stylus	1	0	0	1	
-fi	U+E9F7		Stylus, Full	Stylus.svg	stylus-full	1	0	0	1	
-fi	U+0053	S	Stylus, Orb	Stylus-Orb.svg	stylus-orb	1	0	0	1	
-fi	U+E986		Sublime	Sublime.svg	sublime	1	0	0	1	
-fi	U+E9A2		SuperCollider	SuperCollider.svg	scd	1	0	0	1	
-fi	U+33DC	㏜	Svelte	Svelte.svg	svelte	1	0	0	1	
-fi	U+EA17		SVN	SVN.svg	svn	1	0	0	1	
-fi	U+EA29		Swagger	Swagger.svg	swagger	1	0	0	1	
-fi	U+E9C3		SystemVerilog	SystemVerilog.svg	sysverilog	1	0	0	1	
-fi	U+F015		Tag	Tag.svg	tag	1	0	0	1	
-fi	U+301C	〜	Tailwind	Tailwind.svg	tailwind	1	0	0	1	
-fi	U+E956		Tcl	Tcl.svg	tcl	1	0	0	1	
-fi	U+2708	✈	Telegram	Telegram.svg	telegram	1	0	0	1	
-fi	U+0054	T	Template Toolkit	TemplateToolkit.svg	tt	1	0	0	1	
-fi	U+2696	⚖	TempleOS	TempleOS.svg	templeos	1	0	0	1	
-fi	U+F0C8		Terminal	Terminal.svg	terminal	1	0	0	1	
-fi	U+1F54A	🕊	Tern	Tern.svg	tern	1	0	0	1	
-fi	U+E916		Terraform	Terraform.svg	terraform	1	0	0	1	
-fi	U+272C	✬	Terser	Terser.svg	terser	1	0	0	1	
-fi	U+2714	✔	TestCafe	TestCafe.svg	testcafe	1	0	0	1	
-fi	U+EA62		Test, CoffeeScript	Test-CoffeeScript.svg	test-coffee	1	0	0	1	
-fi	U+EA60		Test, Directory	Test-Directory.svg	test-dir	1	0	0	1	
-fi	U+EA63		Test, Generic	Test-Generic.svg	test-generic	1	0	0	1	
-fi	U+EB0F		Test, Go	Test-Go.svg	test-go	1	0	0	1	
-fi	U+EB10		Test, Haskell	Test-Haskell.svg	test-hs	1	0	0	1	
-fi	U+EA64		Test, JS	Test-JS.svg	test-js	1	0	0	1	
-fi	U+EA65		Test, Perl	Test-Perl.svg	test-perl	1	0	0	1	
-fi	U+EA66		Test, Python	Test-Python.svg	test-python	1	0	0	1	
-fi	U+EA67		Test, React	Test-React.svg	test-react	1	0	0	1	
-fi	U+EA68		Test, Ruby	Test-Ruby.svg	test-ruby	1	0	0	1	
-fi	U+EB11		Test, Rust	Test-Rust.svg	test-rust	1	0	0	1	
-fi	U+EA69		Test, TypeScript	Test-TypeScript.svg	test-ts	1	0	0	1	
-fi	U+E600		Tex	LaTeX.svg	tex	1	0	0	1	
-fi	U+0074	t	Textile	Textile.svg	textile	1	0	0	1	
-fi	U+2122	™	TextMate	TextMate.svg	textmate	1	0	0	1	
-fi	U+EAE1		TFS	TFS.svg	tfs	1	0	0	1	
-fi	U+E9D8		Thor	Thor.svg	thor	1	0	0	1	
-fi	U+EB8A		Tilt	Tilt.svg	tilt	1	0	0	1	
-fi	U+EA01		TinyMCE	TinyMCE.svg	tinymce	1	0	0	1	
-fi	U+EAA9		Tipe	Tipe.svg	tipe	1	0	0	1	
-fi	U+EAB2		TLA+	TLA+.svg	tla	1	0	0	1	
-fi	U+EA8C		tmux	tmux.svg	tmux	1	0	0	1	
-fi	U+1F143	🅃	TOML	TOML.svg	toml	1	0	0	1	
-fi	U+EA93		TortoiseSVN	TortoiseSVN.svg	tortoise	1	0	0	1	
-fi	U+EB34		TOTVS	TOTVS.svg	totvs	1	0	0	1	
-fi	U+EB3B		Truffle	Truffle.svg	truffle	1	0	0	1	
-fi	U+E9E7		TSX	TSX.svg	tsx	1	0	0	1	
-fi	U+E9D1		TSX, Alt	TSX-Alt.svg	tsx-alt	1	0	0	1	
-fi	U+2476	⑶	TTCN-3	TTCN-3.svg	ttcn3	1	0	0	1	
-fi	U+E9B6		Turing	Turing.svg	turing	1	0	0	1	
-fi	U+2E19	⸙	Twig	Twig.svg	twig	1	0	0	1	
-fi	U+EA5D		Twine	Twine.svg	twine	1	0	0	1	
-fi	U+E9C1		TXL	TXL.svg	txl	1	0	0	1	
-fi	U+E9FE		TypeDoc	TypeDoc.svg	typedoc	1	0	0	1	
-fi	U+02A6	ʦ	TypeScript	TypeScript.svg	ts	1	0	0	1	
-fi	U+E912		TypeScript, Alt	TypeScript-Alt.svg	ts-alt	1	0	0	1	
-fi	U+E9DF		Typings	Typings.svg	typings	1	0	0	1	
-fi	U+1F144	🅄	UFO	UFO.svg	ufo	1	0	0	1	
-fi	U+EAC4		Unibeautify	Unibeautify.svg	unibeautify	1	0	0	1	
-fi	U+EB6E		Unicode	Unicode.svg	unicode	1	0	0	1	
-fi	U+E9B3		UNO	UNO.svg	uno	1	0	0	1	
-fi	U+0075	u	UnrealScript	UnrealScript.svg	unreal	1	0	0	1	
-fi	U+E9BA		UrWeb	UrWeb.svg	urweb	1	0	0	1	
-fi	U+0076	v	V	V.svg	v	1	0	0	1	
-fi	U+EA1F		V8	V8.svg	v8	1	0	0	1	
-fi	U+EAAC		V8, Turbofan	V8-Turbofan.svg	v8-turbofan	1	0	0	1	
-fi	U+0056	V	Vagrant	Vagrant.svg	vagrant	1	0	0	1	
-fi	U+1D4B1	𝒱	Vala	Vala.svg	vala	1	0	0	1	
-fi	U+EB5C		VAX	VAX.svg	vax	1	0	0	1	
-fi	U+E9B4		VCL	VCL.svg	varnish	1	0	0	1	
-fi	U+2B94	⮔	Velocity	Velocity.svg	velocity	1	0	0	1	
-fi	U+E949		Verilog	Verilog.svg	verilog	1	0	0	1	
-fi	U+EA79		VertexShader	VertexShader.svg	vertex	1	0	0	1	
-fi	U+E9AA		VHDL	VHDL.svg	vhdl	1	0	0	1	
-fi	U+F057		Video	Video.svg	video	1	0	0	1	
-fi	U+EA3E		VirtualBox	VirtualBox.svg	virtualbox	1	0	0	1	
-fi	U+EA2E		VirtualBox, Alt	VirtualBox-Alt.svg	virtualbox-alt	1	0	0	1	
-fi	U+2607	☇	Vite	Vite.svg	vite-icon	1	0	0	1	
-fi	U+EA49		VMware	VMware.svg	vmware	1	0	0	1	
-fi	U+24CB	Ⓥ	V-Ray	V-Ray.svg	vray	1	0	0	1	
-fi	U+EB22		VSCode	VSCode.svg	vscode	1	0	0	1	
-fi	U+EAC0		VSTS	VSTS.svg	vsts	1	0	0	1	
-fi	U+E906		Vue	Vue.svg	vue	1	0	0	1	
-fi	U+EB31		Vyper	Vyper.svg	vyper	1	0	0	1	
-fi	U+EBAC		W3C	W3C.svg	w3c	1	0	0	1	
-fi	U+231F	⌟	Wallaby	Wallaby.svg	wallaby	1	0	0	1	
-fi	U+EABA		Walt	Walt.svg	walt	1	0	0	1	
-fi	U+2162	Ⅲ	Warcraft III	Warcraft-III.svg	warcraft3	1	0	0	1	
-fi	U+EB40		WASI	WASI.svg	wasi	1	0	0	1	
-fi	U+EA4F		Watchman	Watchman.svg	watchman	1	0	0	1	
-fi	U+EAB1		WDL	WDL.svg	wdl	1	0	0	1	
-fi	U+EA70		WebAssembly	WebAssembly.svg	wasm	1	0	0	1	
-fi	U+EA7B		WebGL	WebGL.svg	webgl	1	0	0	1	
-fi	U+EB35		Webhint	Webhint.svg	webhint	1	0	0	1	
-fi	U+EA61		Webpack	Webpack.svg	webpack	1	0	0	1	
-fi	U+E91E		Webpack, Old	Webpack-Old.svg	webpack-old	1	0	0	1	
-fi	U+EB24		WebVTT	WebVTT.svg	webvtt	1	0	0	1	
-fi	U+8A00	言	Wenyan	Wenyan.svg	wenyan	1	0	0	1	
-fi	U+EA19		Wercker	Wercker.svg	wercker	1	0	0	1	
-fi	U+EB38		Wget	Wget.svg	wget	1	0	0	1	
-fi	U+EBB7		WinUI	WinUI.svg	winui	1	0	0	1	
-fi	U+1F377	🍷	Wine	Wine.svg	wine	1	0	0	1	
-fi	U+EAB0		WiX	WiX.svg	wix	1	0	0	1	
-fi	U+1F43A	🐺	Wolfram	Wolfram.svg	wolfram	1	0	0	1	
-fi	U+EAA8		Workbox	Workbox.svg	workbox	1	0	0	1	
-fi	U+1F32D	🌭	Wurst	Wurst.svg	wurst	1	0	0	1	
-fi	U+2169	Ⅹ	X10	X10.svg	x10	1	0	0	1	
-fi	U+EA77		Xamarin	Xamarin.svg	xamarin	1	0	0	1	
-fi	U+EB94		xmake	xmake.svg	xmake	1	0	0	1	
-fi	U+0058	X	XMOS	XMOS.svg	xmos	1	0	0	1	
-fi	U+E9C5		XPages	XPages.svg	xpages	1	0	0	1	
-fi	U+E9C6		Xtend	Xtend.svg	xtend	1	0	0	1	
-fi	U+EB04		Xubuntu	Xubuntu.svg	xubuntu	1	0	0	1	
-fi	U+0079	y	YAML	YAML.svg	yaml	1	0	0	1	
-fi	U+0059	Y	YAML, Alt 1	YAML-Alt1.svg	yaml-alt1	1	0	0	1	
-fi	U+EA9E		YAML, Alt 2	YAML-Alt2.svg	yaml-alt2	1	0	0	1	
-fi	U+EA9D		YAML, Alt 3	YAML-Alt3.svg	yaml-alt3	1	0	0	1	
-fi	U+EA9C		YAML, Alt 4	YAML-Alt4.svg	yaml-alt4	1	0	0	1	
-fi	U+EB9D		YAMLLint	YAMLLint.svg	yamllint	1	0	0	1	
-fi	U+042F	Я	Yandex	Yandex.svg	yandex	1	0	0	1	
-fi	U+262F	☯	YANG	YANG.svg	yang	1	0	0	1	
-fi	U+EA9F		YARA	YARA.svg	yara	1	0	0	1	
-fi	U+EA1A		Yarn	Yarn.svg	yarn	1	0	0	1	
-fi	U+EA73		Yasm	Yasm.svg	yasm	1	0	0	1	
-fi	U+1F480	💀	Yorick	Yorick.svg	yorick	1	0	0	1	
-fi	U+EA00		YUI	YUI.svg	yui	1	0	0	1	
-fi	U+E9F2		ZBrush	ZBrush.svg	zbrush	1	0	0	1	
-fi	U+25B2	▲	Zeit	Zeit.svg	zeit	1	0	0	1	
-fi	U+E9C7		Zephir	Zephir.svg	zephir	1	0	0	1	
-fi	U+007A	z	Zig	Zig.svg	zig	1	0	0	1	
-fi	U+EB56		Zilog	Zilog.svg	zilog	1	0	0	1	
-fi	U+E9C8		Zimpl	Zimpl.svg	zimpl	1	0	0	1	
-fi	U+01B6	ƶ	Zork	Zork.svg	zork	1	0	0	1	
-fi	U+EB01		ZorinOS	ZorinOS.svg	zorinos	1	0	0	1	
+# Font name	Codepoint	Character	Name	SVG file	ID	Keywords	Scale	X offset	Y offset	Zoom	Flags
+devicons	U+E653		Angular		angular		1	0	0.1875	1	
+devicons	U+E6AB		Appcelerator		appcelerator		1	0	0.1875	1	
+devicons	U+E613		App Store		appstore		1	0	0.1875	1	
+devicons	U+E67F		DotNet / .NET		asp		1	0	0.1875	1	
+devicons	U+E664		Atom		atom		1	0	0.1875	1	thicken
+devicons	U+E652		Backbone		backbone		1	0	0.1875	1	
+devicons	U+E603		Bitbucket		bitbucket		1	0	0.1875	1	
+devicons	U+E647		Bootstrap		bootstrap		0.9375	0	0.125	1	
+devicons	U+E64D		Bower		bower		1	0	0.1875	1	sharpen
+devicons	U+E643		Chrome		chrome		1	0	0.1875	1	
+devicons	U+E668		Clojure		clojure		1	0	0.1875	1	thicken
+devicons	U+E661		Compass		compass		0.875	0	0.125	1	
+devicons	U+E698		Dart		dart		0.9375	0	0.125	1	
+devicons	U+E6AF		D		dlang		1	0	0.1875	1	
+devicons	U+E61C		Dojo		dojo		1	0	0.25	1.2	thicken
+devicons	U+E607		Dropbox		dropbox		1	0	0.1875	1	
+devicons	U+E69E		Eclipse		eclipse		1	0	0.1875	1	
+devicons	U+E6B1		Erlang		erlang		1	0	0.1875	1	
+devicons	U+E68E		Ext JS		extjs		1	0	0.1875	1	
+devicons	U+E645		Firefox		firefox		1	0	0.1875	1	
+devicons	U+E6A7		FSharp		fsharp		1	0.0625	0.125	1	
+devicons	U+E602		Git		git		0.9375	0	0.125	1	
+devicons	U+E67B		Heroku		heroku		1	0	0.1875	1	
+devicons	U+E60D		Jekyll		jekyll		1	0	0.1875	1	sharpen
+devicons	U+E650		jQuery		jquery		0.9375	0	0.125	1	
+devicons	U+E654		jQuery UI		jqueryui		0.9375	0	0.125	1	
+devicons	U+E63F		Laravel, Old		laravel-old		1	0	0.1875	1	thicken
+devicons	U+E6B6		Materialize		materialize		1	0	0.1875	1.2	thicken
+devicons	U+E620		Modernizr		modernizr		1	0	0.1875	1	
+devicons	U+E68F		MooTools		mootools		1	0	0.1875	1	sharpen
+devicons	U+E618		Node		node		1	0	0.1875	1	
+devicons	U+E669		Perl		perl		0.9375	0	0.125	1	
+devicons	U+E6A1		Prolog		prolog		1	0	0.1875	1	
+devicons	U+E63B		Rails		rails		1	0	0.1875	1	
+devicons	U+E65F		Raphael		raphael		0.9375	0	0.1875	1	
+devicons	U+E670		RequireJS		requirejs		1	0	0.1875	1	
+devicons	U+E6A8		Rust		rust		1	0	0.1875	1	
+devicons	U+E648		Safari		safari		1	0	0.1875	1	
+devicons	U+E64B		Sass / SCSS		sass		1	0	0.1875	1	
+devicons	U+E68C		Sencha Touch		sencha		1	0	0.1875	1	
+devicons	U+E65E		Snap.svg		snapsvg		1	0	0.1875	1	
+devicons	U+E655		Swift		swift		1	0.0625	0.1875	1	
+devicons	U+E67E		Travis		travis		0.9375	0	0.125	1	
+devicons	U+E672		TYPO3		typo3		1	0	0.1875	1	
+devicons	U+E673		UI Kit		uikit		0.9375	0	0.125	1	
+devicons	U+E621		Unity 3D		unity3d		1	0	0.1875	1	
+devicons	U+E6C5		Vim		vim		1	0	0.1875	1	
+devicons	U+E60C		Visual Studio		vs		0.875	0	0.125	1	
+devicons	U+E60F		Windows		windows		0.875	0	0.125	1	
+devicons	U+E67A		Yeoman		yeoman		1	0	0.1875	1	
+mf	U+F102		Apache		apache		0.9375	0	0.1875	1	
+mf	U+0041	A	Arch Linux		archlinux		0.9375	0	0.0625	1	
+mf	U+F106		C		c		0.8125	0	0.0625	1	
+mf	U+F10B		C++		cpp		0.875	0	0.0625	1	
+mf	U+F10C		C#		csharp		0.875	0	0.0625	1	
+mf	U+F111		Debian		debian		0.875	0	0.0625	1	
+mf	U+F113		Elixir		elixir		0.875	0	0.0625	1	
+mf	U+F119		GNOME		gnome		0.875	0	0.0625	1	
+mf	U+F121		Haskell		haskell		1	0	0.125	1	
+mf	U+F126		Java		java		1	0	0.125	1	
+mf	U+F129		JavaScript		js		0.875	0	0.0625	1	
+mf	U+F136		mSQL		msql		0.9375	0	0.125	1	sharpen
+mf	U+F13E		Objective-C		objc		1	0	0.125	1	
+mf	U+F141		Mac OS/X		osx		0.875	0	0.0625	1	
+mf	U+F14A		PL/pgSQL		pgsql		1	0	0.125	1	
+mf	U+F14C		Python		python		0.875	0	0.0625	1	
+mf	U+F14E		Red Hat		red-hat		0.875	0	0.125	1	
+mf	U+F154		Scala		scala		0.875	0	0.0625	1	
+mf	U+F10E		SQL		sql		0.875	0	0.0625	1	
+mf	U+F15C		SVG		svg		0.875	0	0.0625	1	
+mf	U+F16E		X11		x11		0.8125	0	0.0625	1	
+octicons	U+F094		Binary		binary		1	0	0.0625	1	
+octicons	U+F007		Book		book		1	0	0.0625	1	
+octicons	U+F05F		Code		code		1	0	0.0625	1	
+octicons	U+F096		Database		database		1	0	0.0625	1	
+octicons	U+F02F		Gear		gear		1	0	0.0625	1	
+octicons	U+F01F		Git, commit		git-commit		1	0	0.0625	1	
+octicons	U+F023		Git, merge		git-merge		1	0	0.0625	1	
+octicons	U+F00A		GitHub		github		1	0	0.0625	1	
+octicons	U+F043		Graph		graph		1	0	0.0625	1	
+octicons	U+F012		Image		image		1	0	0.0625	1	
+octicons	U+F049		Key		key		1	0	0.0625	1	
+octicons	U+F0B0		Link		link		1	0	0.0625	1	
+octicons	U+F0C9		Markdown		markdown		1	0	0.0625	1	
+octicons	U+F0C4		Package		package		1	0	0.0625	1	
+octicons	U+F047		Ruby		ruby		1	0	0.0625	1	
+octicons	U+F08C		Secret		secret		1	0	0.0625	1	
+octicons	U+F011		Text		text		1	0	0.0625	1	
+octicons	U+F013		Zip		zip		1	0	0.0625	1	
+octicons	U+F076		Checklist		checklist		1.0625	0.0625	0	1	
+octicons	U+F0B2		Squirrel		squirrel		0.9375	0	0.0625	1	
+fa	U+F13D		Anchor		anchor		1	0	0.0625	1	
+fa	U+F17B		Android		android		1	0	0.0625	1	
+fa	U+F1FA		At Sign		at		0.9375	0	0.0625	1	
+fa	U+F028		Audio		audio		0.9375	0	0.0625	1	
+fa	U+F1DA		Backup		backup		0.8125	0	0.0625	1	
+fa	U+F15A		Bitcoin		bitcoin		1	0	0.0625	1	
+fa	U+F02D		Book, Alt		book-alt		1	0	0.125	1	
+fa	U+F0A1		Bullhorn		bullhorn		1	0	0.125	1	
+fa	U+F1EC		Calculator		calc		0.875	0	0	1	
+fa	U+F0F4		Coffee		coffee		0.875	0	0.0625	1	
+fa	U+F13C		CSS 3		css3		0.8125	0	0	1	
+fa	U+F111		Circle		circle		1	0	0.0625	1	
+fa	U+F019		Download		download		1	0	0.125	1	
+fa	U+F0AC		Earth		earth		0.9375	0	0	1	
+fa	U+F0B0		Filter		filter		1	0	0	1	
+fa	U+F085		Gears		gears		0.9375	0	0	1	
+fa	U+F13B		HTML5		html5		0.9375	0	0.0625	1	
+fa	U+F023		Lock		lock		1.0625	0	0.125	1	
+fa	U+F10B		Mobile		mobile		1.25	0	0.125	1	
+fa	U+F186		Moon		moon		1	0	0.0625	1	
+fa	U+F001		Musical Note		music		0.9375	0	0	1	
+fa	U+F02F		Printer		print		0.9375	0	0.125	1	
+fa	U+F059		Question		question		1	0	0.0625	1	
+fa	U+F1B8		Recycle Sign		recycle		0.9375	0	0.125	1	
+fa	U+F143		RSS		rss		1	0	0.125	1	
+fa	U+F24E		Scales		scales		0.9375	0	0.0625	1	
+fa	U+F0EB		Smarty		smarty		0.9375	0	0	1	
+fa	U+F279		Source Map		sourcemap		0.875	0	0	1	
+fa	U+F185		Sun		sun		0.875	0	0	1	thicken
+fa	U+F03A		Table of Contents		toc		0.9375	0	0.125	1	
+fa	U+F1D7		WeChat		wechat		1	0	0.125	1	
+fi	U+A5EA	ꗪ	1C	1C.svg	_1c		1	0	0.1875	1	
+fi	U+EA28		1C, Alt	1C-Alt.svg	_1c-alt		1	0	0	1	
+fi	U+E9E8		3D Model	3D-Model.svg	model		1	0	0	1	
+fi	U+E900		3DS Max	3DS-Max.svg	maxscript		1	0	0	1	
+fi	U+EB73		4D	4D.svg	_4d		1	0	0	1	
+fi	U+EB79		A+	A+.svg	a-plus		1	0	0	1	
+fi	U+E92B		ABAP	ABAP.svg	abap		1	0	0	1	
+fi	U+EA4E		ABIF	ABIF.svg	abif		1	0	0	1	
+fi	U+237A	⍺	Acre	Acre.svg	acre		1	0	0	1	
+fi	U+E92E		ActionScript	ActionScript.svg	as		1	0	0	1	
+fi	U+E90B		Ada	Ada.svg	ada		1	0	0	1	
+fi	U+1D235	𝈵	Adobe	Adobe.svg	adobe		1	0	0	1	
+fi	U+EB5F		Adobe Acrobat	Adobe-Acrobat.svg	acrobat		1	0	0	1	
+fi	U+E9F3		Adobe After Effects	Adobe-AfterEffects.svg	ae		1	0	0	1	
+fi	U+EB41		Adobe Animate	Adobe-Animate.svg	adobe-animate		1	0	0	1	
+fi	U+3373	㍳	Adobe Audition	Adobe-Audition.svg	adobe-audition		1	0	0	1	
+fi	U+EB61		Adobe Bridge	Adobe-Bridge.svg	adobe-bridge		1	0	0	1	
+fi	U+EB62		Adobe Character Animator	Adobe-CharacterAnimator.svg	adobe-charanim		1	0	0	1	
+fi	U+EB5E		Adobe Creative Cloud	Adobe-CreativeCloud.svg	adobe-cc		1	0	0	1	
+fi	U+EB63		Adobe Dimension	Adobe-Dimension.svg	adobe-dimension		1	0	0	1	
+fi	U+EB64		Adobe Dreamweaver	Adobe-Dreamweaver.svg	dreamweaver		1	0	0	1	
+fi	U+EB43		Adobe Flash	Adobe-Flash.svg	flash		1	0	0	1	
+fi	U+EB65		Adobe Fuse	Adobe-Fuse.svg	adobe-fuse		1	0	0	1	
+fi	U+E6B4		Adobe Illustrator	Adobe-Illustrator.svg	ai		1	0	0	1	
+fi	U+1F18B	🆋	Adobe InCopy	Adobe-InCopy.svg	incopy		1	0	0	1	
+fi	U+E9F4		Adobe InDesign	Adobe-InDesign.svg	indesign		1	0	0	1	
+fi	U+EB67		Adobe Lightroom	Adobe-Lightroom.svg	lightroom		1	0	0	1	
+fi	U+EB68		Adobe Media Encoder	Adobe-MediaEncoder.svg	adobe-encoder		1	0	0	1	
+fi	U+E6B8		Adobe Photoshop	Adobe-Photoshop.svg	psd		1	0	0	1	
+fi	U+EB69		Adobe Prelude	Adobe-Prelude.svg	adobe-prelude		1	0	0	1	
+fi	U+E9F5		Adobe Premiere	Adobe-Premiere.svg	premiere		1	0	0	1	
+fi	U+EB6A		Adobe Premiere Rush	Adobe-PremiereRush.svg	premiere-rush		1	0	0	1	
+fi	U+EB6B		Adobe XD	Adobe-XD.svg	adobe-xd		1	0	0	1	
+fi	U+00E6	æ	Aeternity	Aeternity.svg	aeternity		1	0	0	1	
+fi	U+EB2C		AffectScript	AffectScript.svg	affectscript		1	0	0	1	
+fi	U+EABB		AffinityDesigner	AffinityDesigner.svg	affinity		1	0	0	1	
+fi	U+1315A	𓅚	Agda	Agda.svg	agda		1	0	0	1	
+fi	U+EA0E		Akka	Akka.svg	akka		1	0	0	1	
+fi	U+EB27		Alacritty	Alacritty.svg	alacritty		1	0	0	1	
+fi	U+EB28		Alacritty, Alt	Alacritty-Alt.svg	alacritty-alt		1	0	0	1	
+fi	U+29CB	⧋	Alex	Alex.svg	alex		1	0	0	1	
+fi	U+E935		Alloy	Alloy.svg	alloy		1	0	0	1	
+fi	U+E9FF		Alpine Linux	Alpine-Linux.svg	alpine		1	0	0	1	
+fi	U+EB59		AMD	AMD.svg	amd		1	0	0	1	
+fi	U+26BD	⚽	AmigaOS	AmigaOS.svg	amigaos		1	0	0	1	
+fi	U+E94E		AMPL	AMPL.svg	ampl		1	0	0	1	
+fi	U+EB32		AmuseWiki	AmuseWiki.svg	amusewiki		1	0	0	1	
+fi	U+EB7D		Analytica	Analytica.svg	analytica		1	0	0	1	
+fi	U+EA5B		AngelScript	AngelScript.svg	angelscript		1	0	0	1	
+fi	U+EAED		AnimeStudio	AnimeStudio.svg	animestudio		1	0	0	1	
+fi	U+24B6	Ⓐ	Ansible	Ansible.svg	ansible		1	0	0	1	
+fi	U+0061	a	Ansible, Alt	Ansible-Alt.svg	ansible-alt		1	0	0	1	
+fi	U+E92C		ANTLR	ANTLR.svg	antlr		1	0	0	1	
+fi	U+2591	░	Antwar	Antwar.svg	antwar		1	0	0	1	
+fi	U+EACF		AnyScript	AnyScript.svg	anyscript		1	0	0	1	
+fi	U+E93E		Apache ANT	Apache-ANT.svg	ant		1	0	0	1	
+fi	U+E92D		API Blueprint	API-Blueprint.svg	api		1	0	0	1	
+fi	U+EB99		API Extractor	APIExtractor.svg	apiextractor		1	0	0	1	
+fi	U+234B	⍋	APL	APL.svg	apl		1	0	0	1	
+fi	U+E909		APL, Old	APL-Old.svg	apl-old		1	0	0	1	
+fi	U+1F110	🄐	Apollo	Apollo.svg	apollo		1	0	0	1	
+fi	U+EB54		Apollo Guidance Computer (AGC)	AGC.svg	agc		1	0	0	1	
+fi	U+E925		Apple	Apple.svg	apple		1	0	0	1	
+fi	U+E923		Appveyor	Appveyor.svg	appveyor		1	0	0	1	
+fi	U+E92F		Arc	Arc.svg	arc		1	0	0	1	
+fi	U+0041	A	Arch Linux	Arch-Linux.svg	archlinux		1	0	0	1	
+fi	U+E930		Arduino	Arduino.svg	arduino		1	0	0	1	
+fi	U+EB5B		ARM	ARM.svg	arm		1	0	0	1	
+fi	U+24D0	ⓐ	ArtText	ArtText.svg	arttext		1	0	0	1	
+fi	U+E918		AsciiDoc	AsciiDoc.svg	asciidoc		1	0	0	1	
+fi	U+EAC7		Asciidoctor	Asciidoctor.svg	asciidoctor		1	0	0	1	
+fi	U+EB53		Assembly, AGC	Assembly-AGC.svg	asm-agc		1	0	0	1	
+fi	U+EB52		Assembly, AMD	Assembly-AMD.svg	asm-amd		1	0	0	1	
+fi	U+EB51		Assembly, ARM	Assembly-ARM.svg	asm-arm		1	0	0	1	
+fi	U+EB50		Assembly, AT&T	Assembly-ATT.svg	asm-att		1	0	0	1	
+fi	U+EB6C		Assembly, AVR	Assembly-AVR.svg	asm-avr		1	0	0	1	
+fi	U+EB4F		Assembly, Generic	Assembly-Generic.svg	asm		1	0	0	1	
+fi	U+EB60		Assembly, Hitachi	Assembly-Hitachi.svg	asm-hitachi		1	0	0	1	
+fi	U+EB4E		Assembly, Intel	Assembly-Intel.svg	asm-intel		1	0	0	1	
+fi	U+EB4D		Assembly, Motorola	Assembly-Motorola.svg	asm-m68k		1	0	0	1	
+fi	U+EB4C		Assembly, PPC	Assembly-PowerPC.svg	asm-powerpc		1	0	0	1	
+fi	U+EB4B		Assembly, RISC-V	Assembly-RISCV.svg	asm-riscv		1	0	0	1	
+fi	U+EB4A		Assembly, SPARC	Assembly-SPARC.svg	asm-sparc		1	0	0	1	
+fi	U+EB48		Assembly, VAX	Assembly-VAX.svg	asm-vax		1	0	0	1	
+fi	U+EB47		Assembly, Zilog	Assembly-Zilog.svg	asm-zilog		1	0	0	1	
+fi	U+EAE5		Asymptote	Asymptote.svg	asymptote		1	0	0	1	
+fi	U+EAE3		Asymptote, Alt	Asymptote-Alt.svg	asymptote-alt		1	0	0	1	
+fi	U+EB55		AT&T	ATT.svg	att		1	0	0	1	
+fi	U+2649	♉	Atoum	Atoum.svg	atoum		1	0	0	1	
+fi	U+E934		ATS	ATS.svg	ats		1	0	0	1	
+fi	U+E9F9		Audacity	Audacity.svg	audacity		1	0	0	1	
+fi	U+E931		Augeas	Augeas.svg	augeas		1	0	0	1	
+fi	U+EA48		Aurelia	Aurelia.svg	aurelia		1	0	0	1	
+fi	U+E932		AutoHotkey	AutoHotkey.svg	ahk		1	0	0	1	
+fi	U+E933		AutoIt	AutoIt.svg	autoit		1	0	0	1	
+fi	U+EBB4		Automator	Automator.svg	automator		1	0	0	1	
+fi	U+EB6D		AVR	AVR.svg	avr		1	0	0	1	
+fi	U+EAA3		Avro	Avro.svg	avro		1	0	0	1	
+fi	U+1F427	🐧	Awk	Awk.svg	awk		1	0	0	1	
+fi	U+1F680	🚀	Azure Pipelines	Azure-Pipelines.svg	azurepipelines		1	0	0	1	
+fi	U+E91F		Babel	Babel.svg	babel		1	0	0	1	
+fi	U+EAC8		Ballerina	Ballerina.svg	ballerina		1	0	0	1	
+fi	U+EACD		Bazaar	Bazaar.svg	bazaar		1	0	0	1	
+fi	U+EAD2		Bazel	Bazel.svg	bazel		1	0	0	1	
+fi	U+EA5A		Bazel, Old	Bazel-Old.svg	bazel-old		1	0	0	1	
+fi	U+EA89		Behat	Behat.svg	behat		1	0	0	1	
+fi	U+EA59		BEM	BEM.svg	bem		1	0	0	1	
+fi	U+E601		BibTeX	BibTeX.svg	bibtex		1	0	0	1	
+fi	U+EB29		Biml	Biml.svg	biml		1	0	0	1	
+fi	U+EBA4		Binder	Binder.svg	binder		1	0	0	1	
+fi	U+EA6E		BinTray	BinTray.svg	bintray		1	0	0	1	
+fi	U+1F402	🐂	Bison	Bison.svg	bison		1	0	0	1	
+fi	U+EA2A		bitHound	bitHound.svg	bithound		1	0	0	1	
+fi	U+E9FA		Blender	Blender.svg	blender		1	0	0	1	
+fi	U+EBA5		BlitzBASIC	BlitzBASIC.svg	blitzbasic		1	0	0	1	
+fi	U+EBA3		Bloc	Bloc.svg	bloc		1	0	0	1	
+fi	U+E93C		Bluespec	Bluespec.svg	bluespec		1	0	0	1	
+fi	U+2A74	⩴	BNF	BNF.svg	bnf		1	0	0	1	
+fi	U+E939		Boo	Boo.svg	boo		1	0	0	1	
+fi	U+1F441	👁	Bors	Bors.svg	bors		1	0	0	1	
+fi	U+EB96		Bosque	Bosque.svg	bosque		1	0	0	1	
+fi	U+E93A		Brainfuck	Brainfuck.svg	brain		1	0	0	1	
+fi	U+E9D6		Brakeman	Brakeman.svg	brakeman		1	0	0	1	
+fi	U+E93B		Bro	Bro.svg	bro		1	0	0	1	
+fi	U+E922		Broccoli	Broccoli.svg	broccoli		1	0	0	1	
+fi	U+EAA2		Brotli	Brotli.svg	brotli		1	0	0	1	
+fi	U+EA6C		Brotli, Old	Brotli-Old.svg	brotli-old		1	0	0	1	
+fi	U+EA80		Browserslist	Browserslist.svg	browserslist		1	0	0	1	
+fi	U+0062	b	Browsersync	Browsersync.svg	browsersync		1	0	0	1	
+fi	U+EA47		Brunch	Brunch.svg	brunch		1	0	0	1	
+fi	U+EA46		Buck	Buck.svg	buck		1	0	0	1	
+fi	U+F103		Build Boot	Build-Boot.svg	boot		1	0	0	1	
+fi	U+EBAD		Buildkite	Buildkite.svg	buildkite		1	0	0	1	
+fi	U+EA45		Bundler	Bundler.svg	bundler		1	0	0	1	
+fi	U+E962		BYOND	BYOND.svg	byond		1	0	0	1	
+fi	U+EB7B		C#	C%23.svg	c-sharp		1	0	0	1	
+fi	U+E9E2		C# Script	C%23-Script.svg	csscript		1	0	0	1	
+fi	U+EB7C		C++	C++.svg	cpp		1	0	0	1	
+fi	U+E9C2		Cabal	Cabal.svg	cabal		1	0	0	1	
+fi	U+1F512	🔒	Caddy	Caddy.svg	caddy		1	0	0	1	
+fi	U+EA58		Caddy, Old	Caddy-Old.svg	caddy-old		1	0	0	1	
+fi	U+EA9A		Caffe	Caffe.svg	caffe		1	0	0	1	
+fi	U+EAB6		Caffe2	Caffe2.svg	caffe2		1	0	0	1	
+fi	U+EA92		Cairo	Cairo.svg	cairo		1	0	0	1	
+fi	U+E9E3		Cake	Cake.svg	cake		1	0	0	1	
+fi	U+E924		Cakefile	Cakefile.svg	cakefile		1	0	0	1	
+fi	U+EA43		CakePHP	CakePHP.svg	cakephp		1	0	0	1	
+fi	U+E9D3		CakePHP, Old	CakePHP-Old.svg	cakephp-old		1	0	0	1	
+fi	U+EBA1		Calva	Calva.svg	calva		1	0	0	1	
+fi	U+EA98		Carthage	Carthage.svg	carthage		1	0	0	1	
+fi	U+EBB6		CASC	CASC.svg	casc-icon		1	0	0	1	
+fi	U+E94F		Ceylon	Ceylon.svg	ceylon		1	0	0	1	
+fi	U+0063	c	Chai	Chai.svg	chai		1	0	0	1	
+fi	U+E950		Chapel	Chapel.svg	chapel		1	0	0	1	
+fi	U+EA0B		ChartJS	ChartJS.svg	chartjs		1	0	0	1	
+fi	U+1F406	🐆	Cheetah3D	Cheetah3D.svg	cheetah3d		1	0	0	1	
+fi	U+EA42		Chef	Chef.svg	chef		1	0	0	1	
+fi	U+1F36B	🍫	Chocolatey	Chocolatey.svg	chocolatey		1	0	0	1	
+fi	U+E943		ChucK	ChucK.svg	chuck		1	0	0	1	
+fi	U+EA12		CircleCI	CircleCI.svg	circleci		1	0	0	1	
+fi	U+E951		Cirru	Cirru.svg	cirru		1	0	0	1	
+fi	U+EA0C		CKEditor	CKEditor.svg	ckeditor		1	0	0	1	
+fi	U+E952		Clarion	Clarion.svg	clarion		1	0	0	1	
+fi	U+E95B		Clean	Clean.svg	clean		1	0	0	1	
+fi	U+E95C		Click	Click.svg	click		1	0	0	1	
+fi	U+E940		CLIPS	CLIPS.svg	clips		1	0	0	1	
+fi	U+F104		ClojureJS	ClojureJS.svg	cljs		1	0	0	1	
+fi	U+EA82		Closure Template	ClosureTemplate.svg	closure-tpl		1	0	0	1	
+fi	U+EAD0		CloudFoundry	CloudFoundry.svg	cloudfoundry		1	0	0	1	
+fi	U+E93F		Cmake	Cmake.svg	cmake		1	0	0	1	
+fi	U+EBB5		CNAB	CNAB.svg	cnab-icon		1	0	0	1	
+fi	U+EA44		COBOL	COBOL.svg	cobol		1	0	0	1	
+fi	U+EA97		CocoaPods	CocoaPods.svg	cocoapods		1	0	0	1	
+fi	U+EA8B		Codacy	Codacy.svg	codacy		1	0	0	1	
+fi	U+E9D5		Code Climate	Code-Climate.svg	cc		1	0	0	1	
+fi	U+2602	☂	Codecov	Codecov.svg	codecov		1	0	0	1	
+fi	U+EA41		CodeKit	CodeKit.svg	codekit		1	0	0	1	
+fi	U+EB8F		CodeMeta	CodeMeta.svg	codemeta		1	0	0	1	
+fi	U+EA0D		CodeMirror	CodeMirror.svg	codemirror		1	0	0	1	
+fi	U+EA6A		CodeShip	CodeShip.svg	codeship		1	0	0	1	
+fi	U+E929		ColdFusion	ColdFusion.svg	cf		1	0	0	1	
+fi	U+1F191	🆑	CommitLint	CommitLint.svg	commitlint		1	0	0	1	
+fi	U+EBB3		Commitizen	Commitizen.svg	commitizen		1.06666	0	3	1	
+fi	U+E972		Common Lisp	Common-Lisp.svg	cl		1	0	0	1	
+fi	U+E942		Component Pascal	Component-Pascal.svg	cp		1	0	0	1	
+fi	U+E683		Composer	Composer.svg	composer		1	0	0	1	
+fi	U+EB46		Computable Document Format	CDF.svg	cdf		1	0	0	1	
+fi	U+EAD1		Conan	Conan.svg	conan		1	0	0	1	
+fi	U+EB3C		Conda	Conda.svg	conda		1	0	0	1	
+fi	U+F07C		Config	Config.svg	config	config, settings, octicons	1	0	0	1	
+fi	U+EB18		Config, CoffeeScript	Config-CoffeeScript.svg	config-coffee	config, settings, coffee, coffeescript	1	0	0	1	
+fi	U+EB12		Config, Go	Config-Go.svg	config-go	config, settings, go	1	0	0	1	
+fi	U+EB14		Config, Haskell	Config-Haskell.svg	config-hs	config, settings, haskell	1	0	0	1	
+fi	U+EB1A		Config, JS	Config-JS.svg	config-js	config, settings, js, javascript	1	0	0	1	
+fi	U+EB19		Config, Perl	Config-Perl.svg	config-perl	config, settings, perl	1	0	0	1	
+fi	U+EB15		Config, Python	Config-Python.svg	config-python	config, settings, python	1	0	0	1	
+fi	U+EB16		Config, React	Config-React.svg	config-react	config, settings, react, jsx, tsx	1	0	0	1	
+fi	U+EB17		Config, Ruby	Config-Ruby.svg	config-ruby	config, settings, ruby	1	0	0	1	
+fi	U+EB13		Config, Rust	Config-Rust.svg	config-rust	config, settings, rust	1	0	0	1	
+fi	U+EB1B		Config, TypeScript	Config-TypeScript.svg	config-ts	config, settings, ts, typescript	1	0	0	1	
+fi	U+EAA6		CoNLL	CoNLL.svg	conll		1	0	0	1	
+fi	U+E95F		Coq	Coq.svg	coq		1	0	0	1	
+fi	U+EA11		Cordova	Cordova.svg	cordova		1	0	0	1	
+fi	U+EA90		CorelDRAW	CorelDRAW.svg	coreldraw		1	0	0	1	
+fi	U+EA91		CorelDRAW, Alt	CorelDRAW-Alt.svg	corel		1	0	0	1	
+fi	U+272A	✪	Coveralls	Coveralls.svg	coveralls		1	0	0	1	
+fi	U+EA87		CPAN	CPAN.svg	cpan		1	0	0	1	
+fi	U+EB8D		CpcdosC+	CpcdosC+.svg	cpcdosc		1	0	0	1	
+fi	U+EB89		Craft Tweaker	CraftTweaker.svg	crafttweaker		1	0	0	1	
+fi	U+E95E		Creole	Creole.svg	creole		1	0	0	1	
+fi	U+EAD3		Crowdin	Crowdin.svg	crowdin		1	0	0	1	
+fi	U+E902		Crystal	Crystal.svg	crystal		1	0	0	1	
+fi	U+E9F0		CSound	CSound.svg	csound		1	0	0	1	
+fi	U+EB92		Cubit	Cubit.svg	cubit		1	0	0	1	
+fi	U+F02B		Cucumber	Cucumber.svg	cucumber		1	0	0	1	
+fi	U+EB76		Cuneiform	Cuneiform.svg	cuneiform		1	0	0	1	
+fi	U+EB7A		Curl (language)	Curl-Lang.svg	curl-lang		1	0	0	1	
+fi	U+002F	/	cURL (program)	cURL.svg	curl		1	0	0	1	
+fi	U+EB78		Curry	Curry.svg	curry		1	0	0	1	
+fi	U+1F41F	🐟	CVS	CVS.svg	cvs		1	0	0	1	
+fi	U+29D9	⧙	CWL	CWL.svg	cwl		1	0	0	1	
+fi	U+E963		Cython	Cython.svg	cython		1	0	0	1	
+fi	U+EA10		D3	D3.svg	d3		1	0	0	1	
+fi	U+EB8C		Dafny	Dafny.svg	dafny		1	0	0	1	
+fi	U+E964		Darcs	Darcs-Patch.svg	darcs		1	0	0	1	
+fi	U+F07D		Dashboard	Dashboard.svg	dashboard		1	0	0	1	
+fi	U+EA99		DataWeave	DataWeave.svg	dataweave		1	0	0	1	
+fi	U+E9F1		dBASE	dBASE.svg	dbase		1	0	0	1	
+fi	U+1F5CC	🗌	Default	Default.svg	default		1	0	0	1	
+fi	U+EA40		Delphi	Delphi.svg	delphi		1	0	0	1	
+fi	U+EAEF		Deno	Deno.svg	deno		1	0	0	1	
+fi	U+EB3E		Dependabot	Dependabot.svg	dependabot		1	0	0	1	
+fi	U+EB83		DevContainer	DevContainer.svg	devcontainer		1	0	0	1	
+fi	U+EA57		DeviceTree	DeviceTree.svg	devicetree		1	0	0	1	
+fi	U+1F58B	🖋	Dhall	Dhall.svg	dhall		1	0	0	1	
+fi	U+EAB5		Dia	Dia.svg	dia		1	0	0	1	
+fi	U+E960		Diff	Diff.svg	diff		1	0	0	1	
+fi	U+EB03		Digdag	Digdag.svg	digdag		1	0	0	1	
+fi	U+2624	☤	DNA	DNA.svg	dna		1	0	0	1	
+fi	U+13167	𓅧	DocBook	DocBook.svg	docbook		1	0	0	1	
+fi	U+F106		Dockerfile	Docker.svg	docker		1	0	0	1	
+fi	U+EA3F		Doclets	Doclets.svg	doclets		1	0	0	1	
+fi	U+21B9	↹	DocPad	DocPad.svg	docpad		1	0	0	1	
+fi	U+EB21		Docz	Docz.svg	docz		1	0	0	1	
+fi	U+E946		Dogescript	Dogescript.svg	doge		1	0	0	1	
+fi	U+EA71		DOM	DOM.svg	dom		1	0	0	1	
+fi	U+1F3C1	🏁	DoneJS	DoneJS.svg	donejs		1	0	0	1	
+fi	U+EAF2		DOSBox	DOSBox.svg	dosbox		1	0	0	1	
+fi	U+EAF0		DOSBox, Alt	DOSBox-Alt.svg	dosbox-alt		1	0	0	1	
+fi	U+EB0B		doT.js	dotjs.svg	dotjs		1	0	0	1	
+fi	U+E928		Doxygen	Doxygen.svg	doxygen		1	0	0	1	
+fi	U+EAFD		DragonflyBSD	DragonflyBSD.svg	dragonflybsd		1	0	0	1	
+fi	U+1F44C	👌	Dragula	Dragula.svg	dragula		1	0	0	1	
+fi	U+EB93		draw.io	draw.io.svg	drawio		1	0	0	1	
+fi	U+EA3D		Drone	Drone.svg	drone		1	0	0	1	
+fi	U+EBA2		DUB	DUB.svg	dub		1	0	0	1	
+fi	U+EB98		DVC	DVC.svg	dvc		1	0	0	1	
+fi	U+E90C		Dyalog	Dyalog.svg	dyalog		1	0	0	1	
+fi	U+EA15		DyLib	DyLib.svg	dylib		1	0	0	1	
+fi	U+0045	E	E	E.svg	e		1	0	0	1	
+fi	U+E965		Eagle	Eagle.svg	eagle		1	0	0	1	
+fi	U+EA85		EasyBuild	EasyBuild.svg	easybuild		1	0	0	1	
+fi	U+E9C9		eC	eC.svg	ec		1	0	0	1	
+fi	U+E966		Ecere	Ecere.svg	ecere		1	0	0	1	
+fi	U+EB80		ECLiPSe (language)	ECLiPSe-Lang.svg	eclipse-lang		1	0	0	1	
+fi	U+EA78		Edge	Edge.svg	edge		1	0	0	1	
+fi	U+EA1B		EditorConfig	EditorConfig.svg	editorconfig		1	0	0	1	
+fi	U+E967		Eiffel	Eiffel.svg	eiffel		1	0	0	1	
+fi	U+EA4B		EJS	EJS.svg	ejs		1	0	0	1	
+fi	U+EA27		Electron	Electron.svg	electron		1	0	0	1	
+fi	U+24D4	ⓔ	ElementaryOS	ElementaryOS.svg	elementaryos		1	0	0	1	
+fi	U+F102		Elm	Elm.svg	elm		1	0	0	1	
+fi	U+E926		Emacs	Emacs.svg	emacs		1	0	0	1	
+fi	U+E61B		Ember	Ember.svg	ember		1	0	0	1	
+fi	U+E968		EmberScript	EmberScript.svg	em		1	0	0	1	
+fi	U+EAD4		Ensime	Ensime.svg	ensime		1	0	0	1	
+fi	U+EA0A		EQ	EQ.svg	eq		1	0	0	1	
+fi	U+EA5C		ESDoc	ESDoc.svg	esdoc		1	0	0	1	
+fi	U+EA0F		ESLint	ESLint.svg	eslint		1	0	0	1	
+fi	U+E90E		ESLint, Old	ESLint-Old.svg	eslint-old		1	0	0	1	
+fi	U+EB71		Expo	Expo.svg	expo		1	0	0	1	
+fi	U+E94B		Fabfile	Fabfile.svg	fabfile		1	0	0	1	
+fi	U+1F4DC	📜	Fabric	Fabric.svg	fabric		1	0	0	1	
+fi	U+E96A		Factor	Factor.svg	factor		1	0	0	1	
+fi	U+EAE4		Falcon	Falcon.svg	falcon		1	0	0	1	
+fi	U+E96B		Fancy	Fancy.svg	fancy		1	0	0	1	
+fi	U+E96F		Fantom	Fantom.svg	fantom		1	0	0	1	
+fi	U+13168	𓅨	Fauna	Fauna.svg	fauna		1	0	0	1	
+fi	U+22C0	⋀	Faust	Faust.svg	faust		1	0	0	1	
+fi	U+E9FC		FBX	FBX.svg	fbx		1	0	0	1	
+fi	U+EB20		Fexl	Fexl.svg	fexl		1	0	0	1	
+fi	U+EA22		FFmpeg	FFmpeg.svg	ffmpeg		1	0	0	1	
+fi	U+24BB	Ⓕ	Fiddle	Fiddle.svg	fiddle		1	0	0	1	
+fi	U+1D4BB	𝒻	Final Draft	FinalDraft.svg	finaldraft		1	0	0	1	
+fi	U+E9E9		Finder	Finder.svg	finder		1	0	0	1	
+fi	U+EA7F		Firebase	Firebase.svg	firebase		1	0	0	1	
+fi	U+26A1	⚡	Firebase Bolt	Firebase-Bolt.svg	firebase-bolt		1	0	0	1	
+fi	U+1F704	🜄	Flask	Flask.svg	flask		1	0	0	1	
+fi	U+EAD5		Floobits	Floobits.svg	floobits		1	0	0	1	
+fi	U+E921		Flow	Flow.svg	flow		1	0	0	1	
+fi	U+EAEB		Flutter	Flutter.svg	flutter		1	0	0	1	
+fi	U+E969		Flux	Flux.svg	flux		1	0	0	1	
+fi	U+E90F		Font	Font.svg	font-old		1	0	0	1	
+fi	U+EAAB		Font, Bitmap	Font-Bitmap.svg	font-bitmap		1	0	0	1	
+fi	U+EAAA		Font, Outline	Font-Outline.svg	font		1	0	0	1	
+fi	U+FB00	ﬀ	FontForge	FontForge.svg	ff		1	0	0	1	
+fi	U+2442	⑂	Fork	Fork.svg	fork		1	0	0	1	
+fi	U+E90A		Fortran	Fortran.svg	fortran		1	0	0	1	
+fi	U+EAC3		FOSSA	FOSSA.svg	fossa		1	0	0	1	
+fi	U+EAD6		Fossil	Fossil.svg	fossil		1	0	0	1	
+fi	U+1F135	🄵	Fountain	Fountain.svg	fountain		1	0	0	1	
+fi	U+EA56		Franca	Franca.svg	franca		1	0	0	1	
+fi	U+EB07		FreeDesktop	FreeDesktop.svg	freedesktop		1	0	0	1	
+fi	U+EAF1		FreeDOS	FreeDOS.svg	freedos		1	0	0	1	
+fi	U+E970		FreeMarker	FreeMarker.svg	freemarker		1	0	0	1	
+fi	U+EB7F		FreeMat	FreeMat.svg	freemat		1	0	0	1	
+fi	U+E96E		Frege	Frege.svg	frege		1	0	0	1	
+fi	U+EB97		ftHTML	ftHTML.svg	fthtml		1	0	0	1	
+fi	U+EA09		FuelUX	FuelUX.svg	fuelux		1	0	0	1	
+fi	U+EAD7		FuseBox	FuseBox.svg	fusebox		1	0	0	1	
+fi	U+EB77		Futhark	Futhark.svg	futhark		1	0	0	1	
+fi	U+EB74		Galaxy	Galaxy.svg	galaxy		1	0	0	1	
+fi	U+EAD8		Galen	Galen.svg	galen		1	0	0	1	
+fi	U+E975		GameMaker	GameMaker.svg	gml		1	0	0	1	
+fi	U+E973		GAMS	GAMS.svg	gams		1	0	0	1	
+fi	U+E971		GAP	GAP.svg	gap		1	0	0	1	
+fi	U+24BC	Ⓖ	Gatsby	Gatsby.svg	gatsby		1	0	0	1	
+fi	U+EB7E		GAUSS	GAUSS.svg	gauss		1	0	0	1	
+fi	U+EA08		GDB	GDB.svg	gdb		1	0	0	1	
+fi	U+E976		Genshi	Genshi.svg	genshi		1	0	0	1	
+fi	U+2933	⤳	For the Record	ForTheRecord.svg	ftr		1	0	0	1	
+fi	U+223F	∿	GenStat	GenStat.svg	genstat		1	0	0	1	
+fi	U+E96D		Gentoo	Gentoo.svg	gentoo		1	0	0	1	
+fi	U+EA8F		Ghostscript	Ghostscript.svg	ghostscript		1	0	0	1	
+fi	U+EA88		GIMP	GIMP.svg	gimp		1	0	0	1	
+fi	U+EA3C		GitLab	GitLab.svg	gitlab		1	0	0	1	
+fi	U+1D5A6	𝖦	Gitpod	Gitpod.svg	gitpod		1	0	0	1	
+fi	U+E938		Glade	Glade.svg	glade		1	0	0	1	
+fi	U+EACB		Glide	Glide.svg	glide		1	0	0	1	
+fi	U+EAA7		glTF	glTF.svg	gltf		1	0	0	1	
+fi	U+0047	G	Glyphs	Glyphs.svg	glyphs		1	0	0	1	
+fi	U+EA25		GN	GN.svg	gn		1	0	0	1	
+fi	U+E679		GNU	GNU.svg	gnu		1	0	0	1	
+fi	U+1F4C8	📈	Gnuplot	Gnuplot.svg	gnuplot		1	0	0	1	
+fi	U+EAAE		Go	Go.svg	go		1	0	0	1	
+fi	U+E624		Go, Old	Go-Old.svg	go-old		1	0	0	1	
+fi	U+E974		Godot	Godot.svg	godot		1	0	0	1	
+fi	U+E979		Golo	Golo.svg	golo		1	0	0	1	
+fi	U+EB90		GoReleaser	GoReleaser.svg	goreleaser		1	0	0	1	
+fi	U+E97A		Gosu	Gosu.svg	gosu		1	0	0	1	
+fi	U+E903		Gradle	Gradle.svg	gradle		1	0	0	1	
+fi	U+E978		Grammatical Framework	GF.svg	gf		1	0	0	1	
+fi	U+EA8A		Graphite	Graphite.svg	graphite		1	0	0	1	
+fi	U+1F4C9	📉	Grapher	Grapher.svg	grapher		1	0	0	1	
+fi	U+E97C		GraphQL	GraphQL.svg	graphql		1	0	0	1	
+fi	U+EBAE		GraphQL Code Generator	GraphQL-CodeGenerator.svg	gql-codegen		1	0	0	1	
+fi	U+E97D		GraphViz	GraphViz.svg	graphviz		1	0	0	1	
+fi	U+EB02		Gravit Designer	Gravit-Designer.svg	gvdesign		1	0	0	1	
+fi	U+EB0C		Greenkeeper	Greenkeeper.svg	greenkeeper		1	0	0	1	
+fi	U+EAE7		Gridsome	Gridsome.svg	gridsome		1	0	0	1	
+fi	U+E904		Groovy	Groovy.svg	groovy		1	0	0	1	
+fi	U+E611		Grunt	Grunt.svg	grunt		1	0	0	1	
+fi	U+E610		Gulp	Gulp.svg	gulp		1	0	0	1	
+fi	U+E9CE		Hack	Hack.svg	hack		1	0	0	1	
+fi	U+F15B		Haml	Haml.svg	haml		1	0	0	1	
+fi	U+E97B		Harbour	Harbour.svg	harbour		1	0	0	1	
+fi	U+E97E		HashiCorp	HashiCorp.svg	hashicorp		1	0	0	1	
+fi	U+EBAB		Haskell IDE Engine	HIE.svg	hie		1	0	0	1	
+fi	U+E907		Haxe	Haxe.svg	haxe		1	0	0	1	
+fi	U+EA3B		HaxeDevelop	HaxeDevelop.svg	haxedevelop		1	0	0	1	
+fi	U+2695	⚕	Helix	Helix.svg	helix		1	0	0	1	
+fi	U+33CB	㏋	Hewlett-Packard	HewlettPackard.svg	hp		1	0	0	1	
+fi	U+EB66		Hitachi	Hitachi.svg	hitachi		1	0	0	1	
+fi	U+EAC2		HJSON	HJSON.svg	hjson		1	0	0	1	
+fi	U+1F37A	🍺	Homebrew	Homebrew.svg	brew		1	0	0	1	
+fi	U+1F998	🦘	Hop	Hop.svg	hop		1	0	0	1	
+fi	U+EA4D		Hoplon	Hoplon.svg	hoplon		1	0	0	1	
+fi	U+1F300	🌀	Houdini	Houdini.svg	houdini		1	0	0	1	
+fi	U+EAAF		HoundCI	HoundCI.svg	houndci		1	0	0	1	
+fi	U+24BD	Ⓗ	Hugo	Hugo.svg	hugo		1	0	0	1	
+fi	U+1F436	🐶	Husky	Husky.svg	husky		1	0	0	1	
+fi	U+E97F		Hy	Hy.svg	hy		1	0	0	1	
+fi	U+1F4C3	📃	Hygen	Hygen.svg	hygen		1	0	0	1	
+fi	U+EB37		Hyper	Hyper.svg	hyper		1	0	0	1	
+fi	U+EAEA		IcoMoon	IcoMoon.svg	icomoon		1	0	0	1	
+fi	U+EA23		ICU	ICU.svg	icu		1	0	0	1	
+fi	U+E947		IDL	IDL.svg	idl		1	0	0	1	
+fi	U+E983		Idris	Idris.svg	idris		1	0	0	1	
+fi	U+E980		IGOR Pro	IGOR-Pro.svg	igorpro		1	0	0	1	
+fi	U+EAF4		illumos	illumos.svg	illumos		1	0	0	1	
+fi	U+F012		Image	Image.svg	image		1	0	0	1	
+fi	U+26FF	⛿	Imba	Imba.svg	imba		1	0	0	1	
+fi	U+EAE9		Imba, Alt	Imba-Alt.svg	imba-alt		1	0	0	1	
+fi	U+1F4A0	💠	Imba, Old	Imba-Old.svg	imba-old		1	0	0	1	
+fi	U+EB1F		InfluxData	InfluxData.svg	influxdata		1	0	0	1	
+fi	U+E984		Inform 7	Inform7.svg	inform7		1	0	0	1	
+fi	U+EACE		Ink	Ink.svg	ink		1	0	0	1	
+fi	U+EA8E		Inkscape	Inkscape.svg	inkscape		1	0	0	1	
+fi	U+E985		Inno Setup	InnoSetup.svg	inno		1	0	0	1	
+fi	U+EB5A		Intel	Intel.svg	intel		1	0	0	1	
+fi	U+E981		Io	Io.svg	io		1	0	0	1	
+fi	U+E982		Ioke	Ioke.svg	ioke		1	0	0	1	
+fi	U+F14B		Ionic Project	Ionic-Project.svg	ionic		1	0	0	1	
+fi	U+E945		Isabelle	Isabelle.svg	isabelle		1	0	0	1	
+fi	U+1F54C	🕌	Istanbul	Istanbul.svg	istanbul		1	0	0	1	
+fi	U+E937		J	J.svg	j		1	0	0	1	
+fi	U+E90D		Jade	Jade.svg	jade		1	0	0	1	
+fi	U+E948		Jake	Jakefile.svg	jake		1	0	0	1	
+fi	U+EB2A		Janet	Janet.svg	janet		1	0	0	1	
+fi	U+EA3A		Jasmine	Jasmine.svg	jasmine		1	0	0	1	
+fi	U+E667		Jenkins	Jenkins.svg	jenkins		1	0	0	1	
+fi	U+EA39		Jest	Jest.svg	jest		1	0	0	1	
+fi	U+E944		Jinja	Jinja.svg	jinja		1	0	0	1	
+fi	U+EA55		Jison	Jison.svg	jison		1	0	0	1	
+fi	U+EA75		Jolie	Jolie.svg	jolie		1	0	0	1	
+fi	U+EB95		jscpd	jscpd.svg	jscpd		1	0	0	1	
+fi	U+EABE		JSON-1	JSON-1.svg	json		1	0	0	1	
+fi	U+EABD		JSON-2	JSON-2.svg	json-alt		1	0	0	1	
+fi	U+E958		JSON-LD	JSON-LD1.svg	jsonld		1	0	0	1	
+fi	U+E959		JSON-LD2	JSON-LD2.svg	sparql		1	0	0	1	
+fi	U+2478	⑸	JSON5	JSON5.svg	json5		1	0	0	1	
+fi	U+EB1E		Jsonnet	Jsonnet.svg	jsonnet		1	0	0	1	
+fi	U+E9E6		JSX	JSX.svg	jsx		1	0	0	1	
+fi	U+F101		JSX, Alt	JSX-Alt.svg	jsx-alt		1	0	0	1	
+fi	U+F100		JSX, Atom	JSX-Atom.svg	react		1	0	0	1	
+fi	U+26EC	⛬	Julia	Julia.svg	julia		1	0	0	1	
+fi	U+EA81		Junos	Junos.svg	junos		1	0	0	1	
+fi	U+E987		Jupyter	Jupyter.svg	jupyter		1	0	0	1	
+fi	U+30AB	カ	Kaitai	Kaitai.svg	kaitai		1	0	0	1	
+fi	U+E9CD		Karma	Karma.svg	karma		1	0	0	1	
+fi	U+EAF8		Keybase	Keybase.svg	keybase		1	0	0	1	
+fi	U+E9E5		Keynote	Keynote.svg	keynote		1	0	0	1	
+fi	U+E9F8		Khronos	Khronos.svg	khronos		1	0	0	1	
+fi	U+EBA9		Kibo	Kibo.svg	kibo		1	0	0	1	
+fi	U+EA4C		KiCad	KiCad.svg	kicad		1	0	0	1	
+fi	U+EA38		KitchenCI	KitchenCI.svg	kitchenci		1	0	0	1	
+fi	U+E901		Kivy	Kivy.svg	kivy		1	0	0	1	
+fi	U+EB75		KNIME	KNIME.svg	knime		1	0	0	1	
+fi	U+004B	K	Knockout	Knockout.svg	knockout		1	0	0	1	
+fi	U+006B	k	kOS	kOS.svg	kos		1	0	0	1	
+fi	U+E989		Kotlin	Kotlin.svg	kotlin		1	0	0	1	
+fi	U+E988		KRL	KRL.svg	krl		1	0	0	1	
+fi	U+2388	⎈	Kubernetes	Kubernetes.svg	kubernetes		1	0	0	1	
+fi	U+EB9A		Kusto	Kusto.svg	kusto		1	0	0	1	
+fi	U+EB9B		Kusto, Alt	Kusto-Alt.svg	kusto-alt		1	0	0	1	
+fi	U+EA9B		Kx	Kx.svg	kx		1	0	0	1	
+fi	U+E98A		LabVIEW	LabVIEW.svg	labview		1	0	0	1	
+fi	U+E63F		Laravel	Laravel.svg	laravel		1	0	0	1	sharpen
+fi	U+1316B	𓅫	Lark	Lark.svg	lark		1	0	0	1	
+fi	U+E98C		Lasso	Lasso.svg	lasso		1	0	0	1	
+fi	U+1F426	🐦	Latino	Latino.svg	latino		1	0	0	1	
+fi	U+EA07		Leaflet	Leaflet.svg	leaflet		1	0	0	1	
+fi	U+004C	L	Lean	Lean.svg	lean		1	0	0	1	
+fi	U+EB8B		Lefthook	Lefthook.svg	lefthook		1	0	0	1	
+fi	U+1F44A	👊	Lefthook, Alt	Lefthook-Alt.svg	lefthook-alt		1	0	0	1	
+fi	U+F105		Leiningen	Leiningen.svg	lein		1	0	0	1	
+fi	U+EAB9		Lektor	Lektor.svg	lektor		1	0	0	1	
+fi	U+EA37		Lerna	Lerna.svg	lerna		1	0	0	1	
+fi	U+101EF	𐇯	Lex	Lex.svg	lex		1	0	0	1	
+fi	U+1316A	𓅪	Lex, Alt	Lex-Alt.svg	lex-alt		1	0	0	1	
+fi	U+E94C		LFE	LFE.svg	lfe		1	0	0	1	
+fi	U+1F435	🐵	LGTM	LGTM.svg	lgtm		1	0	0	1	
+fi	U+EA21		libuv	libuv.svg	libuv		1	0	0	1	
+fi	U+E9FB		LightWave	LightWave.svg	lightwave		1	0	0	1	
+fi	U+26EF	⛯	Lighthouse	Lighthouse.svg	lighthouse		1	0	0	1	
+fi	U+1F4AE	💮	LilyPond	LilyPond.svg	lilypond		1	0	0	1	
+fi	U+EA36		Lime	Lime.svg	lime		1	0	0	1	
+fi	U+1D6CC	𝛌	LINQPad	LINQPad.svg	linqpad		1	0	0	1	
+fi	U+E908		Lisp	Lisp.svg	lisp		1	0	0	1	
+fi	U+E914		LiveScript	LiveScript.svg	ls		1	0	0	1	
+fi	U+E91D		LLVM	LLVM.svg	llvm		1	0	0	1	
+fi	U+E98D		Logtalk	Logtalk.svg	logtalk		1	0	0	1	
+fi	U+1F63A	😺	LOLCODE	LOLCODE.svg	lolcode		1	0	0	1	
+fi	U+E98E		LookML	LookML.svg	lookml		1	0	0	1	
+fi	U+E98B		LSL	LSL.svg	lsl		1	0	0	1	
+fi	U+E91B		Lua	Lua.svg	lua		1	0	0	1	
+fi	U+2644	♄	Macaulay2	Macaulay2.svg	macaulay2		1	0	0	1	
+fi	U+EB23		MacVim	MacVim.svg	macvim		1	0	0	1	
+fi	U+EB05		Magit	Magit.svg	magit		1	0	0	1	
+fi	U+E98F		Mako	Mako.svg	mako		1	0	0	1	
+fi	U+EB06		Manjaro	Manjaro.svg	manjaro		1	0	0	1	
+fi	U+E936		Manpage	Manpage.svg	manpage		1	0	0	1	
+fi	U+E941		Mapbox	Mapbox.svg	mapbox		1	0	0	1	
+fi	U+F0C9		MarkdownLint	MarkdownLint.svg	markdownlint		1	0	0	1	
+fi	U+E920		Marko	Marko.svg	marko		1	0	0	1	
+fi	U+E990		Mathematica	Mathematica.svg	mathematica		1	0	0	1	
+fi	U+EA06		MathJax	MathJax.svg	mathjax		1	0	0	1	
+fi	U+E991		MATLAB	MATLAB.svg	matlab		1	0	0	1	
+fi	U+2668	♨	Matroska	Matroska.svg	matroska		1	0	0	1	
+fi	U+E993		Max	Max.svg	max		1	0	0	1	
+fi	U+E9F6		Maya	Maya.svg	maya		1	0	0	1	
+fi	U+EAB7		MDX	MDX.svg	mdx		1	0	0	1	
+fi	U+E954		MediaWiki	MediaWiki.svg	mediawiki		1	0	0	1	
+fi	U+33AB	㎫	MELPA	MELPA.svg	melpa		1	0	0	1	
+fi	U+263F	☿	Mercurial	Mercurial.svg	hg		1	0	0	1	
+fi	U+E994		Mercury	Mercury.svg	mercury		1	0	0	1	
+fi	U+EB84		Mermaid	Mermaid.svg	mermaid		1	0	0	1	
+fi	U+EAFE		Meson	Meson.svg	meson		1	0	0	1	
+fi	U+EA54		Meson, Old	Meson-Old.svg	meson-old		1	0	0	1	
+fi	U+004D	M	Metal	Metal.svg	metal		1	0	0	1	
+fi	U+1D5AC	𝖬	MetaPost	MetaPost.svg	metapost		1	0	0	1	
+fi	U+E6A5		Meteor	Meteor.svg	meteor		1	0	0	1	
+fi	U+E9EA		Microsoft Access	Microsoft-Access.svg	access		1	0	0	1	
+fi	U+E9EE		Microsoft Excel	Microsoft-Excel.svg	excel		1	0	0	1	
+fi	U+EA35		Microsoft InfoPath	Microsoft-InfoPath.svg	infopath		1	0	0	1	
+fi	U+EAD9		Microsoft Lync	Microsoft-Lync.svg	lync		1	0	0	1	
+fi	U+E9EB		Microsoft OneNote	Microsoft-OneNote.svg	onenote		1	0	0	1	
+fi	U+EADA		Microsoft Outlook	Microsoft-Outlook.svg	outlook		1	0	0	1	
+fi	U+E9EC		Microsoft PowerPoint	Microsoft-PowerPoint.svg	powerpoint		1	0	0	1	
+fi	U+EAE8		Microsoft Project	Microsoft-Project.svg	msproject		1	0	0	1	
+fi	U+EADD		Microsoft Publisher	Microsoft-Publisher.svg	publisher		1	0	0	1	
+fi	U+EA83		Microsoft Visio	Microsoft-Visio.svg	visio		1	0	0	1	
+fi	U+E9ED		Microsoft Word	Microsoft-Word.svg	word		1	0	0	1	
+fi	U+E9DC		Minecraft	Minecraft.svg	minecraft		1	0	0	1	
+fi	U+EA53		MiniZinc	MiniZinc.svg	minizinc		1	0	0	1	
+fi	U+E995		Mirah	Mirah.svg	mirah		1	0	0	1	
+fi	U+EA52		Miranda	Miranda.svg	miranda		1	0	0	1	
+fi	U+EB3A		mIRC	mIRC.svg	mirc		1	0	0	1	
+fi	U+EA6F		MJML	MJML.svg	mjml		1	0	0	1	
+fi	U+26FE	⛾	Mocha	Mocha.svg	mocha		1	0	0	1	
+fi	U+EAFF		Modelica	Modelica.svg	modelica		1	0	0	1	
+fi	U+EB9F		Modern Web	ModernWeb.svg	modernweb		1	0	0	1	
+fi	U+F01F		Modo	Modo.svg	modo		1	0	0	1	
+fi	U+E996		Modula 2	Modula-2.svg	modula2		1	0	0	1	
+fi	U+2778	❸	Modula-3	Modula-3.svg	modula3		1	0	0	1	
+fi	U+EAEE		Moho	Moho.svg	moho		1	0	0	1	
+fi	U+EB0E		Moleculer	Moleculer.svg	moleculer		1	0	0	1	
+fi	U+1F558	🕘	Moment	Moment.svg	moment		1	0	0	1	
+fi	U+1F30D	🌍	Moment Timezone	Moment-Timezone.svg	moment-tz		1	0	0	1	
+fi	U+E997		Monkey	Monkey.svg	monkey		1	0	0	1	
+fi	U+1F5FF	🗿	Mono	Mono.svg	mono		1	0	0	1	
+fi	U+1F400	🐀	Monotone	Monotone.svg	monotone		1	0	0	1	
+fi	U+24C2	Ⓜ	Motorola	Motorola.svg	motorola		1	0	0	1	
+fi	U+E60F		Moustache	Moustache.svg	mustache		1	0	0	1	
+fi	U+EA18		Mruby	Mruby.svg	mruby		1	0	0	1	
+fi	U+EAFA		MS-DOS	MS-DOS.svg	msdos		1	0	0	1	
+fi	U+E9CA		MuPAD	MuPAD.svg	mupad		1	0	0	1	
+fi	U+EA76		Nano	Nano.svg	nano		1	0	0	1	
+fi	U+EA51		Nanoc	Nanoc.svg	nanoc		1	0	0	1	
+fi	U+E9E1		NAnt	NAnt.svg	nant		1	0	0	1	
+fi	U+EA72		NASM	NASM.svg	nasm		1	0	0	1	
+fi	U+EAB4		NDepend	NDepend.svg	ndepend		1	0	0	1	
+fi	U+EA05		Neko	Neko.svg	neko		1	0	0	1	
+fi	U+1F985	🦅	Nemerle	Nemerle.svg	nemerle		1	0	0	1	
+fi	U+EAB3		Neo4J	Neo4J.svg	neo4j		1	0	0	1	
+fi	U+EB8E		NEON	NEON.svg	neon		1	0	0	1	
+fi	U+23E3	⏣	Nessus	Nessus.svg	nessus		1	0	0	1	
+fi	U+EAC9		NestJS	NestJS.svg	nestjs		1	0	0	1	
+fi	U+EABF		Netlify	Netlify.svg	netlify		1	0	0	1	
+fi	U+E99B		NetLinx	NetLinx.svg	amx		1	0	0	1	
+fi	U+E99C		NetLogo	NetLogo.svg	netlogo		1	0	0	1	
+fi	U+E9D7		New Relic	New-Relic.svg	newrelic		1	0	0	1	
+fi	U+EAA5		Nextflow	Nextflow.svg	nextflow		1	0	0	1	
+fi	U+24C3	Ⓝ	NextJS	NextJS.svg	nextjs		1	0	0	1	
+fi	U+F146B	󱑫	nginx	nginx.svg	nginx		1	0	0	1	
+fi	U+EBB2		NgRx	NgRx.svg	ngrx		1	0	0	1	
+fi	U+2712	✒	Nib	Nib.svg	nib		1	0	0	1	
+fi	U+00A2	¢	Nickle	Nickle.svg	nickle		1	0	0	1	
+fi	U+EB08		Nightwatch	Nightwatch.svg	nightwatch		1	0	0	1	
+fi	U+EB85		Nimble	Nimble.svg	nimble		1	0	0	1	
+fi	U+E998		Nimrod	Nimrod.svg	nimrod		1	0	0	1	
+fi	U+006E	n	Nintendo 64	Nintendo64.svg	n64		1	0	0	1	
+fi	U+E999		Nit	Nit.svg	nit		1	0	0	1	
+fi	U+E99A		Nix	Nix.svg	nix		1	0	0	1	
+fi	U+E94D		Nmap	Nmap.svg	nmap		1	0	0	1	
+fi	U+EA26		Nodemon	Nodemon.svg	nodemon		1	0	0	1	
+fi	U+92F8	鋸	Nokogiri	Nokogiri.svg	nokogiri		1	0	0	1	
+fi	U+EA96		Nomad	Nomad.svg	nomad		1	0	0	1	
+fi	U+EB33		Noon	Noon.svg	noon		1	0	0	1	
+fi	U+EA04		Normalize	Normalise.svg	normalize		1	0	0	1	
+fi	U+E91C		NPM	NPM.svg	npm		1	0	0	1	
+fi	U+F17B		NPM, Old	NPM-Old.svg	npm-old		1	0	0	1	
+fi	U+EA1E		NSIS	NSIS.svg	nsis		1	0	0	1	
+fi	U+E992		NSIS, Old	NSIS-Old.svg	nsis-old		1	0	0	1	
+fi	U+EB2F		NSRI	NSRI.svg	nsri		1	0	0	1	
+fi	U+EB2B		NSRI, Alt	NSRI-Alt.svg	nsri-alt		1	0	0	1	
+fi	U+EA34		Nuclide	Nuclide.svg	nuclide		1	0	0	1	
+fi	U+E9D9		NuGet	NuGet.svg	nuget		1	0	0	1	
+fi	U+EBA8		NumPy	NumPy.svg	numpy		1	0	0	1	
+fi	U+E99D		NumPy, Old	NumPy-Old.svg	numpy-old		1	0	0	1	
+fi	U+E953		Nunjucks	Nunjucks.svg	nunjucks		1	0	0	1	
+fi	U+EACA		Nuxt	Nuxt.svg	nuxt		1	0	0	1	
+fi	U+E95D		NVIDIA	NVIDIA.svg	nvidia		1	0	0	1	
+fi	U+23FF	⏿	NWScript	NWScript.svg	nwscript		1	0	0	1	
+fi	U+EB9C		Nx	Nx.svg	nx		1	0	0	1	
+fi	U+EA6B		NXC	NXC.svg	nxc		1	0	0	1	
+fi	U+EB3F		Oberon	Oberon.svg	oberon		1	0	0	1	
+fi	U+E99E		Objective-J	Objective-J.svg	objj		1	0	0	1	
+fi	U+E91A		OCaml	OCaml.svg	ocaml		1	0	0	1	
+fi	U+EA33		Octave	Octave.svg	octave		1	0	0	1	
+fi	U+EB36		Odin	Odin.svg	odin		1	0	0	1	
+fi	U+EBAA		Ogone	Ogone.svg	ogone		1	0	0	1	
+fi	U+EBAF		OmniGraffle	OmniGraffle.svg	omnigraffle		1	0	0	1	
+fi	U+E9CB		OOC	OOC.svg	ooc		1	0	0	1	
+fi	U+2601	☁	Opa	Opa.svg	opa		1	0	0	1	
+fi	U+EB39		Open Policy Agent	OpenPolicyAgent.svg	openpolicy		1	0	0	1	
+fi	U+EB0A		OpenAPI	OpenAPI.svg	openapi		1	0	0	1	
+fi	U+1F421	🐡	OpenBSD	OpenBSD.svg	openbsd		1	0	0	1	
+fi	U+1F420	🐠	OpenBSD, Alt	OpenBSD-Alt.svg	openbsd-alt		1	0	0	1	
+fi	U+E99F		OpenCL	OpenCL.svg	opencl		1	0	0	1	
+fi	U+EA8D		OpenCV	OpenCV.svg	opencv		1	0	0	1	
+fi	U+1F127	🄧	OpenEXR	OpenEXR.svg	openexr		1	0	0	1	
+fi	U+EA7A		OpenGL	OpenGL.svg	opengl		1	0	0	1	
+fi	U+01A3	ƣ	OpenIndiana	OpenIndiana.svg	openindiana		1	0	0	1	
+fi	U+E9E4		OpenOffice	OpenOffice.svg	openoffice		1	0	0	1	
+fi	U+E911		OpensCAD	OpensCAD.svg	scad		1	0	0	1	
+fi	U+EAF5		OpenSolaris	OpenSolaris.svg	opensolaris		1	0	0	1	
+fi	U+EB6F		OpenStack	OpenStack.svg	openstack		1	0	0	1	
+fi	U+EAC6		OpenVMS	OpenVMS.svg	openvms		1	0	0	1	
+fi	U+EAF3		OpenVPN	OpenVPN.svg	openvpn		1	0	0	1	
+fi	U+1D419	𝐙	OpenZFS	OpenZFS.svg	openzfs		1	0	0	1	
+fi	U+E917		Org-mode	Org-Mode.svg	org		1	0	0	1	
+fi	U+EAF6		OS2	OS2.svg	os2		1	0	0	1	
+fi	U+E957		OWL	OWL.svg	owl		1	0	0	1	
+fi	U+E9A1		Ox	Ox.svg	ox		1	0	0	1	
+fi	U+E9BF		Oxygene	Oxygene.svg	oxygene		1	0	0	1	
+fi	U+E9BE		Oz	Oz.svg	oz		1	0	0	1	
+fi	U+EA50		P4	P4.svg	p4		1	0	0	1	
+fi	U+E9BD		Pan	Pan.svg	pan		1	0	0	1	
+fi	U+E9BC		Papyrus	Papyrus.svg	papyrus		1	0	0	1	
+fi	U+E9BB		Parrot	Parrot.svg	parrot		1	0	0	1	
+fi	U+E92A		Pascal	Pascal.svg	pascal		1	0	0	1	
+fi	U+E961		Patch	Patch.svg	patch		1	0	0	1	
+fi	U+EB42		Patreon	Patreon.svg	patreon		1	0	0	1	
+fi	U+265F	♟	PAWN	PAWN.svg	pawn		1	0	0	1	
+fi	U+26C5	⛅	PCD	PCD.svg	pcd		1	0	0	1	
+fi	U+EA74		PegJS	PegJS.svg	peg		1	0	0	1	
+fi	U+E96C		Perl6	Perl6.svg	perl6		1	0	0	1	
+fi	U+E94A		Phalcon	Phalcon.svg	phalcon		1	0	0	1	
+fi	U+EA5F		Phoenix	Phoenix.svg	phoenix		1	0	0	1	
+fi	U+F147		PHP	PHP.svg	php		1	0	0	1	
+fi	U+EA32		PHPUnit	PHPUnit.svg	phpunit		1	0	0	1	
+fi	U+EADB		PhraseApp	PhraseApp.svg	phraseapp		1	0	0	1	
+fi	U+E9C4		Pickle	Pickle.svg	pickle		1	0	0	1	
+fi	U+EABC		PICO-8	PICO-8.svg	pico8		1	0	0	1	
+fi	U+EB25		PicoLisp	PicoLisp.svg	picolisp		1	0	0	1	
+fi	U+E9B9		Pike	Pike.svg	pike		1	0	0	1	
+fi	U+EB30		PineScript	PineScript.svg	pinescript		1	0	0	1	
+fi	U+1F381	🎁	Pipenv	Pipenv.svg	pipenv		1	0	0	1	
+fi	U+EAF9		pkgsrc	pkgsrc.svg	pkgsrc		1	0	0	1	
+fi	U+EA2C		PlatformIO	PlatformIO.svg	platformio		1	0	0	1	
+fi	U+2630	☰	PM2	PM2.svg	pm2		1	0	0	1	
+fi	U+EB86		PNPM	PNPM.svg	pnpm		1	0	0	1	
+fi	U+EA84		Pod	Pod.svg	pod		1	0	0	1	
+fi	U+E9B8		PogoScript	PogoScript.svg	pogo		1	0	0	1	
+fi	U+E977		PointWise	PointWise.svg	pointwise		1	0	0	1	
+fi	U+EA2B		Polymer	Polymer.svg	polymer		1	0	0	1	
+fi	U+E9B7		Pony	Pony.svg	pony		1	0	0	1	
+fi	U+E910		PostCSS	PostCSS.svg	postcss		1	0	0	1	
+fi	U+E955		PostScript	PostScript.svg	postscript		1	0	0	1	
+fi	U+0050	P	POV-Ray	POV-Ray.svg	povray		1	0	0	1	
+fi	U+EA14		PowerBuilder	PowerBuilder.svg	powerbuilder		1	0	0	1	
+fi	U+EB58		PowerPC	PowerPC.svg	powerpc		1	0	0	1	
+fi	U+E9DA		PowerShell	PowerShell.svg	powershell		1	0	0	1	
+fi	U+2295	⊕	Precision	Precision.svg	precision		1	0	0	1	
+fi	U+EAC1		Precommit	Precommit.svg	precommit		1	0	0	1	
+fi	U+EAA1		Prettier	Prettier.svg	prettier		1	0	0	1	
+fi	U+EAC5		Prisma	Prisma.svg	prisma		1	0	0	1	
+fi	U+E9A0		Processing	Processing.svg	processing		1	0	0	1	
+fi	U+EADC		Progress	Progress.svg	progress		1	0	0	1	
+fi	U+E9C0		Progress, Old	Progress-Old.svg	progress-old		1	0	0	1	
+fi	U+E9B5		Propeller	Propeller.svg	propeller		1	0	0	1	
+fi	U+EAAD		PROS	PROS.svg	pros		1	0	0	1	
+fi	U+EA6D		Proselint	Proselint.svg	proselint		1	0	0	1	
+fi	U+E9DE		Protractor	Protractor.svg	protractor		1	0	0	1	
+fi	U+EA13		Pug	Pug.svg	pug		1	0	0	1	
+fi	U+E9D0		Pug, Alt	Pug-Old.svg	pug-alt		1	0	0	1	
+fi	U+293E	⤾	PullApprove	PullApprove.svg	pullapprove		1	0	0	1	
+fi	U+F0C3		Puppet	Puppet.svg	puppet		1	0	0	1	
+fi	U+1F4A7	💧	Pure	Pure.svg	pure		1	0	0	1	
+fi	U+01B5	Ƶ	PureBasic	PureBasic.svg	purebasic		1	0	0	1	
+fi	U+E9B2		PureScript	PureScript.svg	purescript		1	0	0	1	
+fi	U+EA94		PyPi	PyPi.svg	pypi		1	0	0	1	
+fi	U+2620	☠	Pyret	Pyret.svg	pyret		1	0	0	1	
+fi	U+EBA6		pytest	pytest.svg	pytest		1	0	0	1	
+fi	U+EB26		PyUp	PyUp.svg	pyup		1	0	0	1	
+fi	U+EB91		Q#	Q#.svg	qsharp		1	0	0	1	
+fi	U+EB81		Qiskit	Qiskit.svg	qiskit		1	0	0	1	
+fi	U+1F50D	🔍	QlikView	QlikView.svg	qlik		1	0	0	1	
+fi	U+EB00		QT	QT.svg	qt		1	0	0	1	
+fi	U+EACC		Quasar	Quasar.svg	quasar		1	0	0	1	
+fi	U+E905		R	R.svg	r		1	0	0	1	
+fi	U+EB49		R database	RData.svg	rdata		1	0	0	1	
+fi	U+E9B1		Racket	Racket.svg	racket		1	0	0	1	
+fi	U+E913		RAML	RAML.svg	raml		1	0	0	1	
+fi	U+EA24		Rascal	Rascal.svg	rascal		1	0	0	1	
+fi	U+0052	R	Razzle	Razzle.svg	razzle		1	0	0	1	
+fi	U+E9B0		RDoc	RDoc.svg	rdoc		1	0	0	1	
+fi	U+EAF7		ReactOS	ReactOS.svg	reactos		1	0	0	1	
+fi	U+2398	⎘	Read the Docs	ReadTheDocs.svg	readthedocs		1	0	0	1	
+fi	U+E9AF		REALbasic	REALbasic.svg	xojo		1	0	0	1	
+fi	U+EA1D		Reason	Reason.svg	reason		1	0	0	1	
+fi	U+EB44		Reason Studios	ReasonStudios.svg	reasonstudios		1	0	0	1	
+fi	U+EB45		Reason Studios, Alt	ReasonStudios-Alt.svg	reasonstudios-alt		1	0	0	1	
+fi	U+E9AE		Rebol	Rebol.svg	rebol		1	0	0	1	
+fi	U+EAEC		Red	Red.svg	red		1	0	0	1	
+fi	U+E9AD		Red, Old	Red-Old.svg	red-old		1	0	0	1	
+fi	U+EA30		Redux	Redux.svg	redux		1	0	0	1	
+fi	U+EAA0		Reek	Reek.svg	reek		1	0	0	1	
+fi	U+002A	*	RegEx	RegEx.svg	regex		1	0	0	1	
+fi	U+EB1D		Remark	Remark.svg	remark		1	0	0	1	
+fi	U+EB2D		Renovate	Renovate.svg	renovate		1	0	0	1	
+fi	U+EBA7		ReScript	ReScript.svg	rescript		1	0	0	1	
+fi	U+EBB0		restQL	restQL.svg	restql		1	0	0	1	
+fi	U+E9CC		reStructuredText	reStructuredText.svg	rst		1	0	0	1	
+fi	U+EA16		Rexx	Rexx.svg	rexx		1	0	0	1	
+fi	U+EA4A		Rhino3D	Rhino3D.svg	rhino		1	0	0	1	
+fi	U+1F48D	💍	Ring	Ring.svg	ring		1	0	0	1	
+fi	U+EB2E		Riot	Riot.svg	riot		1	0	0	1	
+fi	U+E919		Riot, Old	Riot-Old.svg	riot-old		1	0	0	1	
+fi	U+EB5D		RISC-V	RISC-V.svg	riscv		1	0	0	1	
+fi	U+211B	ℛ	Rmarkdown	Rmarkdown.svg	rmarkdown		1	0	0	1	
+fi	U+EB0D		Robot	RobotFramework.svg	robot		1	0	0	1	
+fi	U+E9AC		Robot, Old	RobotFramework-Old.svg	robot-old		1	0	0	1	
+fi	U+1F916	🤖	Robots	Robots.svg	robots		1	0	0	1	
+fi	U+EA20		Rollup	Rollup.svg	rollup		1	0	0	1	
+fi	U+E9FD		Rollup, Old	Rollup-Old.svg	rollup-old		1	0	0	1	
+fi	U+EA31		RSpec	RSpec.svg	rspec		1	0	0	1	
+fi	U+24C7	Ⓡ	RStudio	RStudio.svg	rstudio		1	0	0	1	
+fi	U+EB9E		rsync	rsync.svg	rsync		1	0	0	1	
+fi	U+EADE		Rubocop	Rubocop.svg	rubocop		1	0	0	1	
+fi	U+1F48E	💎	RubyGems	RubyGems.svg	rubygems		1	0	0	1	
+fi	U+203C	‼	SAC	SAC.svg	sac		1	0	0	1	
+fi	U+E9AB		Sage	Sage.svg	sage		1	0	0	1	
+fi	U+EB87		Sails	Sails.svg	sails		1	0	0	1	
+fi	U+E915		SaltStack	SaltStack.svg	saltstack		1	0	0	1	
+fi	U+EAE6		San	San.svg	san		1	0	0	1	
+fi	U+EBB1		Sandbox	Sandbox.svg	sandbox		1	0	0	1	
+fi	U+E95A		SAS	SAS.svg	sas		1	0	0	1	
+fi	U+E9D2		SBT	SBT.svg	sbt		1	0	0	1	
+fi	U+03BB	λ	Scheme	Scheme.svg	scheme		1	0	0	1	
+fi	U+E9A9		Scilab	Scilab.svg	scilab		1	0	0	1	
+fi	U+EAE2		Scilla	Scilla.svg	scilla		1	0	0	1	
+fi	U+00A7	§	Scratch	Scratch.svg	scratch		1	0	0	1	
+fi	U+E9D4		Scrutinizer	Scrutinizer.svg	scrutinizer		1	0	0	1	
+fi	U+E9A8		Self	Self.svg	self		1	0	0	1	
+fi	U+1F7CD	🟍	Semantic Release	SemanticRelease.svg	semrelease		1	0	0	1	
+fi	U+EB1C		Sentry	Sentry.svg	sentry		1	0	0	1	
+fi	U+EA2F		Sequelize	Sequelize.svg	sequelize		1	0	0	1	
+fi	U+EAB8		Serverless	Serverless.svg	serverless		1	0	0	1	
+fi	U+E9DB		Service Fabric	Service-Fabric.svg	sf		1	0	0	1	
+fi	U+EB88		Shadow CLJS	ShadowCLJS.svg	shadowcljs		1	0	0	1	
+fi	U+E9A7		Shen	Shen.svg	shen		1	0	0	1	
+fi	U+26F5	⛵	Shipit	Shipit.svg	shipit		1	0	0	1	
+fi	U+EA2D		Shippable	Shippable.svg	shippable		1	0	0	1	
+fi	U+E9CF		Shopify	Shopify.svg	shopify		1	0	0	1	
+fi	U+272B	✫	Shuriken	Shuriken.svg	shuriken		1	0	0	1	
+fi	U+1F764	🝤	Sigils	Sigils.svg	sigils		1	0	0	1	
+fi	U+2318	⌘	SiliconGraphics	SiliconGraphics.svg	sgi		1	0	0	1	
+fi	U+E800		SilverStripe	SilverStripe.svg	silverstripe		1	0	0	1	
+fi	U+EA03		Sinatra	Sinatra.svg	sinatra		1	0	0	1	
+fi	U+E927		Sketch	Sketch.svg	sketch		1	0	0	1	
+fi	U+EA7C		SketchUp LayOut	SketchUp-LayOut.svg	sketchup-lo		1	0	0	1	
+fi	U+EA7E		SketchUp Make	SketchUp-Make.svg	sketchup-mk		1	0	0	1	
+fi	U+EA7D		SketchUp Style Builder	SketchUp-StyleBuilder.svg	sketchup-sb		1	0	0	1	
+fi	U+E9A6		Slash	Slash.svg	slash		1	0	0	1	
+fi	U+EAFC		SmartOS	SmartOS.svg	smartos		1	0	0	1	
+fi	U+EAFB		SmartOS, Alt	SmartOS-Alt.svg	smartos-alt		1	0	0	1	
+fi	U+EB09		Snapcraft	Snapcraft.svg	snapcraft		1	0	0	1	
+fi	U+1F43D	🐽	Snort	Snort.svg	snort		1	0	0	1	
+fi	U+1F3D4	🏔	Snowpack	Snowpack.svg	snowpack		1	0	0	1	
+fi	U+EA1C		Snyk	Snyk.svg	snyk		1	0	0	1	
+fi	U+1D5E6	𝗦	Solidarity	Solidarity.svg	solidarity		1	0	0	1	
+fi	U+EA86		Solidity	Solidity.svg	solidity		1	0	0	1	
+fi	U+EB72		Sophia	Sophia.svg	sophia		1	0	0	1	
+fi	U+1F366	🍦	Sorbet	Sorbet.svg	sorbet		1	0	0	1	
+fi	U+EB82		Source	Source.svg	source		1	0	0	1	
+fi	U+EAA4		Spacemacs	Spacemacs.svg	spacemacs		1	0	0	1	
+fi	U+29CF	⧏	Spacengine	Spacengine.svg	spacengine		1	0	0	1	
+fi	U+EB57		SPARC	SPARC.svg	sparc		1	0	0	1	
+fi	U+EA02		Spray	Spray.svg	spray		1	0	0	1	
+fi	U+E9A5		SQF	SQF.svg	sqf		1	0	0	1	
+fi	U+E9DD		SQLite	SQLite.svg	sqlite		1	0	0	1	
+fi	U+EA5E		Squarespace	SquareSpace.svg	squarespace		1	0	0	1	
+fi	U+E9A4		Stan	Stan.svg	stan		1	0	0	1	
+fi	U+E9A3		Stata	Stata.svg	stata		1	0	0	1	
+fi	U+EB70		StdlibJS	StdlibJS.svg	stdlibjs		1	0	0	1	
+fi	U+EA95		Stencil	Stencil.svg	stencil		1	0	0	1	
+fi	U+EBA0		Stitches	Stitches.svg	stitches		1	0	0	1	
+fi	U+EADF		Storybook	Storybook.svg	storybook		1	0	0	1	
+fi	U+E9EF		Storyist	Storyist.svg	storyist		1	0	0	1	
+fi	U+E9E0		Strings	Strings.svg	strings		1	0	0	1	
+fi	U+EAE0		Stylable	Stylable.svg	stylable		1	0	0	1	
+fi	U+1F485	💅	StyledComponents	StyledComponents.svg	nailpolish		1	0	0	1	
+fi	U+E93D		Stylelint	Stylelint.svg	stylelint		1	0	0	1	
+fi	U+EB3D		Stylish Haskell	StylishHaskell.svg	stylishhaskell		1	0	0	1	
+fi	U+0073	s	Stylus	Stylus-S.svg	stylus		1	0	0	1	
+fi	U+E9F7		Stylus, Full	Stylus.svg	stylus-full		1	0	0	1	
+fi	U+0053	S	Stylus, Orb	Stylus-Orb.svg	stylus-orb		1	0	0	1	
+fi	U+E986		Sublime	Sublime.svg	sublime		1	0	0	1	
+fi	U+E9A2		SuperCollider	SuperCollider.svg	scd		1	0	0	1	
+fi	U+33DC	㏜	Svelte	Svelte.svg	svelte		1	0	0	1	
+fi	U+EA17		SVN	SVN.svg	svn		1	0	0	1	
+fi	U+EA29		Swagger	Swagger.svg	swagger		1	0	0	1	
+fi	U+E9C3		SystemVerilog	SystemVerilog.svg	sysverilog		1	0	0	1	
+fi	U+F015		Tag	Tag.svg	tag		1	0	0	1	
+fi	U+301C	〜	Tailwind	Tailwind.svg	tailwind		1	0	0	1	
+fi	U+E956		Tcl	Tcl.svg	tcl		1	0	0	1	
+fi	U+2708	✈	Telegram	Telegram.svg	telegram		1	0	0	1	
+fi	U+0054	T	Template Toolkit	TemplateToolkit.svg	tt		1	0	0	1	
+fi	U+2696	⚖	TempleOS	TempleOS.svg	templeos		1	0	0	1	
+fi	U+F0C8		Terminal	Terminal.svg	terminal		1	0	0	1	
+fi	U+1F54A	🕊	Tern	Tern.svg	tern		1	0	0	1	
+fi	U+E916		Terraform	Terraform.svg	terraform		1	0	0	1	
+fi	U+272C	✬	Terser	Terser.svg	terser		1	0	0	1	
+fi	U+2714	✔	TestCafe	TestCafe.svg	testcafe		1	0	0	1	
+fi	U+EA62		Test, CoffeeScript	Test-CoffeeScript.svg	test-coffee		1	0	0	1	
+fi	U+EA60		Test, Directory	Test-Directory.svg	test-dir		1	0	0	1	
+fi	U+EA63		Test, Generic	Test-Generic.svg	test-generic		1	0	0	1	
+fi	U+EB0F		Test, Go	Test-Go.svg	test-go		1	0	0	1	
+fi	U+EB10		Test, Haskell	Test-Haskell.svg	test-hs		1	0	0	1	
+fi	U+EA64		Test, JS	Test-JS.svg	test-js		1	0	0	1	
+fi	U+EA65		Test, Perl	Test-Perl.svg	test-perl		1	0	0	1	
+fi	U+EA66		Test, Python	Test-Python.svg	test-python		1	0	0	1	
+fi	U+EA67		Test, React	Test-React.svg	test-react		1	0	0	1	
+fi	U+EA68		Test, Ruby	Test-Ruby.svg	test-ruby		1	0	0	1	
+fi	U+EB11		Test, Rust	Test-Rust.svg	test-rust		1	0	0	1	
+fi	U+EA69		Test, TypeScript	Test-TypeScript.svg	test-ts		1	0	0	1	
+fi	U+E600		Tex	LaTeX.svg	tex		1	0	0	1	
+fi	U+0074	t	Textile	Textile.svg	textile		1	0	0	1	
+fi	U+2122	™	TextMate	TextMate.svg	textmate		1	0	0	1	
+fi	U+EAE1		TFS	TFS.svg	tfs		1	0	0	1	
+fi	U+E9D8		Thor	Thor.svg	thor		1	0	0	1	
+fi	U+EB8A		Tilt	Tilt.svg	tilt		1	0	0	1	
+fi	U+EA01		TinyMCE	TinyMCE.svg	tinymce		1	0	0	1	
+fi	U+EAA9		Tipe	Tipe.svg	tipe		1	0	0	1	
+fi	U+EAB2		TLA+	TLA+.svg	tla		1	0	0	1	
+fi	U+EA8C		tmux	tmux.svg	tmux		1	0	0	1	
+fi	U+1F143	🅃	TOML	TOML.svg	toml		1	0	0	1	
+fi	U+EA93		TortoiseSVN	TortoiseSVN.svg	tortoise		1	0	0	1	
+fi	U+EB34		TOTVS	TOTVS.svg	totvs		1	0	0	1	
+fi	U+EB3B		Truffle	Truffle.svg	truffle		1	0	0	1	
+fi	U+E9E7		TSX	TSX.svg	tsx		1	0	0	1	
+fi	U+E9D1		TSX, Alt	TSX-Alt.svg	tsx-alt		1	0	0	1	
+fi	U+2476	⑶	TTCN-3	TTCN-3.svg	ttcn3		1	0	0	1	
+fi	U+E9B6		Turing	Turing.svg	turing		1	0	0	1	
+fi	U+2E19	⸙	Twig	Twig.svg	twig		1	0	0	1	
+fi	U+EA5D		Twine	Twine.svg	twine		1	0	0	1	
+fi	U+E9C1		TXL	TXL.svg	txl		1	0	0	1	
+fi	U+E9FE		TypeDoc	TypeDoc.svg	typedoc		1	0	0	1	
+fi	U+02A6	ʦ	TypeScript	TypeScript.svg	ts		1	0	0	1	
+fi	U+E912		TypeScript, Alt	TypeScript-Alt.svg	ts-alt		1	0	0	1	
+fi	U+E9DF		Typings	Typings.svg	typings		1	0	0	1	
+fi	U+1F144	🅄	UFO	UFO.svg	ufo		1	0	0	1	
+fi	U+EAC4		Unibeautify	Unibeautify.svg	unibeautify		1	0	0	1	
+fi	U+EB6E		Unicode	Unicode.svg	unicode		1	0	0	1	
+fi	U+E9B3		UNO	UNO.svg	uno		1	0	0	1	
+fi	U+0075	u	UnrealScript	UnrealScript.svg	unreal		1	0	0	1	
+fi	U+E9BA		UrWeb	UrWeb.svg	urweb		1	0	0	1	
+fi	U+0076	v	V	V.svg	v		1	0	0	1	
+fi	U+EA1F		V8	V8.svg	v8		1	0	0	1	
+fi	U+EAAC		V8, Turbofan	V8-Turbofan.svg	v8-turbofan		1	0	0	1	
+fi	U+0056	V	Vagrant	Vagrant.svg	vagrant		1	0	0	1	
+fi	U+1D4B1	𝒱	Vala	Vala.svg	vala		1	0	0	1	
+fi	U+EB5C		VAX	VAX.svg	vax		1	0	0	1	
+fi	U+E9B4		VCL	VCL.svg	varnish		1	0	0	1	
+fi	U+2B94	⮔	Velocity	Velocity.svg	velocity		1	0	0	1	
+fi	U+E949		Verilog	Verilog.svg	verilog		1	0	0	1	
+fi	U+EA79		VertexShader	VertexShader.svg	vertex		1	0	0	1	
+fi	U+E9AA		VHDL	VHDL.svg	vhdl		1	0	0	1	
+fi	U+F057		Video	Video.svg	video		1	0	0	1	
+fi	U+EA3E		VirtualBox	VirtualBox.svg	virtualbox		1	0	0	1	
+fi	U+EA2E		VirtualBox, Alt	VirtualBox-Alt.svg	virtualbox-alt		1	0	0	1	
+fi	U+2607	☇	Vite	Vite.svg	vite-icon		1	0	0	1	
+fi	U+EA49		VMware	VMware.svg	vmware		1	0	0	1	
+fi	U+24CB	Ⓥ	V-Ray	V-Ray.svg	vray		1	0	0	1	
+fi	U+EB22		VSCode	VSCode.svg	vscode		1	0	0	1	
+fi	U+EAC0		VSTS	VSTS.svg	vsts		1	0	0	1	
+fi	U+E906		Vue	Vue.svg	vue		1	0	0	1	
+fi	U+EB31		Vyper	Vyper.svg	vyper		1	0	0	1	
+fi	U+EBAC		W3C	W3C.svg	w3c		1	0	0	1	
+fi	U+231F	⌟	Wallaby	Wallaby.svg	wallaby		1	0	0	1	
+fi	U+EABA		Walt	Walt.svg	walt		1	0	0	1	
+fi	U+2162	Ⅲ	Warcraft III	Warcraft-III.svg	warcraft3		1	0	0	1	
+fi	U+EB40		WASI	WASI.svg	wasi		1	0	0	1	
+fi	U+EA4F		Watchman	Watchman.svg	watchman		1	0	0	1	
+fi	U+EAB1		WDL	WDL.svg	wdl		1	0	0	1	
+fi	U+EA70		WebAssembly	WebAssembly.svg	wasm		1	0	0	1	
+fi	U+EA7B		WebGL	WebGL.svg	webgl		1	0	0	1	
+fi	U+EB35		Webhint	Webhint.svg	webhint		1	0	0	1	
+fi	U+EA61		Webpack	Webpack.svg	webpack		1	0	0	1	
+fi	U+E91E		Webpack, Old	Webpack-Old.svg	webpack-old		1	0	0	1	
+fi	U+EB24		WebVTT	WebVTT.svg	webvtt		1	0	0	1	
+fi	U+8A00	言	Wenyan	Wenyan.svg	wenyan		1	0	0	1	
+fi	U+EA19		Wercker	Wercker.svg	wercker		1	0	0	1	
+fi	U+EB38		Wget	Wget.svg	wget		1	0	0	1	
+fi	U+EBB7		WinUI	WinUI.svg	winui		1	0	0	1	
+fi	U+1F377	🍷	Wine	Wine.svg	wine		1	0	0	1	
+fi	U+EAB0		WiX	WiX.svg	wix		1	0	0	1	
+fi	U+1F43A	🐺	Wolfram	Wolfram.svg	wolfram		1	0	0	1	
+fi	U+EAA8		Workbox	Workbox.svg	workbox		1	0	0	1	
+fi	U+1F32D	🌭	Wurst	Wurst.svg	wurst		1	0	0	1	
+fi	U+2169	Ⅹ	X10	X10.svg	x10		1	0	0	1	
+fi	U+EA77		Xamarin	Xamarin.svg	xamarin		1	0	0	1	
+fi	U+EB94		xmake	xmake.svg	xmake		1	0	0	1	
+fi	U+0058	X	XMOS	XMOS.svg	xmos		1	0	0	1	
+fi	U+E9C5		XPages	XPages.svg	xpages		1	0	0	1	
+fi	U+E9C6		Xtend	Xtend.svg	xtend		1	0	0	1	
+fi	U+EB04		Xubuntu	Xubuntu.svg	xubuntu		1	0	0	1	
+fi	U+0079	y	YAML	YAML.svg	yaml		1	0	0	1	
+fi	U+0059	Y	YAML, Alt 1	YAML-Alt1.svg	yaml-alt1		1	0	0	1	
+fi	U+EA9E		YAML, Alt 2	YAML-Alt2.svg	yaml-alt2		1	0	0	1	
+fi	U+EA9D		YAML, Alt 3	YAML-Alt3.svg	yaml-alt3		1	0	0	1	
+fi	U+EA9C		YAML, Alt 4	YAML-Alt4.svg	yaml-alt4		1	0	0	1	
+fi	U+EB9D		YAMLLint	YAMLLint.svg	yamllint		1	0	0	1	
+fi	U+042F	Я	Yandex	Yandex.svg	yandex		1	0	0	1	
+fi	U+262F	☯	YANG	YANG.svg	yang		1	0	0	1	
+fi	U+EA9F		YARA	YARA.svg	yara		1	0	0	1	
+fi	U+EA1A		Yarn	Yarn.svg	yarn		1	0	0	1	
+fi	U+EA73		Yasm	Yasm.svg	yasm		1	0	0	1	
+fi	U+1F480	💀	Yorick	Yorick.svg	yorick		1	0	0	1	
+fi	U+EA00		YUI	YUI.svg	yui		1	0	0	1	
+fi	U+E9F2		ZBrush	ZBrush.svg	zbrush		1	0	0	1	
+fi	U+25B2	▲	Zeit	Zeit.svg	zeit		1	0	0	1	
+fi	U+E9C7		Zephir	Zephir.svg	zephir		1	0	0	1	
+fi	U+007A	z	Zig	Zig.svg	zig		1	0	0	1	
+fi	U+EB56		Zilog	Zilog.svg	zilog		1	0	0	1	
+fi	U+E9C8		Zimpl	Zimpl.svg	zimpl		1	0	0	1	
+fi	U+01B6	ƶ	Zork	Zork.svg	zork		1	0	0	1	
+fi	U+EB01		ZorinOS	ZorinOS.svg	zorinos		1	0	0	1	
