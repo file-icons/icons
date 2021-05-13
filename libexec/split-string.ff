@@ -1,0 +1,80 @@
+#!/usr/bin/env fontforge
+
+#
+# split-string -- Split a string by a delimiter character.
+#
+# Unlike `StrSplit()', zero-length entries aren't unnecessarily
+# discarded from the beginning and end of the resultant list.
+#
+# Parameters:
+#    $1 input
+#    $2 [separator = ","]
+#    $3 [trim-whitespace = 0]
+#    $4 [discard-empty-records = 0]
+#
+# Usage:
+#    array = "split-string"("foo, bar , , baz");
+#
+
+sep    = ","; if($argc > 2) sep    = $2; endif
+trim   = 0;   if($argc > 3) trim   = $3; endif
+filter = 0;   if($argc > 4) filter = $4; endif
+
+if("String" == TypeOf(trim))   trim   = Strtol(trim);   endif
+if("String" == TypeOf(filter)) filter = Strtol(filter); endif
+
+pad    = Chr(Ord(sep, 0) + 1)
+padded = StrSplit(pad + sep + $1 + sep + pad, sep)
+length = SizeOf(padded)
+input  = Array(length - 2)
+i = 1; while(i < length - 1)
+	input[i - 1] = padded[i++]
+endloop
+
+# Start collecting the final (cleaned) list
+output = []
+i = 0
+while(i < SizeOf(input))
+	chunk = input[i]
+	
+	if(trim)
+		# Leading whitespace
+		while((length = Strlen(chunk)) > 0 && IsSpace(Strsub(chunk, 0, 1)))
+			chunk = Strsub(chunk, 1)
+		endloop
+
+		# Trailing whitespace
+		while((length = Strlen(chunk)) > 0 && IsSpace(Strsub(chunk, length - 1)))
+			chunk = Strsub(chunk, 0, length - 1)
+		endloop
+	endif
+
+	if(!(filter && "" == chunk))
+		output = output + [chunk]
+	endif
+
+	++i
+endloop
+
+# Print results to STDOUT to simplify CLI testing
+if($0 == GetEnv("_"))
+	count = SizeOf(output)
+	
+	if(GetEnv("TERM") != "dumb")
+		Print("Printing " + count + " entries")
+		
+		# Use reverse video to reveal whitespace in entries
+		RV_ON  = Chr(0x1B) + "[7m"
+		RV_OFF = Chr(0x1B) + "[27m"
+		
+		i = 0; while(i < count)
+			Print(RV_ON + output[i++] + RV_OFF)
+		endloop
+	else
+		i = 0; while(i < count)
+			Print(output[i++])
+		endloop
+	endif
+endif
+
+return output

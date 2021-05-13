@@ -1,0 +1,67 @@
+#!/usr/bin/env fontforge
+
+#
+# load-table -- Load and parse TSV containing icon definitions.
+#
+# Usage:
+#    table = "load-table"("/path/to/icons.tsv");
+#
+
+# User-defined procedure files
+libs      = $0:h + "/../libexec/"
+Split     = libs + "split-string.ff"
+Inspect   = libs + "inspect.ff"
+
+# Global constants for indexing each column
+_FONT_ID  = 0    # Font ID, used to select icon-sets in a multi-font table
+_CODE     = 1    # Unicode codepoint, expressed in `U+XXXX` notation
+_CHAR     = 2    # Corresponding character literal, included for convenience
+_DESC     = 3    # Human-readable name/description
+_FILE     = 4    # Path to the icon's SVG file
+_CHAR_ID  = 5    # Computer-friendly icon ID; must be unique across fonts!
+_KEYWORDS = 6    # Comma-delimited list of search keywords
+_SCALE    = 7    # Resize an icon by the given factor (default: 1.0)
+_OFFSET_X = 8    # Translate icon horizontally (negative values = leftwards)
+_OFFSET_Y = 9    # Translate icon vertically   (negative values = upwards)
+_ZOOM     = 10   # Resize an icon without affecting its original bounding box
+_FLAGS    = 11   # Either "thicken" or "sharpen" (currently Atom/CSS-specific)
+
+# awk(1)-ward variables exposed for overriding, if needed
+_RS = Chr(0x0A)  # Record separator
+_FS = Chr(0x09)  # Field separator
+_US = ","        # Subfield (unit) separator
+
+
+# Error handling
+if($argc < 2)
+	Error("No table file specified")
+elseif(!~FileAccess($1))
+	Error("No such file: " + $1)
+endif
+
+# Program's logic starts here
+table = LoadStringFromFile($1)
+table = StrSplit(table, _RS)
+l = SizeOf(table)
+i = 0
+
+while(i < l)
+	fields = (Split)(table[i], _FS)
+	if(i > 0)
+		fields[_CODE]     = UCodePoint(Strtol(Strsub(fields[_CODE], 2), 16))
+		fields[_FLAGS]    = (Split)(fields[_FLAGS],    _US)
+		fields[_KEYWORDS] = (Split)(fields[_KEYWORDS], _US)
+		fields[_SCALE]    = Strtod(fields[_SCALE])
+		fields[_OFFSET_X] = Strtod(fields[_OFFSET_X])
+		fields[_OFFSET_Y] = Strtod(fields[_OFFSET_Y])
+		fields[_ZOOM]     = Strtod(fields[_ZOOM])
+	endif
+	table[i++] = fields
+endloop
+
+# Print results to STDOUT to simplify CLI testing
+if($0 == GetEnv("_"))
+	Print(table)
+endif
+
+return table

@@ -1,225 +1,129 @@
 #!/usr/bin/env fontforge
 
-#
-# NOTE: The use of FontForge's native scripting language is deliberate.
-# Python would've been easier, but the rest of this codebase is written
-# in Perl--requiring *two* programming languages to update a font feels
-# rather excessive. Moreover, not every FontForge installation includes
-# Python bindings (although most do).
-#
-# An effort has been made to maximise reusability between projects; one
-# need only provide a TSV file of the format described in icons.tsv(5).
-# See file-icons(1) for details on program options and usage.
-#
+name    = "File Icons"
+font    = "file-icons.ttf"
+version = "2.1.47"
+author  = "John Gardner"
+url     = "https://github.com/Alhadis"
+license = "http://opensource.org/licenses/ISC"
+tableID = "fi"
+fond    = "Ficon"
+font    = $0:h + "/../" + font
+table   = $0:h + "/../icons.tsv"
+svgDir  = $0:h + "/../svg/"
+em      = 1024
+base    = Round(em * 0.0625)
+mono    = 0
 
-# Control characters
-CR      = Chr(0x0D)      # Carriage return
-LF      = Chr(0x0A)      # Newline
-TAB     = Chr(0x09)      # Tab
-ESC     = Chr(0x1B)      # Escape
+# Copyright info
+notice = LoadStringFromFile($0:h + "/../LICENSE.md")
+notice = Strsub(notice, 0, Strstr(notice, Chr(0x0A)))
 
-# Strings used in diagnostics
-PS      = LF + LF        # Paragraph separator
-CSI     = ESC + "["      # Control sequence introducer
-DEFAULT = "icons.tsv"    # Hardcoded basename(3) of default table
-
-# Prefixes to (manually) insert before a diagnostic message
-E = $0:t:r + ": ERROR: "
-W = $0:t:r + ": WARNING: "
-I = $0:t:r + ": INFO: "
-D = $0:t:r + ": DEBUG: "
-
-# Diagnostic functions that can be "filtered" by replacing the
-# functions they reference with one that behaves as a no-op.
-ERROR   = "Error"
-WARN    = "PostNotice"
-INFO    = "PostNotice"
-DEBUG   = "PostNotice"
-
-# Global variable that stores the exit code to use when the script
-# finishes running to completion, but with warnings emitted during
-# execution. Set to a non-zero value after calling `(WARN)`, which
-# must be done manually.
-_exitCode = 0
-
-
-
-#
-
-# Options
-debug     = 1    # Print non-essential, informational messages
-verbosity = 3    # Display all diagnostics except `DEBUG`
-tablePath = ""   # Path of TSV file containing icon definitions
-
-
-# User-supplied table file
-if($argc > 1 && $1 != "")
-	tablePath = $1
-	(DEBUG)(D + "Using user-provided table path: " + tablePath)
-
-# Use default table file
-else
-	(DEBUG)(D + "Using default table: ../" + DEFAULT)
-	(DEBUG)(D + "Resolving parent directory of $0")
-	
-	# Executed path has no directory component
-	if($0 == $0:t)
-		(DEBUG)(D + "$0 has no directory component")
-		
-		dir = "."
-		src = "process's working directory"
-		
-		# Give users an opportunity to override their "real" location
-		if((j = GetEnv("PWD")) != "")
-			dir = j
-			src = "$PWD environment variable"
-		
-		# FIXME: Not sure how reliable this variable is, hence our caution
-		elseif((j = GetEnv("_")) != "")
-			ext = ToLower(j:e)
-			
-			# Make sure we aren't referencing FontForge binary itself
-			if(ext == "ff" || ext == "pe")
-				dir = j
-				src = "$_ environment variable"
-			endif
-		endif
-		(DEBUG)(D + "Using " + src + " to resolve relative paths")
-		
-		# Now that we have some sense of location, start searching for a TSV
-		(DEBUG)(D + "Searching nearby directories for `" + DEFAULT + "`")
-		nearbyDirs = [dir, dir + "/..", dir + "/icons"]
-		i = 0
-		l = SizeOf(nearbyDirs)
-		
-		while(tablePath == "" && i < l)
-			j = nearbyDirs[i++] + "/" + DEFAULT
-			(DEBUG)(D + "Trying " + j)
-			
-			if(~FileAccess(j))
-				(DEBUG)(D + "Found table at " + j)
-				tablePath = j
-				break
-			endif
-		endloop
-	
-	# Only one directory component (i.e., `bin/build-font.ff`)
-	elseif($0:h == $0:h:h)
-		tablePath = "./" + DEFAULT
-		if($0:h == ".")
-			tablePath = "." + tablePath
-		endif
-		(DEBUG)(D + "$0 has only one directory component: " + $0:h)
-		(DEBUG)(D + "Using table at " + tablePath)
-	
-	# Equivalent of `realpath "${0%/*}/../icons.tsv"`
-	else
-		tablePath = $0:h:h + "/" + DEFAULT
-		(DEBUG)(D + "Using table at ../" + DEFAULT)
-		(DEBUG)(D + "tablePath is now " + tablePath)
-	endif
+# Style
+if(mono) style = "Monospace"; fond += "Fix"
+else     style = "Regular";   fond += "Reg"
 endif
 
-# Still nothing? Give up already.
-if(tablePath == "")
-	(ERROR)(E + "Failed to locate table file")
-endif
-
-# Specified table doesn't exist on disk
-if(!~FileAccess(tablePath))
-	(ERROR)(E + "No such file: " + tablePath)
-endif
-
-# Load the damn table already
-table = LoadStringFromFile(tablePath)
-if(table == "")
-	(ERROR)(E + "Empty or unreadable file: " + tablePath)
-endif
-
-# 
-
-# Make no assumptions about line endings
-i = 0; eol = [CR + LF, LF, CR]
-while(i < 3)
-	if(-1 != Strstr(table, eol[i]))
-		table = StrSplit(table, eol[i])
-		if(debug)
-			abbrs = ["CRLF", "LF", "CR"]
-			(DEBUG)(D + "Using " + abbrs[i] + " as record separator")
-		endif
-		break
-	endif
-	++i
-endloop
-
-# Bail if file contains nothing useful
-if("String" == TypeOf(table) || !(count = SizeOf(table)))
-	Error("Table appears to be empty")
-endif
-
-
-# Declare required column headers
-columns    = Array(7)
-columns[0] = fontColumn  = [-1, "face fontid fontname fontfamily fontface"]
-columns[1] = codeColumn  = [-1, "code codepoint unicode charcode charactercode"]
-columns[2] = idColumn    = [-1, "id key slug internalid"]
-columns[3] = svgColumn   = [-1, "svg svgfile file filename filepath path pathname"]
-columns[4] = scaleColumn = [-1, "scale"]
-columns[5] = xColumn     = [-1, "x xoffset offsetx translatex xtranslation left"]
-columns[6] = yColumn     = [-1, "y yoffset offsety translatey ytranslation top"]
-
-# Expand keyword lists: "foo bar" => ["foo", "bar"]
-i = 0; while(i < SizeOf(columns))
-	l = columns[i][1]
-	if("String" == TypeOf(l))
-		columns[i][1] = StrSplit(l, " ")
-	endif
-	++i
-endloop
-
-# Expand header row: "# Foo\tBar" => ["# Foo", "Bar"]
-table[0] = StrSplit(table[0], TAB)
-count    = SizeOf(table[0])
-
-# Not enough fields? Bail, we don't have enough to work with.
-if(count < 4)
-	# TODO: Permit omission of `font` column if `--font-name` is specified.
-	# This is to cover the likely scenario of an author only wanting/caring
-	# about a single icon-font (and as such, including the `Font` column is
-	# redundant).
-	(ERROR)(E + "Insufficient column count (" + count + " found when 4+ expected)")
-endif
-(DEBUG)(D + "Found " + count + " columns")
-
-
-# Start parsing the actual headers present in the table
-(DEBUG)(D + "Normalising column names...")
+# PostScript name
+psName = ""
 i = 0
-while(i < count)
-	name = ToLower(table[0][i])
-	
-	# Replace non-alphanumeric characters with blanks
-	nameSeq = Ucs4(name)
-	l = SizeOf(nameSeq)
-	j = 0; name = ""
-	while(j < l)
-		k = Chr(nameSeq[j++])
-		if(!IsAlNum(k)) k = " "; endif
-		name += k
-	endloop
-	
-	# Strip whitespace
-	while(~(j = Strstr(name, " ")))
-		name = Strsub(name, 0, j) + "" + Strsub(name, j + 1)
-	endloop
-	
-	# Bail if we're left with an empty string
-	if(name == "")
-		Error("Empty column header at index " + i)
+while(i < Strlen(name))
+	code = Ord(name, i++)
+	char = Chr(code)
+	if(code >= 33 && code <= 126 && !~Strstr("[](){}<>/%", char))
+		psName += char
 	endif
+endloop
+psName += "-" + style
+
+
+# Begin font construction
+New()
+Reencode("unicode4")
+ScaleToEm(em - base, base)
+SetTTFName(0x409, 0, notice)
+SetTTFName(0x409, 1, name)
+SetTTFName(0x409, 2, style)
+SetTTFName(0x409, 3, name)
+SetTTFName(0x409, 4, name)
+SetTTFName(0x409, 5, "Version " + version)
+SetTTFName(0x409, 6, psName)
+SetTTFName(0x409, 9, author)
+SetTTFName(0x409, 12, url)
+SetTTFName(0x409, 14, license)
+SetPanose([5, 10, 1, 2 - -mono, 1, 2, 2, 2, 2, 2])
+SetMacStyle(0x00)
+SetFondName(fond)
+
+PI = 3.141592653589793
+xo = Sin($italicangle * PI / 180)
+SetOS2Value("Weight",        400)
+SetOS2Value("Width",         5)
+SetOS2Value("FSType",        0)
+SetOS2Value("IBMFamily",     0x0F0F)
+SetOS2Value("SubXSize",      Int(0.65 * $em))
+SetOS2Value("SupXSize",      Int(0.65 * $em))
+SetOS2Value("SubYSize",      Int(0.7  * $em))
+SetOS2Value("SupYSize",      Int(0.7  * $em))
+SetOS2Value("SubXOffset",    Int(0.14 * $em * -xo))
+SetOS2Value("SubYOffset",    Int(0.14 * $em))
+SetOS2Value("SupXOffset",    Int(0.48 * $em * xo))
+SetOS2Value("SupYOffset",    Int(0.48 * $em))
+SetOS2Value("StrikeOutPos",  Int(530  * $em / 2048))
+SetOS2Value("StrikeOutSize", Int(102  * $em / 2048))
+SetOS2Value("HHeadLineGap",  0)
+SetOS2Value("VHeadLineGap",  0)
+SetOS2Value("TypoLineGap",   $descent)
+SetOS2Value("TypoAscent",    $ascent);  SetOS2Value("TypoAscentIsOffset",   0)
+SetOS2Value("TypoDescent",  -$descent); SetOS2Value("TypoDescentIsOffset",  0)
+SetOS2Value("HHeadAscent",   $ascent);  SetOS2Value("HHeadAscentIsOffset",  0)
+SetOS2Value("HHeadDescent", -$descent); SetOS2Value("HHeadDescentIsOffset", 0)
+SetOS2Value("WinAscent",     $ascent);  SetOS2Value("WinAscentIsOffset",    0)
+SetOS2Value("WinDescent",    $descent); SetOS2Value("WinDescentIsOffset",   0)
+
+table = ($0:h + "/load-table.ff")(table);
+l = SizeOf(table)
+i = 1
+while(i < l)
+	row  = table[i]
 	
-	if(debug)
-		Print(TAB + table[0][i] + " => " + name)
+	if(row[_FONT_ID] == tableID)
+		svgFile = svgDir + row[_FILE]
+		Print("Importing: " + svgFile)
+		Select(row[_CODE])
+		Import(svgFile, 0)
+
+		gvwidth = GlyphInfo("VWidth")
+		gwidth  = GlyphInfo("Width")
+		bbox    = GlyphInfo("BBox")
+		width   = bbox[2] - bbox[0]
+		height  = bbox[3] - bbox[1]
+		if(width < height)
+			Scale($em / height * 100)
+		else
+			Scale($em / width * 100)
+		endif
+		SetVWidth(gvwidth)
+		SetWidth(gwidth)
+
+		bbox = GlyphInfo("BBox")
+		Move(-bbox[0], -bbox[1] - $descent / 2)
+		if(mono)
+			CenterInWidth()
+		else
+			SetWidth(Ceil(bbox[2] - bbox[0]))
+		endif
+		RoundToInt()
 	endif
 	++i
 endloop
+
+# Define a `.notdef` glyph to prevent FontForge from auto-generating one
+Select(0u0000)
+SetWidth($em)
+SetGlyphName(".notdef")
+DetachGlyphs()
+
+SelectWorthOutputting()
+Generate(font)
+Close()
