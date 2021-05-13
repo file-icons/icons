@@ -61,7 +61,7 @@ endloop
 
 # Print results to STDOUT to simplify CLI testing
 if($0 == GetEnv("_"))
-	Print(table)
+	Print((Inspect)(table))
 endif
 
 return table

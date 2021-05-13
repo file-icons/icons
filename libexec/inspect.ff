@@ -42,9 +42,10 @@ elseif("Unicode" == type)
 
 # Quoted string
 elseif("String" == type)
+	Escape = $0:h + "/escape-string.ff"
 	lquote = DARK_GREEN + '"' + GREEN
 	rquote = DARK_GREEN + '"' + RESET
-	value  = "libexec/escape-string.ff"(value, DARK_GREEN, GREEN)
+	value  = (Escape)(value, DARK_GREEN, GREEN)
 	return lquote + value + rquote
 
 # List of values enclosed in square brackets
