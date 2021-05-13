@@ -34,9 +34,11 @@ _US = ","        # Subfield (unit) separator
 
 # Error handling
 if($argc < 2)
-	Error("No table file specified")
+	Print("No table file specified")
+	Quit(1)
 elseif(!~FileAccess($1))
-	Error("No such file: " + $1)
+	Print("No such file: " + $1)
+	Quit(1)
 endif
 
 # Program's logic starts here
