@@ -8,7 +8,7 @@ url     = "https://github.com/Alhadis"
 license = "http://opensource.org/licenses/ISC"
 tableID = "fi"
 fond    = "Ficon"
-font    = $0:h + "/../" + font
+font    = $0:h + "/../fonts/" + font
 table   = $0:h + "/../icons.tsv"
 svgDir  = $0:h + "/../svg/"
 em      = 1024
@@ -38,9 +38,18 @@ psName += "-" + style
 
 
 # Begin font construction
-New()
-Reencode("unicode4")
-ScaleToEm(em - base, base)
+if(~FileAccess(font))
+	updating = 1
+	Print("Updating: " + font)
+	Open(font)
+else
+	updating = 0
+	Print("Creating: " + font)
+	New()
+	Reencode("unicode4")
+	ScaleToEm(em - base, base)
+endif
+
 SetTTFName(0x409, 0, notice)
 SetTTFName(0x409, 1, name)
 SetTTFName(0x409, 2, style)
@@ -82,12 +91,13 @@ SetOS2Value("WinAscent",     $ascent);  SetOS2Value("WinAscentIsOffset",    0)
 SetOS2Value("WinDescent",    $descent); SetOS2Value("WinDescentIsOffset",   0)
 
 table = ($0:h + "/load-table.ff")(table);
+importCount = 0
 l = SizeOf(table)
 i = 1
 while(i < l)
 	row  = table[i]
 	
-	if(row[_FONT_ID] == tableID)
+	if(row[_FONT_ID] == tableID && !DrawsSomething(row[_CODE]))
 		svgFile = svgDir + row[_FILE]
 		Print("Importing: " + svgFile)
 		Select(row[_CODE])
@@ -114,9 +124,16 @@ while(i < l)
 			SetWidth(Ceil(bbox[2] - bbox[0]))
 		endif
 		RoundToInt()
+		++importCount
 	endif
 	++i
 endloop
+
+# Go home early if there's nothing to do here
+if(updating && !importCount)
+	Print("Already up-to-date")
+	Quit(0)
+endif
 
 # Define a `.notdef` glyph to prevent FontForge from auto-generating one
 Select(0u0000)
