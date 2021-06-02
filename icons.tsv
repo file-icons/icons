@@ -67,7 +67,8 @@ U+E92F		Arc	Arc.svg	arc-icon
 U+0041	A	Arch Linux	Arch-Linux.svg	
 U+E930		Arduino	Arduino.svg	arduino-icon
 U+EB5B		ARM	ARM.svg	
-U+24D0	ⓐ	ArtText	ArtText.svg	arttext-icon
+U+24D0	ⓐ	Art Text	ArtText.svg	arttext-icon
+U+1D5EE	𝗮	Art Text 4	ArtText4.svg	arttext4-icon
 U+E918		AsciiDoc	AsciiDoc.svg	asciidoc-icon
 U+EAC7		Asciidoctor	Asciidoctor.svg	asciidoctor-icon
 U+EB53		Assembly, AGC	Assembly-AGC.svg	asm-agc-icon
@@ -107,6 +108,7 @@ U+EA5A		Bazel, Old	Bazel-Old.svg
 U+EA89		Behat	Behat.svg	behat-icon
 U+EA59		BEM	BEM.svg	bem-icon
 U+E601		BibTeX	BibTeX.svg	bibtex-icon
+U+1F6B2	🚲	Bikeshed	Bikeshed.svg	bikeshed-icon
 U+EB29		Biml	Biml.svg	biml-icon
 U+EBA4		Binder	Binder.svg	binder-icon
 U+EA6E		BinTray	BinTray.svg	bintray-icon
@@ -248,6 +250,7 @@ U+EA71		DOM	DOM.svg
 U+1F3C1	🏁	DoneJS	DoneJS.svg	
 U+EAF2		DOSBox	DOSBox.svg	dosbox-icon
 U+EAF0		DOSBox, Alt	DOSBox-Alt.svg	
+U+EBB8		dotenv	dotenv.svg	dotenv-icon
 U+EB0B		doT.js	dotjs.svg	dotjs-icon
 U+E928		Doxygen	Doxygen.svg	doxygen-icon
 U+EAFD		DragonflyBSD	DragonflyBSD.svg	
@@ -292,6 +295,7 @@ U+E9FC		FBX	FBX.svg	fbx-icon
 U+EB20		Fexl	Fexl.svg	fexl-icon
 U+EA22		FFmpeg	FFmpeg.svg	
 U+24BB	Ⓕ	Fiddle	Fiddle.svg	fiddle-icon
+U+EBBA		Figma	Figma.svg	figma-icon
 U+1D4BB	𝒻	Final Draft	FinalDraft.svg	finaldraft-icon
 U+E9E9		Finder	Finder.svg	finder-icon
 U+EA7F		Firebase	Firebase.svg	firebase-icon
@@ -393,6 +397,7 @@ U+F012		Image	Image.svg
 U+26FF	⛿	Imba	Imba.svg	imba-icon
 U+EAE9		Imba, Alt	Imba-Alt.svg	
 U+1F4A0	💠	Imba, Old	Imba-Old.svg	
+U+EBBF		Imgbot	Imgbot.svg	imgbot-icon
 U+EB1F		InfluxData	InfluxData.svg	
 U+E984		Inform 7	Inform7.svg	inform7-icon
 U+EACE		Ink	Ink.svg	ink-icon
@@ -514,9 +519,11 @@ U+EA83		Microsoft Visio	Microsoft-Visio.svg	visio-icon
 U+E9ED		Microsoft Word	Microsoft-Word.svg	word-icon
 U+E9DC		Minecraft	Minecraft.svg	minecraft-icon
 U+EA53		MiniZinc	MiniZinc.svg	minizinc-icon
+U+1F33F	🌿	Mint	Mint.svg	mint-icon
 U+E995		Mirah	Mirah.svg	mirah-icon
 U+EA52		Miranda	Miranda.svg	miranda-icon
 U+EB3A		mIRC	mIRC.svg	mirc-icon
+U+EBB9		Mixin	Mixin.svg	mixin-icon
 U+EA6F		MJML	MJML.svg	mjml-icon
 U+26FE	⛾	Mocha	Mocha.svg	mocha-icon
 U+EAFF		Modelica	Modelica.svg	modelica-icon
@@ -629,6 +636,7 @@ U+EA74		PegJS	PegJS.svg	peg-icon
 U+E96C		Perl6	Perl6.svg	perl6-icon
 U+E94A		Phalcon	Phalcon.svg	phalcon-icon
 U+EA5F		Phoenix	Phoenix.svg	phoenix-icon
+U+EBC0		PhotoRec	PhotoRec.svg	photorec-icon
 U+F147		PHP	PHP.svg	php-icon
 U+EA32		PHPUnit	PHPUnit.svg	phpunit-icon
 U+EADB		PhraseApp	PhraseApp.svg	phraseapp-icon
@@ -741,6 +749,7 @@ U+EA2F		Sequelize	Sequelize.svg	sequelize-icon
 U+EAB8		Serverless	Serverless.svg	serverless-icon
 U+E9DB		Service Fabric	Service-Fabric.svg	sf-icon
 U+EB88		Shadow CLJS	ShadowCLJS.svg	shadowcljs-icon
+U+1F41A	🐚	ShellCheck	ShellCheck.svg	shellcheck-icon
 U+E9A7		Shen	Shen.svg	shen-icon
 U+26F5	⛵	Shipit	Shipit.svg	shipit-icon
 U+EA2D		Shippable	Shippable.svg	shippable-icon
@@ -885,6 +894,7 @@ U+EB24		WebVTT	WebVTT.svg	webvtt-icon
 U+8A00	言	Wenyan	Wenyan.svg	wenyan-icon
 U+EA19		Wercker	Wercker.svg	wercker-icon
 U+EB38		Wget	Wget.svg	wget-icon
+U+1F4A8	💨	Windi CSS	Windi.svg	windi-icon
 U+EBB7		WinUI	WinUI.svg	winui-icon
 U+1F377	🍷	Wine	Wine.svg	wine-icon
 U+EAB0		WiX	WiX.svg	wix-icon
