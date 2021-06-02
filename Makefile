@@ -14,6 +14,13 @@ clean:
 	rm -f $(TTF) charmap.html
 .PHONY: clean
 
+# Sort icons list
+sort:
+	head -n1 icons.tsv > icons.tsv~
+	sort -dfik3 icons.tsv | grep -v ^\# >> icons.tsv~
+	mv icons.tsv~ icons.tsv
+.PHONY: sort
+
 # Update character map
 charmap:
 	./bin/update-charmap.pl

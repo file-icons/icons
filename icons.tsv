@@ -189,7 +189,8 @@ fi	U+E92F		Arc	Arc.svg	arc		1	0	0	1
 fi	U+0041	A	Arch Linux	Arch-Linux.svg	archlinux		1	0	0	1	
 fi	U+E930		Arduino	Arduino.svg	arduino		1	0	0	1	
 fi	U+EB5B		ARM	ARM.svg	arm		1	0	0	1	
-fi	U+24D0	ⓐ	ArtText	ArtText.svg	arttext		1	0	0	1	
+fi	U+24D0	ⓐ	Art Text	ArtText.svg	arttext		1	0	0	1	
+fi	U+1D5EE	𝗮	Art Text 4	ArtText4.svg	arttext4		1	0	0	1	
 fi	U+E918		AsciiDoc	AsciiDoc.svg	asciidoc		1	0	0	1	
 fi	U+EAC7		Asciidoctor	Asciidoctor.svg	asciidoctor		1	0	0	1	
 fi	U+EB53		Assembly, AGC	Assembly-AGC.svg	asm-agc		1	0	0	1	
@@ -229,6 +230,7 @@ fi	U+EA5A		Bazel, Old	Bazel-Old.svg	bazel-old		1	0	0	1
 fi	U+EA89		Behat	Behat.svg	behat		1	0	0	1	
 fi	U+EA59		BEM	BEM.svg	bem		1	0	0	1	
 fi	U+E601		BibTeX	BibTeX.svg	bibtex		1	0	0	1	
+fi	U+1F6B2	🚲	Bikeshed	Bikeshed.svg	bikeshed		1	0	0	1	
 fi	U+EB29		Biml	Biml.svg	biml		1	0	0	1	
 fi	U+EBA4		Binder	Binder.svg	binder		1	0	0	1	
 fi	U+EA6E		BinTray	BinTray.svg	bintray		1	0	0	1	
@@ -370,6 +372,7 @@ fi	U+EA71		DOM	DOM.svg	dom		1	0	0	1
 fi	U+1F3C1	🏁	DoneJS	DoneJS.svg	donejs		1	0	0	1	
 fi	U+EAF2		DOSBox	DOSBox.svg	dosbox		1	0	0	1	
 fi	U+EAF0		DOSBox, Alt	DOSBox-Alt.svg	dosbox-alt		1	0	0	1	
+fi	U+EBB8		dotenv	dotenv.svg	dotenv		1	0	0	1	
 fi	U+EB0B		doT.js	dotjs.svg	dotjs		1	0	0	1	
 fi	U+E928		Doxygen	Doxygen.svg	doxygen		1	0	0	1	
 fi	U+EAFD		DragonflyBSD	DragonflyBSD.svg	dragonflybsd		1	0	0	1	
@@ -414,6 +417,7 @@ fi	U+E9FC		FBX	FBX.svg	fbx		1	0	0	1
 fi	U+EB20		Fexl	Fexl.svg	fexl		1	0	0	1	
 fi	U+EA22		FFmpeg	FFmpeg.svg	ffmpeg		1	0	0	1	
 fi	U+24BB	Ⓕ	Fiddle	Fiddle.svg	fiddle		1	0	0	1	
+fi	U+EBBA		Figma	Figma.svg	figma		1	0	0	1	
 fi	U+1D4BB	𝒻	Final Draft	FinalDraft.svg	finaldraft		1	0	0	1	
 fi	U+E9E9		Finder	Finder.svg	finder		1	0	0	1	
 fi	U+EA7F		Firebase	Firebase.svg	firebase		1	0	0	1	
@@ -515,6 +519,7 @@ fi	U+F012		Image	Image.svg	image		1	0	0	1
 fi	U+26FF	⛿	Imba	Imba.svg	imba		1	0	0	1	
 fi	U+EAE9		Imba, Alt	Imba-Alt.svg	imba-alt		1	0	0	1	
 fi	U+1F4A0	💠	Imba, Old	Imba-Old.svg	imba-old		1	0	0	1	
+fi	U+EBBF		Imgbot	Imgbot.svg	imgbot		1	0	0	1	
 fi	U+EB1F		InfluxData	InfluxData.svg	influxdata		1	0	0	1	
 fi	U+E984		Inform 7	Inform7.svg	inform7		1	0	0	1	
 fi	U+EACE		Ink	Ink.svg	ink		1	0	0	1	
@@ -636,10 +641,12 @@ fi	U+EA83		Microsoft Visio	Microsoft-Visio.svg	visio		1	0	0	1
 fi	U+E9ED		Microsoft Word	Microsoft-Word.svg	word		1	0	0	1	
 fi	U+E9DC		Minecraft	Minecraft.svg	minecraft		1	0	0	1	
 fi	U+EA53		MiniZinc	MiniZinc.svg	minizinc		1	0	0	1	
+fi	U+1F33F	🌿	Mint	Mint.svg	mint		1	0	0	1	
 fi	U+E995		Mirah	Mirah.svg	mirah		1	0	0	1	
 fi	U+EA52		Miranda	Miranda.svg	miranda		1	0	0	1	
 fi	U+EB3A		mIRC	mIRC.svg	mirc		1	0	0	1	
 fi	U+EA6F		MJML	MJML.svg	mjml		1	0	0	1	
+fi	U+EBB9		Mixin	Mixin.svg	mixin		1	0	0	1	
 fi	U+26FE	⛾	Mocha	Mocha.svg	mocha		1	0	0	1	
 fi	U+EAFF		Modelica	Modelica.svg	modelica		1	0	0	1	
 fi	U+EB9F		Modern Web	ModernWeb.svg	modernweb		1	0	0	1	
@@ -751,6 +758,7 @@ fi	U+EA74		PegJS	PegJS.svg	peg		1	0	0	1
 fi	U+E96C		Perl6	Perl6.svg	perl6		1	0	0	1	
 fi	U+E94A		Phalcon	Phalcon.svg	phalcon		1	0	0	1	
 fi	U+EA5F		Phoenix	Phoenix.svg	phoenix		1	0	0	1	
+fi	U+EBC0		PhotoRec	PhotoRec.svg	photorec		1	0	0	1	
 fi	U+F147		PHP	PHP.svg	php		1	0	0	1	
 fi	U+EA32		PHPUnit	PHPUnit.svg	phpunit		1	0	0	1	
 fi	U+EADB		PhraseApp	PhraseApp.svg	phraseapp		1	0	0	1	
@@ -863,6 +871,7 @@ fi	U+EA2F		Sequelize	Sequelize.svg	sequelize		1	0	0	1
 fi	U+EAB8		Serverless	Serverless.svg	serverless		1	0	0	1	
 fi	U+E9DB		Service Fabric	Service-Fabric.svg	sf		1	0	0	1	
 fi	U+EB88		Shadow CLJS	ShadowCLJS.svg	shadowcljs		1	0	0	1	
+fi	U+1F41A	🐚	ShellCheck	ShellCheck.svg	shellcheck		1	0	0	1	
 fi	U+E9A7		Shen	Shen.svg	shen		1	0	0	1	
 fi	U+26F5	⛵	Shipit	Shipit.svg	shipit		1	0	0	1	
 fi	U+EA2D		Shippable	Shippable.svg	shippable		1	0	0	1	
@@ -1007,6 +1016,7 @@ fi	U+EB24		WebVTT	WebVTT.svg	webvtt		1	0	0	1
 fi	U+8A00	言	Wenyan	Wenyan.svg	wenyan		1	0	0	1	
 fi	U+EA19		Wercker	Wercker.svg	wercker		1	0	0	1	
 fi	U+EB38		Wget	Wget.svg	wget		1	0	0	1	
+fi	U+1F4A8	💨	Windi CSS	Windi.svg	windi		1	0	0	1	
 fi	U+EBB7		WinUI	WinUI.svg	winui		1	0	0	1	
 fi	U+1F377	🍷	Wine	Wine.svg	wine		1	0	0	1	
 fi	U+EAB0		WiX	WiX.svg	wix		1	0	0	1	
