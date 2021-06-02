@@ -87,9 +87,9 @@ U+EB48		Assembly, VAX	Assembly-VAX.svg	asm-vax-icon
 U+EB47		Assembly, Zilog	Assembly-Zilog.svg	asm-zilog-icon
 U+EAE5		Asymptote	Asymptote.svg	asymptote-icon
 U+EAE3		Asymptote, Alt	Asymptote-Alt.svg	
-U+EB55		AT&T	ATT.svg	
 U+2649	♉	Atoum	Atoum.svg	atoum-icon
 U+E934		ATS	ATS.svg	ats-icon
+U+EB55		AT&T	ATT.svg	
 U+E9F9		Audacity	Audacity.svg	audacity-icon
 U+E931		Augeas	Augeas.svg	augeas-icon
 U+EA48		Aurelia	Aurelia.svg	aurelia-icon
@@ -137,8 +137,8 @@ U+EBAD		Buildkite	Buildkite.svg	buildkite-icon
 U+EA45		Bundler	Bundler.svg	bundler-icon
 U+E962		BYOND	BYOND.svg	byond-icon
 U+EB7B		C#	C%23.svg	
-U+E9E2		C# Script	C%23-Script.svg	csscript-icon
 U+EB7C		C++	C++.svg	
+U+E9E2		C# Script	C%23-Script.svg	csscript-icon
 U+E9C2		Cabal	Cabal.svg	cabal-icon
 U+1F512	🔒	Caddy	Caddy.svg	caddy-icon
 U+EA58		Caddy, Old	Caddy-Old.svg	
@@ -309,6 +309,7 @@ U+E90F		Font	Font.svg
 U+EAAB		Font, Bitmap	Font-Bitmap.svg	font-bitmap-icon
 U+EAAA		Font, Outline	Font-Outline.svg	font-icon
 U+FB00	ﬀ	FontForge	FontForge.svg	ff-icon
+U+2933	⤳	For the Record	ForTheRecord.svg	ftr-icon
 U+2442	⑂	Fork	Fork.svg	fork-icon
 U+E90A		Fortran	Fortran.svg	fortran-icon
 U+EAC3		FOSSA	FOSSA.svg	fossa-icon
@@ -333,7 +334,6 @@ U+24BC	Ⓖ	Gatsby	Gatsby.svg	gatsby-icon
 U+EB7E		GAUSS	GAUSS.svg	gauss-icon
 U+EA08		GDB	GDB.svg	gdb-icon
 U+E976		Genshi	Genshi.svg	genshi-icon
-U+2933	⤳	For the Record	ForTheRecord.svg	ftr-icon
 U+223F	∿	GenStat	GenStat.svg	genstat-icon
 U+E96D		Gentoo	Gentoo.svg	gentoo-icon
 U+EA8F		Ghostscript	Ghostscript.svg	
@@ -355,8 +355,8 @@ U+EB90		GoReleaser	GoReleaser.svg	goreleaser-icon
 U+E97A		Gosu	Gosu.svg	gosu-icon
 U+E903		Gradle	Gradle.svg	gradle-icon
 U+E978		Grammatical Framework	GF.svg	gf-icon
-U+EA8A		Graphite	Graphite.svg	graphite-icon
 U+1F4C9	📉	Grapher	Grapher.svg	grapher-icon
+U+EA8A		Graphite	Graphite.svg	graphite-icon
 U+E97C		GraphQL	GraphQL.svg	graphql-icon
 U+EBAE		GraphQL Code Generator	GraphQL-CodeGenerator.svg	gql-codegen-icon
 U+E97D		GraphViz	GraphViz.svg	graphviz-icon
@@ -422,9 +422,9 @@ U+EA75		Jolie	Jolie.svg	jolie-icon
 U+EB95		jscpd	jscpd.svg	jscpd-icon
 U+EABE		JSON-1	JSON-1.svg	json-icon
 U+EABD		JSON-2	JSON-2.svg	
+U+2478	⑸	JSON5	JSON5.svg	json5-icon
 U+E958		JSON-LD	JSON-LD1.svg	jsonld-icon
 U+E959		JSON-LD2	JSON-LD2.svg	sparql-icon
-U+2478	⑸	JSON5	JSON5.svg	json5-icon
 U+EB1E		Jsonnet	Jsonnet.svg	jsonnet-icon
 U+E9E6		JSX	JSX.svg	jsx-icon
 U+F101		JSX, Alt	JSX-Alt.svg	
@@ -467,8 +467,8 @@ U+1316A	𓅪	Lex, Alt	Lex-Alt.svg
 U+E94C		LFE	LFE.svg	lfe-icon
 U+1F435	🐵	LGTM	LGTM.svg	lgtm-icon
 U+EA21		libuv	libuv.svg	
-U+E9FB		LightWave	LightWave.svg	lightwave-icon
 U+26EF	⛯	Lighthouse	Lighthouse.svg	lighthouse-icon
+U+E9FB		LightWave	LightWave.svg	lightwave-icon
 U+1F4AE	💮	LilyPond	LilyPond.svg	lilypond-icon
 U+EA36		Lime	Lime.svg	lime-icon
 U+1D6CC	𝛌	LINQPad	LINQPad.svg	linqpad-icon
@@ -813,7 +813,6 @@ U+F0C8		Terminal	Terminal.svg	terminal-icon
 U+1F54A	🕊	Tern	Tern.svg	tern-icon
 U+E916		Terraform	Terraform.svg	terraform-icon
 U+272C	✬	Terser	Terser.svg	terser-icon
-U+2714	✔	TestCafe	TestCafe.svg	testcafe-icon
 U+EA62		Test, CoffeeScript	Test-CoffeeScript.svg	test-coffee-icon
 U+EA60		Test, Directory	Test-Directory.svg	test-dir-icon
 U+EA63		Test, Generic	Test-Generic.svg	test-generic-icon
@@ -826,6 +825,7 @@ U+EA67		Test, React	Test-React.svg	test-react-icon
 U+EA68		Test, Ruby	Test-Ruby.svg	test-ruby-icon
 U+EB11		Test, Rust	Test-Rust.svg	test-rust-icon
 U+EA69		Test, TypeScript	Test-TypeScript.svg	test-ts-icon
+U+2714	✔	TestCafe	TestCafe.svg	testcafe-icon
 U+E600		Tex	LaTeX.svg	tex-icon
 U+0074	t	Textile	Textile.svg	textile-icon
 U+2122	™	TextMate	TextMate.svg	textmate-icon
@@ -895,8 +895,8 @@ U+8A00	言	Wenyan	Wenyan.svg	wenyan-icon
 U+EA19		Wercker	Wercker.svg	wercker-icon
 U+EB38		Wget	Wget.svg	wget-icon
 U+1F4A8	💨	Windi CSS	Windi.svg	windi-icon
-U+EBB7		WinUI	WinUI.svg	winui-icon
 U+1F377	🍷	Wine	Wine.svg	wine-icon
+U+EBB7		WinUI	WinUI.svg	winui-icon
 U+EAB0		WiX	WiX.svg	wix-icon
 U+1F43A	🐺	Wolfram	Wolfram.svg	wolfram-icon
 U+EAA8		Workbox	Workbox.svg	workbox-icon
