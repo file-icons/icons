@@ -1,48 +1,34 @@
-TTF = dist/file-icons.ttf
+TTF = fonts/file-icons.ttf
 
-all: clean unpack charmap
+all: svg font
 
-# Install dependencies
-install:
-	cpan Archive::Extract
-	npm --global install ppjson
-.PHONY: install
 
-# Nuke untracked files
-clean:
-	rm -rf tmp
-	rm -f $(TTF) charmap.html
-.PHONY: clean
+# Tidy SVG source
+svg:
+	@./bin/clean-svg.pl svg/*.svg
+.PHONY: svg
+
 
 # Sort icons list
 sort:
 	head -n1 icons.tsv > icons.tsv~
-	sort -dfik3 icons.tsv | grep -v ^\# >> icons.tsv~
+	sort -k1,1 -dfik4,4 icons.tsv | grep -v ^\# >> icons.tsv~
 	mv icons.tsv~ icons.tsv
 .PHONY: sort
 
-# Update character map
-charmap:
-	./bin/update-charmap.pl
 
-# Generate an unstyled HTML version of character map
-charmap-preview:
-	@ if command 2>&1 >/dev/null -v cmark-gfm; then GFM="cmark-gfm"; \
-	elif command 2>&1 >/dev/null -v gfm;       then GFM="gfm"; fi; \
-	[ "$$GFM" ] || { echo 2>&1 "No CommonMark parser installed!"; exit 2; }; \
-	"$$GFM" --unsafe charmap.md \
-	| sed -e 's~https://raw.githubusercontent.com/file-icons/source/[^/]*/~~g' \
-	| sed -e 's/\?sanitize=true//g' \
-	> charmap.html
+# Generate icon-font
+font: $(TTF)
+
+$(TTF):
+	fontforge 2>&1 -quiet -lang=ff -script bin/build-font.ff \
+	| sed '/^Copyright/, /^ Based/d'
+
 
 # Extract a downloaded IcoMoon folder
-unpack:
+unpack-icomoon:
+	perldoc -lm Archive::Extract >/dev/null 2>&1 || cpan "$$_"
 	test -f file-icons-*.zip && mv "$$_" file-icons.zip
 	./bin/unpack.pl file-icons.zip
 	./bin/compress.pl $(TTF)
 	chmod 0644 icomoon.json dist/*
-
-# Clean up SVG source
-svg: $(wildcard svg/*.svg)
-	@./bin/clean-svg.pl $^
-.PHONY: svg
